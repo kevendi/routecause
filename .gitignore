@@ -7,6 +7,7 @@ _site
 .jekyll-metadata
 .jekyll-cache
 _includes/scripts.html
+.vscode/
 
 # Windows thumbnail cache files
 Thumbs.db
