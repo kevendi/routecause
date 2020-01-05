@@ -24,6 +24,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+strict_front_matter: true
+liquid:
+  error_mode: strict
+
 # Build settings
 markdown: kramdown
 # theme: minima
