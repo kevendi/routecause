@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "197021",
+            "name": "Garret Cottage",
+            "description": "Very attractive detached cottage situtated on the seafront with views over the Firth of Clyde.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49705,
+            "longitude": -5.09473,
+            "url": "/info/accommodation/garret-cottage-p197021",
+            "image": "http://www.visitscotland.com/wsimgs/26250%20Garret.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "300",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.thearranteam.co.uk/cottages/garret-cottage-uka465?nights=7&range=3",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "185e6c25-ab27-483c-86bb-892aaf2e7eef",
+            "addressLine1": "Shore Road.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770 300113",
+            "email": "chrs.goatley@gmx.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

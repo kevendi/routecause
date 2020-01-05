@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "201641",
+            "name": "Lagg Hotel",
+            "description": "For a unique and relaxing stay in a traditional, family run Scottish hotel with fantastic food, fine wines and log fires, look no further.  We look forward to welcoming you to the very special place we call home.",
+            "category": "Small Hotel",
+            "locationName": "Kilmory",
+            "latitude": 55.4449,
+            "longitude": -5.22885,
+            "url": "/info/accommodation/lagg-hotel-p201641",
+            "image": "http://www.visitscotland.com/wsimgs/med_double_bed_1231652125.jpg[ToFit600x400]",
+            "minStars": 3,
+            "maxStars": 3,
+            "price": null,
+            "facilities": "parking,petswelcom,accessparkdrop",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.lagghotel.com",
+            "bookingUrl": "http://www.booking.com/hotel/gb/the-lagg.html?aid=330843;lang=en;pb=1",
+            "offers": 0,
+            "externalReviewsID": "bfc319e0-6bd6-4e45-b9a2-93d9c3b808a2",
+            "addressLine1": "Lagg Hotel.KA27 8PQ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 870255",
+            "email": "info@lagghotel.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

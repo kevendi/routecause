@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "930311",
+            "name": "Moinadh",
+            "description": "This is the perfect property for a peaceful and tranquil holiday. Moinadh has excellent panoramic sea views and breathtaking sunsets over the Mull of Kintyre.",
+            "category": "Self Catering",
+            "locationName": "Blackwaterfoot",
+            "latitude": 55.49399,
+            "longitude": -5.32168,
+            "url": "/info/accommodation/moinadh-p930311",
+            "image": "http://www.visitscotland.com/wsimgs/788102497F21589005160B475106E3CDC10D9169.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "1140",
+            "facilities": "petswelcom,parking,wifi,dsblaccess",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/moinadh-1517/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "52e81eed-a67e-4a76-adbb-5667f28e55e7",
+            "addressLine1": "Blackwaterfoot.KA27 8EY",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1483801",
+            "name": "Arran Sleep Huts",
+            "description": "Basic accommodation for the people who love to explore our island. Clean, comfortable and affordable. Private cabins, single, double and twin, bedding is provided. Ensuite shower with  hot water plus cookhouse. Dog friendly, B+B.",
+            "category": "B&B",
+            "locationName": "Lamlash",
+            "latitude": 55.54299,
+            "longitude": -5.11328,
+            "url": "/info/accommodation/arran-sleep-huts-p1483801",
+            "image": "http://www.visitscotland.com/wsimgs/arransleephuts_2122778711.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "35",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.arransleephuts.com",
+            "bookingUrl": "https://emea.littlehotelier.com/properties/altachorvie-island-retreat",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Altachorvie.KA27 8LQ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770600468",
+            "email": "info@arransleephuts.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

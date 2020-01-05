@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1722111",
+            "name": "The Sheiling",
+            "description": "This welcoming family home has spectacular views across Lamlash Bay on the stunning Isle of Arran.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.54157,
+            "longitude": -5.11707,
+            "url": "/info/accommodation/the-sheiling-p1722111",
+            "image": "http://www.visitscotland.com/wsimgs/3CEDDEC3BA7165FA1815AC54FC5662A39A08CDAF.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "1100",
+            "facilities": "parking,wifi,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/the-sheiling-1974/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".KA27 8LE",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441738 451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

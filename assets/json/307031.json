@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "307031",
+            "name": "Ormidale Hotel Restaurant",
+            "description": "A cosy pub with a warm welcome, suitable for all all ages.",
+            "category": "Bar and Pub Food",
+            "locationName": "Brodick",
+            "latitude": 55.57364,
+            "longitude": -5.15842,
+            "url": "/info/food-drink/ormidale-hotel-restaurant-p307031",
+            "image": "http://www.visitscotland.com/wsimgs/ormidale-hotel-arran_1135742672.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.ormidale-hotel.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Ormidale Hotel, Brodick.KA27 8BY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44(0)1770 302 293",
+            "email": "reception@ormidale-hotel.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

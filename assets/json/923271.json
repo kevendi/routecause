@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923271",
+            "name": "Monyquil Mhor",
+            "description": "Monyquil Mhor is a beautiful and traditional farmhouse, located close to the geographic centre of the Isle of Arran. It is the perfect holiday destination to relax and enjoy a therapeutic family holiday.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.56826,
+            "longitude": -5.2703,
+            "url": "/info/accommodation/monyquil-mhor-p923271",
+            "image": "http://www.visitscotland.com/wsimgs/2D882005D3659A1908F29BED2F9A22A2E9C7A20C.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "590",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/monyquil-mhor-1413/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "985a5110-0fb7-4b55-8841-de012a435c21",
+            "addressLine1": "Monyquil Farm, String Road.KA27 8DR",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

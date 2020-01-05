@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "205171",
+            "name": "Ormidale Hotel",
+            "description": "The Ormidale Hotel is a lively, family run pub with 7 en-suite bedrooms, famous for its home cooked bar meals, real ales and comprehensive selection of Scottish whisky. Evening entertainment most nights including Live music, quiz nights, and discos.",
+            "category": "Small Hotel",
+            "locationName": "Brodick",
+            "latitude": 55.57368,
+            "longitude": -5.15848,
+            "url": "/info/accommodation/ormidale-hotel-p205171",
+            "image": "http://www.visitscotland.com/wsimgs/widget%20hotel_191447377.jpg[ToFit600x400]",
+            "minStars": 3,
+            "maxStars": 3,
+            "price": "40",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.ormidale-hotel.co.uk",
+            "bookingUrl": "http://www.freetobook.com/affiliates/reservation.php?w_id=948&w_tkn=Brx3lwsSaCLLjEgS9Gvg41CD0FkJ63dq1ZiwYdUPQfQsDhfkXnfG2rYUraQ4y",
+            "offers": 0,
+            "externalReviewsID": "bee28e61-361c-41bb-8d34-873f5045da77",
+            "addressLine1": "Ormidale Hotel.KA27 8BY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 302293",
+            "email": "reception@ormidale-hotel.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

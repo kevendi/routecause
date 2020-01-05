@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "190811",
+            "name": "Auchrannie Spa Resort",
+            "description": "Delightfully situated Auchrannie Spa resort offers superior standards of accommodation.",
+            "category": "Hotel",
+            "locationName": "Brodick",
+            "latitude": 55.576,
+            "longitude": -5.15805,
+            "url": "/info/accommodation/auchrannie-spa-resort-p190811",
+            "image": "http://www.visitscotland.com/wsimgs/Exterior50_1290891185.jpg[ToFit600x400]",
+            "minStars": 4,
+            "maxStars": 4,
+            "price": "89",
+            "facilities": "parking,petswelcom,accessparkdrop,wifi",
+            "distance": null,
+            "basis": "prpn",
+            "website": "http://www.auchrannie.co.uk",
+            "bookingUrl": "http://www.auchrannie.co.uk/bookonline",
+            "offers": 0,
+            "externalReviewsID": "67cf1665-f946-4e9d-a5c5-f6430a196711",
+            "addressLine1": "Auchrannie Road.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 302234",
+            "email": "reservations@auchrannie.co.uk",
+            "tasteOurBestAward": true,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

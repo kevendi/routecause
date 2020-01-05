@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1541751",
+            "name": "eighteen69 Scottish tapas",
+            "description": "Why not try our wide ranging Scottish tapas menu, with lots to choose from and plenty to share?\nTreat yourself to a speciality cocktail or a wee dram from our vast whisky menu.",
+            "category": "Restaurants",
+            "locationName": "Brodick",
+            "latitude": 55.57513,
+            "longitude": -5.15709,
+            "url": "/info/food-drink/eighteen69-scottish-tapas-p1541751",
+            "image": "http://www.visitscotland.com/wsimgs/0C43E28755A2644B6118A1CC43105F91489FF056.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.eighteen69.co.uk/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Auchrannie Road.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441770302234",
+            "email": "hotel@auchrannie.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

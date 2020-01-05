@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923371",
+            "name": "Auchenhew House",
+            "description": "Auchenhew House is a fantastic traditional property on a cliff top location with glorious coastal views across the sea.",
+            "category": "Self Catering",
+            "locationName": "Kildonan",
+            "latitude": 55.4464,
+            "longitude": -5.14292,
+            "url": "/info/accommodation/auchenhew-house-p923371",
+            "image": "http://www.visitscotland.com/wsimgs/3949908FD0B1E84A1F1A4BA40A78706FC24784AC.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "690",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/auchenhew-house-965/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "fb7809b9-300a-41d7-a952-7c2825c5c277",
+            "addressLine1": "Kildonan.KA27 8SG",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

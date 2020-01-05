@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2182451",
+            "name": "The Isle of Arran Gin Company Limited",
+            "description": "Locally-foraged wild Arran botanicals produce a BIG savoury gin. Fun tastings and events in our shop The Bay Kitchen & Stores, Whiting Bay.",
+            "category": "Other Specialities",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/food-drink/the-isle-of-arran-gin-company-limited-p2182451",
+            "image": "http://www.visitscotland.com/wsimgs/07AE742CB5C14CE4120D624EA5AEE4E1DE23CAD4.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.isleofarrangin.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "The Isle of Arran Gin Company, Shore Road.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 1770 700229",
+            "email": "info@isleofarrangin.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

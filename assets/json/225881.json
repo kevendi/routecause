@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "225881",
+            "name": "Glenisle Hotel",
+            "description": "Officially acknowledged as the Best Small Hotel in Scotland at the Scottish Hotel Awards 2014, the Glenisle is an ancient island inn which has been lovingly refurbished. This is Arran at its best.",
+            "category": "Small Hotel",
+            "locationName": "Lamlash",
+            "latitude": 55.5374,
+            "longitude": -5.1236,
+            "url": "/info/accommodation/glenisle-hotel-p225881",
+            "image": "http://www.visitscotland.com/wsimgs/Exterior_web.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "90",
+            "facilities": "parking,accessparkdrop,wifi",
+            "distance": null,
+            "basis": "prpn",
+            "website": "http://www.glenislehotel.com",
+            "bookingUrl": "http://www.glenislehotel.com/BookingButton.aspx",
+            "offers": 0,
+            "externalReviewsID": "af0b0efe-0477-43d9-bc6e-e29ecb8e5ecd",
+            "addressLine1": "Shore Road.KA27 8LY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 600559",
+            "email": "enquiries@glenislehotel.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

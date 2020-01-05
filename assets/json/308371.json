@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "308371",
+            "name": "Paterson Arran Kitchen Shop",
+            "description": "Range of Arran Fine Foods and Paterson Bronte Shortbread and Biscuits",
+            "category": "Other Specialities",
+            "locationName": "Lamlash",
+            "latitude": 55.52448,
+            "longitude": -5.13926,
+            "url": "/info/food-drink/paterson-arran-kitchen-shop-p308371",
+            "image": "http://www.visitscotland.com/wsimgs/IMG_2310_1_arran_shop_1187049548.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.paterson-arran.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "The Old Mill.KA27 8AR",
+            "multiplePrices": false,
+            "startDate": "2020-01-15",
+            "endDate": "2020-12-24",
+            "telephoneNumber": "01770 600606",
+            "email": "enquiries@paterson-arran.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

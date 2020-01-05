@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923431",
+            "name": "Summer Cottage",
+            "description": "Summer Cottage was recently refurbished and extended and is set in 7 acres of beautiful lawns and woodlands at Kings Cross point.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.50715,
+            "longitude": -5.08758,
+            "url": "/info/accommodation/summer-cottage-p923431",
+            "image": "http://www.visitscotland.com/wsimgs/A256F09F395B109D8C47067D2C1457D1DEAB5C54.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "440",
+            "facilities": "parking",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/summer-cottage-1233/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "68bfbaac-3c92-4dfc-9caa-514bd7136b4f",
+            "addressLine1": "Summer Cottage, Kings Cross.KA27 8AX",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

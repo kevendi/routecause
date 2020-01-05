@@ -1,0 +1,75 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Octopus Centre COAST",
+                "id": "2097161"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12983,
+                    55.53178
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lagg Distillery",
+                "id": "2351661"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.23566,
+                    55.4499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran Studio",
+                "id": "2212961"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09624,
+                    55.48767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lynn's Art on Arran",
+                "id": "2194081"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09624,
+                    55.48767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran Art Gallery",
+                "id": "2098721"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09624,
+                    55.48767
+                ]
+            }
+        }
+    ]
+}

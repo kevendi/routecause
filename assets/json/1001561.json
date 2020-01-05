@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1001561",
+            "name": "Torrlinn Beach House",
+            "description": "This luxury beach house is ideal for a therapeutic family holiday or writing your book.",
+            "category": "Self Catering",
+            "locationName": "Kilmory",
+            "latitude": 55.44468,
+            "longitude": -5.22891,
+            "url": "/info/accommodation/torrlinn-beach-house-p1001561",
+            "image": "http://www.visitscotland.com/wsimgs/out%20(7)%20(1024x683)_1660445245.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "780",
+            "facilities": "wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.stay-arran.co.uk/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "0c8235bc-959f-4a13-a3f4-4ec08881d4eb",
+            "addressLine1": "Kilmory.KA27 8PQ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 1770 302813",
+            "email": "enquiries@stay-arran.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "200311",
+            "name": "Kilbride Cottage - Isle Of Arran",
+            "description": "Kilbride Cottage - \"A Little Gem\". Situated in a very peaceful location amidst idyllic countryside. \nWeekly and longer stays available, short breaks too! \nIdeal for pets as forestry walk just a stone's throw away!",
+            "category": "Self Catering",
+            "locationName": "Shannochie",
+            "latitude": 55.44478,
+            "longitude": -5.20624,
+            "url": "/info/accommodation/kilbride-cottage-isle-of-arran-p200311",
+            "image": "http://www.visitscotland.com/wsimgs/Kilbride%201.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "300",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.shannochiearran.co.uk",
+            "bookingUrl": "https://secure.supercontrol.co.uk/availability/availability_grid.asp?ownerID=2691&siteID=12735",
+            "offers": 0,
+            "externalReviewsID": "e869267d-1f8b-4209-8c3c-48b75356f06a",
+            "addressLine1": "Shannochie Farm.KA27 8SJ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 820291",
+            "email": "christine@shannochiearran.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

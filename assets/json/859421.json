@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "859421",
+            "name": "Bridgend Campsite",
+            "description": "The perfect island campsite base for touring and holidays.",
+            "category": "Camping Park",
+            "locationName": "Shiskine",
+            "latitude": 55.52199,
+            "longitude": -5.29706,
+            "url": "/info/accommodation/bridgend-campsite-p859421",
+            "image": "http://www.visitscotland.com/wsimgs/BHC_1821092776.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "petswelcom,wifi",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.bridgendholidaysshiskine.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "5d714c57-6142-4a51-aea9-1638155ccd44",
+            "addressLine1": "Shiskine.KA27 8EN",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770 860597",
+            "email": "christine@bridgendholidaysshiskine.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

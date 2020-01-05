@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2098721",
+            "name": "Arran Art Gallery",
+            "description": "Arran Art Gallery is located in the coastal village of Whiting Bay on the Isle of Arran. With over 80 artists exhibiting in the gallery, there is a lot to see.  Open daily all year round.",
+            "category": "Arts & Crafts",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48767,
+            "longitude": -5.09624,
+            "url": "/info/see-do/arran-art-gallery-p2098721",
+            "image": "http://www.visitscotland.com/wsimgs/E061C9FC19AD34EE7DD8DB66C0917FF779411498.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arranartgallery.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Shore Road, Whiting Bay.KA27 8QH",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441770700250",
+            "email": "info@arranartgallery.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

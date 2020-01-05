@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923331",
+            "name": "Grenrof",
+            "description": "Grenrof is positioned on Golf Course Road, just a few minutes from the shore. This holiday house is ideally situated to enjoy all the services Whiting Bay has to offer; with its rock pools and sandy beaches.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48507,
+            "longitude": -5.0939,
+            "url": "/info/accommodation/grenrof-p923331",
+            "image": "http://www.visitscotland.com/wsimgs/A46495A42DE0D1D1EACEDBC18B5B162E8FF1AFBC.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "445",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/grenrof-797/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "1380ec7e-a515-4843-a420-7d92f78bf749",
+            "addressLine1": "Grenrof, Whiting Bay.KA27 8QL",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

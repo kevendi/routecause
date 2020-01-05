@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "217051",
+            "name": "Viewbank Guest House",
+            "description": "Traditional family run B&B with great hospitality, wholesome breakfasts and fantastic sea views. Perfect peaceful location, close to golf course, all village amenities and bus routes. Free Wi-Fi, & off road parking. www.viewbank-arran.co.uk",
+            "category": "Guesthouse",
+            "locationName": "Whiting Bay",
+            "latitude": 55.4876,
+            "longitude": -5.1017,
+            "url": "/info/accommodation/viewbank-guest-house-p217051",
+            "image": "http://www.visitscotland.com/wsimgs/P8570409a-VS_742569578.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "32.50",
+            "facilities": "wifi,parking,accessparkdrop",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.viewbank-arran.co.uk",
+            "bookingUrl": "http://www.freetobook.com/affiliates/reservation.php?w_id=967&w_tkn=GygRuFiJWNeS65btSJle4QQPZ4JFoI2xiOKHl4OZKnKQrZfHXjjW8SSb7LSFk",
+            "offers": 0,
+            "externalReviewsID": "4139dd9d-557c-4248-85ee-d78db4d7b9bb",
+            "addressLine1": "Viewbank House, Golf Course Road.KA27 8QT",
+            "multiplePrices": false,
+            "startDate": "2020-03-25",
+            "endDate": "2020-10-10",
+            "telephoneNumber": "+44 (1770) 700326",
+            "email": "viewbankhouse@btconnect.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

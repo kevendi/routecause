@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "769191",
+            "name": "Janelle's",
+            "description": "Welcome to Janelle's. Janelle's is based on the beautiful Isle of Arran, Scotland . I provide a bespoke service of soft furnishings to not only the island but off shore also if required.",
+            "category": "Other Shops",
+            "locationName": "Lamlash",
+            "latitude": 55.53642,
+            "longitude": -5.12386,
+            "url": "/info/shopping/janelles-p769191",
+            "image": "http://www.visitscotland.com/wsimgs/A5%202015_41773303.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "parking,accessparkdrop",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.facebook.com/janelleslamlasharran/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Hunterston Shop Unit, Lamlash.KA27 8JN",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770 600723",
+            "email": "janellepaton@hotmail.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

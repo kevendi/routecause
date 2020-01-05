@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1541731",
+            "name": "Cruize Bar Brasserie",
+            "description": "Family friendly, laid back dining offering an modern menu, along with traditional favourites and a fantastic children’s menu. Kids buffet available during holiday periods.",
+            "category": "Restaurants",
+            "locationName": "Brodick",
+            "latitude": 55.57513,
+            "longitude": -5.15709,
+            "url": "/info/food-drink/cruize-bar-brasserie-p1541731",
+            "image": "http://www.visitscotland.com/wsimgs/FAB82EB98468D8DDDBE040B4A21F51B9EA1A4CCE.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.cruizebarbrasserie.co.uk/?COLLCC=1072037069&",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Auchrannie Road.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441770302234",
+            "email": "hotel@auchrannie.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

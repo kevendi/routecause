@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1096901",
+            "name": "Dyemill Lodges",
+            "description": "Six Scandanavian pine lodges: Set in approximately three acres of secluded undulating natural woodland home to red squirrels and a wide variety of birds, Dyemill Lodges backs onto The Dyemill Forest offering beautiful walks & picnic areas.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.52774,
+            "longitude": -5.14695,
+            "url": "/info/accommodation/dyemill-lodges-p1096901",
+            "image": "http://www.visitscotland.com/wsimgs/Lodge_20a_1496442611_566424903.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.dyemill.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "e86e5e68-5e35-4b4c-bc11-8a462b619622",
+            "addressLine1": "Monamhor Glen.KA27 8NT",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "44 01770 600419",
+            "email": "alexmillar@live.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

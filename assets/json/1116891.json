@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1116891",
+            "name": "Woodside",
+            "description": "Woodside has stunning views across the bay towards Holy Isle. It is situated in one of the most idyllic locations on Arran.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.54156,
+            "longitude": -5.12084,
+            "url": "/info/accommodation/woodside-p1116891",
+            "image": "http://www.visitscotland.com/wsimgs/woodside-lamlash-isle-of-arran-north-ayrshire-external-ground-52_1910044317.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "660",
+            "facilities": "parking,wifi,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/woodside-1800/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "091ec6bf-5eeb-4016-b69a-64536885d836",
+            "addressLine1": "Woodside, Shore Road.KA27 8JY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

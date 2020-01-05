@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "197011",
+            "name": "Kilmichael Deluxe Cottages",
+            "description": "Beautiful, fully equipped, centrally heated cottages in a 'secret' garden setting, within healthy walking distance of the village, beach and golf course. Guests are welcome at our nearby award-winning restaurant.",
+            "category": "Self Catering",
+            "locationName": "Brodick",
+            "latitude": 55.57364,
+            "longitude": -5.15841,
+            "url": "/info/accommodation/kilmichael-deluxe-cottages-p197011",
+            "image": "http://www.visitscotland.com/wsimgs/Finch%20%26%20Bluebird%20from%20the%20potager_1565060573.jpg[ToFit600x400]",
+            "minStars": 5,
+            "maxStars": 5,
+            "price": null,
+            "facilities": "parking,petswelcom,dsblaccess",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arranluxurycottages.com",
+            "bookingUrl": "http://holiday.booking-system.net/AdvancedAvailabilitySearch.asp?OID=KIK&aid=-1&sopt=19&ropt=1772",
+            "offers": 0,
+            "externalReviewsID": "b21eddc8-38a3-46cd-a2d3-5e05deb9bbba",
+            "addressLine1": "Glen Cloy.KA27 8BY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 302219",
+            "email": "enquiries@kilmichael.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

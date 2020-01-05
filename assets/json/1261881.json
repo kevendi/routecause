@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1261881",
+            "name": "Runach Arainn Glamping Yurts",
+            "description": "Runach Arainn ('Secret or Beloved Arran' in Gaelic) is a small, intimate glamping site on the south end of the Isle of Arran, Scotland. We offer self-catering accommodation in three spacious luxury yurts along with private bathrooms. We are 20 minutes walk from the beach and only a short drive away from all Arran's attractions.",
+            "category": "Camping Park",
+            "locationName": "Kilmory",
+            "latitude": 55.44784,
+            "longitude": -5.22037,
+            "url": "/info/accommodation/runach-arainn-glamping-yurts-p1261881",
+            "image": "http://www.visitscotland.com/wsimgs/yurt_1_846514152.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "90",
+            "facilities": "parking",
+            "distance": null,
+            "basis": "pupn",
+            "website": "http://www.runacharainn.com",
+            "bookingUrl": "http://www.runacharainn.com/availability.html",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "The Old Manse, Kilmory.KA27 8PH",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "44 01770 870515",
+            "email": "runacharainn@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

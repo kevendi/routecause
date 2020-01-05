@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "330991",
+            "name": "Glenrickard",
+            "description": "Views of Brodick Bay, Goat Fell and Holy Island await at Glenrickard Forest Trails.",
+            "category": "Walking",
+            "locationName": "Brodick",
+            "latitude": 55.54379,
+            "longitude": -5.13086,
+            "url": "/info/see-do/glenrickard-p330991",
+            "image": "http://www.visitscotland.com/wsimgs/1045454(34).jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://forestryandland.gov.scot/visit/glenrickard",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".null",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0300 067 6800",
+            "email": "galloway@forestry.gsi.gov.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

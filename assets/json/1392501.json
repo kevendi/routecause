@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1392501",
+            "name": "Prospect Hill Studio",
+            "description": "Prospect Hill Studio is a charming holiday cottage with marvellous views across the sea, perfect for a romantic getaway.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.54512,
+            "longitude": -5.10545,
+            "url": "/info/accommodation/prospect-hill-studio-p1392501",
+            "image": "http://www.visitscotland.com/wsimgs/C8C55A1AF2FEE801B7CCCE597E4269C82527C0B7.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "340",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/prospect-hill-studio-908/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Prospect Hill Studio, Lamlash.KA27 8LH",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

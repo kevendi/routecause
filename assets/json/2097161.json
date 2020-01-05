@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2097161",
+            "name": "Octopus Centre COAST",
+            "description": "Come to our family friendly visitor centre and learn about Arran's sea life and marine protection in the Clyde.",
+            "category": "Marine Life Centres",
+            "locationName": "Lamlash",
+            "latitude": 55.53178,
+            "longitude": -5.12983,
+            "url": "/info/see-do/octopus-centre-coast-p2097161",
+            "image": "http://www.visitscotland.com/wsimgs/FBB0F6A32BCDCC056D9F5DB89A6EE2E8914FED08.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.arrancoast.com/octopuscentre/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Old Pavilion.KA27 8LS",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 01770 600656",
+            "email": "email@arrancoast.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

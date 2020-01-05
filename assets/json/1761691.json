@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1761691",
+            "name": "Monamore Guest House",
+            "description": "A hidden escape on the Isle of Arran.",
+            "category": "Guesthouse",
+            "locationName": "Lamlash",
+            "latitude": 55.52464,
+            "longitude": -5.12768,
+            "url": "/info/accommodation/monamore-guest-house-p1761691",
+            "image": "http://www.visitscotland.com/wsimgs/Monamore_2_1606188327.jpg[ToFit600x400]",
+            "minStars": 4,
+            "maxStars": 4,
+            "price": null,
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.monamore-arran.co.uk",
+            "bookingUrl": "http://www.monamore-arran.co.uk",
+            "offers": 1,
+            "externalReviewsID": null,
+            "addressLine1": "Number 75, Cordon, Lamlash.KA27 8NQ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "0044 1770 600621",
+            "email": "info@monamore-arran.co.uk",
+            "tasteOurBestAward": true,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

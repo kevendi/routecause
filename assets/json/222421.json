@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "222421",
+            "name": "Far Horizons Holiday Cottages",
+            "description": "Four charming and characterful cottages, on an old sea-farm, in the beautiful pastoral landscape of south-west Arran",
+            "category": "Self Catering",
+            "locationName": "Sliddery",
+            "latitude": 55.4602,
+            "longitude": -5.28,
+            "url": "/info/accommodation/far-horizons-holiday-cottages-p222421",
+            "image": "http://www.visitscotland.com/wsimgs/100_0770-copy-1.jpg[ToFit600x400]",
+            "minStars": 3,
+            "maxStars": 3,
+            "price": "420",
+            "facilities": "wifi,petswelcom,parking",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.arran-far-horizons.co.uk",
+            "bookingUrl": "http://www.arran-far-horizons.co.uk",
+            "offers": 0,
+            "externalReviewsID": "93246c42-398d-4862-8c41-fd36c6f2dec7",
+            "addressLine1": "Ivy Cottage Farm, .Sliddery.KA27 8PB",
+            "multiplePrices": false,
+            "startDate": "2020-04-01",
+            "endDate": "2020-11-03",
+            "telephoneNumber": "+44 (1770) 870295",
+            "email": "wbandmg.tait@btinternet.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1392591",
+            "name": "Luangwa Lodge",
+            "description": "Luangwa Lodge is positioned in a gorgeous development of newly built high specification holiday chalets. This property has spectacular views of the beautiful Scottish countryside.",
+            "category": "Self Catering",
+            "locationName": "Shiskine",
+            "latitude": 55.51387,
+            "longitude": -5.32813,
+            "url": "/info/accommodation/luangwa-lodge-p1392591",
+            "image": "http://www.visitscotland.com/wsimgs/7556AF5248349269171D76D6653C2EEE7D59F68C.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "600",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/luangwa-lodge-1839/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Luangwa Lodge, Torbeg Country Chalets.null",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

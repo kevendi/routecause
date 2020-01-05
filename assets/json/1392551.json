@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1392551",
+            "name": "Mill House",
+            "description": "Mill House is a brilliant and cheerful property with a stylish design throughout and a gorgeous garden to relax in.",
+            "category": "Self Catering",
+            "locationName": "North Ayrshire",
+            "latitude": 55.56613,
+            "longitude": -5.25933,
+            "url": "/info/accommodation/mill-house-p1392551",
+            "image": "http://www.visitscotland.com/wsimgs/CAF2EA4F6CC8A1DEF69317B44295D813D7A85D56.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "860",
+            "facilities": "parking",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/mill-house-1750/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Mill House, String Road.KA27 8DR",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

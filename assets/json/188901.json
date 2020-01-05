@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "188901",
+            "name": "Auchrannie House Hotel",
+            "description": "Acknowledged as Arran's flagship Hotel, Auchrannie sets new standards of hospitality on Arran, often regarded as the most beautiful island in Europe.",
+            "category": "Hotel",
+            "locationName": "Brodick",
+            "latitude": 55.576,
+            "longitude": -5.15805,
+            "url": "/info/accommodation/auchrannie-house-hotel-p188901",
+            "image": "http://www.visitscotland.com/wsimgs/_MG_3833-Editx1000_82651911.jpg[ToFit600x400]",
+            "minStars": 4,
+            "maxStars": 4,
+            "price": "99",
+            "facilities": "parking,petswelcom,accessparkdrop,wifi,dsblaccess",
+            "distance": null,
+            "basis": "prpn",
+            "website": "http://www.auchrannie.co.uk",
+            "bookingUrl": "http://www.auchrannie.co.uk/bookonline",
+            "offers": 0,
+            "externalReviewsID": "83657f71-641d-4c70-a6a8-f4c94d7a0dd5",
+            "addressLine1": "Auchrannie Road.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 302234",
+            "email": "reservations@auchrannie.co.uk",
+            "tasteOurBestAward": true,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

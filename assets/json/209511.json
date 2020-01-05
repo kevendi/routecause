@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "209511",
+            "name": "Craigdhu Farm Cottages",
+            "description": "Craigdhu cottages are located on a working farm on the south end of the island. Our peaceful area is five minutes by car to the village of Kildonan where there is a sandy beach and Hotel.\nKilmory village & Lagg Hotel  are 2.5 miles further south",
+            "category": "Self Catering",
+            "locationName": "Kildonan",
+            "latitude": 55.44352,
+            "longitude": -5.16854,
+            "url": "/info/accommodation/craigdhu-farm-cottages-p209511",
+            "image": "http://www.visitscotland.com/wsimgs/20900%20AAWTS11.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "350",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.craigdhucottages-arran.co.uk/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "d9a13a73-baa8-4c07-99b6-1012878dbc20",
+            "addressLine1": "Craigdhu.KA27 8SH",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 820225",
+            "email": "craigdhufarm.arran@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

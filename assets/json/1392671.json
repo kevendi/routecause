@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1392671",
+            "name": "An-Caladh",
+            "description": "An-Caladh is a beautifully presented bungalow that has been tastefully decorated, positioned near Shiskine.",
+            "category": "Self Catering",
+            "locationName": "Shiskine",
+            "latitude": 55.52747,
+            "longitude": -5.29371,
+            "url": "/info/accommodation/ancaladh-p1392671",
+            "image": "http://www.visitscotland.com/wsimgs/A2B800055C2C61BAD56AEBCC95F7521DBC2A0000.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "530",
+            "facilities": "petswelcom,parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/an-caladh-1891/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "An-Caladh, Balmichael.KA27 8DT",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

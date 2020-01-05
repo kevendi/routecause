@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "941321",
+            "name": "Little Elim",
+            "description": "Little Elim is one of a number of properties clustered at the foot of Golf Course Road at the south of Whiting Bay village.  It is ideally placed for all the village amenities, a short walk to the golf course and just two minutes from the beach.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48412,
+            "longitude": -5.09438,
+            "url": "/info/accommodation/little-elim-p941321",
+            "image": "http://www.visitscotland.com/wsimgs/5f3f_1716019196.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arranholidayhomes.com/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "860a31b4-3e66-4585-b0b5-bf42a1ab72e7",
+            "addressLine1": "Silverhills, Whiting Bay.KA27 8QL",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770 700645",
+            "email": "ggoately@btinternet.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

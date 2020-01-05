@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1522911",
+            "name": "Bay Services",
+            "description": "Whether your bike just needs a quick puncture repair or full service we are the place to come. We have a fully trained golf trolley repair mechanic and offer warranty repairs for Motocaddy Golf Trolleys",
+            "category": "Cycling",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48233,
+            "longitude": -5.09424,
+            "url": "/info/see-do/bay-services-p1522911",
+            "image": "http://www.visitscotland.com/wsimgs/20150724_161438_2078999114.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.bayservices.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Stealth Cottage , Montrose Terrace.KA27 8QN",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 01770 700724",
+            "email": "bayservices@btinternet.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

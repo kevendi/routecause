@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1248961",
+            "name": "Mill Barn",
+            "description": "Beautifully renovated Barn Conversion situated in the rural village of Shiskine which lies at the edge of the Shiskine Valley. Central location only 20 minutes from the Brodick Ferry Terminal.",
+            "category": "Self Catering",
+            "locationName": "Arran",
+            "latitude": 55.51904,
+            "longitude": -5.30632,
+            "url": "/info/accommodation/mill-barn-p1248961",
+            "image": "http://www.visitscotland.com/wsimgs/DSCF1236_1523635012.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "550",
+            "facilities": "petswelcom,wifi,parking",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.airbnb.co.uk/rooms/9143160",
+            "bookingUrl": "https://www.airbnb.co.uk/rooms/9143160",
+            "offers": 0,
+            "externalReviewsID": "4ee8f5d1-508c-44f0-bc9b-9cbe6b40b056",
+            "addressLine1": "Shiskine.KA27 8EW",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "044 1770 600435",
+            "email": "ruthcleland91@hotmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

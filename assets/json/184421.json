@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "184421",
+            "name": "Clachog, Lamlash, Isle Of Arran",
+            "description": "Luxury self catering 4 bedroom holiday house in the centre of Lamlash with fabulous views over to Holy Island.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.53565,
+            "longitude": -5.12515,
+            "url": "/info/accommodation/clachog-lamlash-isle-of-arran-p184421",
+            "image": "http://www.visitscotland.com/wsimgs/_MG_4506-Edit_1952105251.jpg[ToFit600x400]",
+            "minStars": 5,
+            "maxStars": 5,
+            "price": "995",
+            "facilities": "parking",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.tranquiltimes.org.uk",
+            "bookingUrl": "https://www.cottages-and-castles.co.uk/self-catering/clachog-1210/",
+            "offers": 0,
+            "externalReviewsID": "010e2006-c049-4825-b1f9-8a45e6293e9b",
+            "addressLine1": "Clachog, Shore Road.KA27 8JN",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 (113) 350 6050",
+            "email": "bookings@tranquiltimes.org.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

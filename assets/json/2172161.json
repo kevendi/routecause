@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2172161",
+            "name": "Andreville Cottage",
+            "description": "This lovely little cottage is situated in one of the prettiest villages on Arran, and is the perfect home from home.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.52904,
+            "longitude": -5.1312,
+            "url": "/info/accommodation/andreville-cottage-p2172161",
+            "image": "http://www.visitscotland.com/wsimgs/9E5EB6C0F30F5A77F2011653AEE594918F09F9CE.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "390",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/andreville-cottage-2064/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".KA27 8NF",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 1738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

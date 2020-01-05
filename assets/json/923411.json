@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923411",
+            "name": "Point House",
+            "description": "Point House is the main house of a traditional Arran farmhouse and its outbuildings. This property has a walled front garden and exceptional views.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.50908,
+            "longitude": -5.08415,
+            "url": "/info/accommodation/point-house-p923411",
+            "image": "http://www.visitscotland.com/wsimgs/C401EEC6FFD6B2E02CF33E96C329E4E2F1B14E8D.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "610",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/point-house-1234/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "d004c539-a4e3-4396-9b80-ef41666a002c",
+            "addressLine1": "Point House, Kings Cross.KA27 8AX",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

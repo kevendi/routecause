@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2179441",
+            "name": "Otter's Tail",
+            "description": "Otter's Tail provide Sea kayaking, gorge and hillwalking experiences on and around the beautiful Isle of Arran.",
+            "category": "Canoeing and Kayaking",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/see-do/otters-tail-p2179441",
+            "image": "http://www.visitscotland.com/wsimgs/kayak2_1893530977.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "accessparkdrop,dsblaccess",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.otterstail.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Lamlash Pier, Lamlash.KA27 8JN",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 1770 700590",
+            "email": "info@otterstail.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

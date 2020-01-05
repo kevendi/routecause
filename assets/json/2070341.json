@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2070341",
+            "name": "Stonewater House Vegan B&B",
+            "description": "Stonewater House Vegan B&B overlooks Lamlash pier and Holy Isle.  Lamlash is the perfect base to explore the island, experience the stunning scenery, or relax on one of Arran's seven golf courses.",
+            "category": "B&B",
+            "locationName": "Lamlash",
+            "latitude": 55.53642,
+            "longitude": -5.12386,
+            "url": "/info/accommodation/stonewater-house-vegan-bb-p2070341",
+            "image": "http://www.visitscotland.com/wsimgs/3F61397FAA6504A42CC2F62F53E46E0B8E3CCA21.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.stonewaterhouse.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Stonewater House, Shore Road.KA27 8JN",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 1770 601259",
+            "email": "stonewaterhouse@yahoo.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

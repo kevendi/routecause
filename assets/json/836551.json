@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "836551",
+            "name": "Arran in Focus",
+            "description": "Welcome to Arran in Focus, based on the beautiful Isle of Arran. We offer full and half day photography workshops and tours for beginners and more advanced photography enthusiasts, along with freelance and wedding services.",
+            "category": "Photography",
+            "locationName": "Lamlash",
+            "latitude": 55.5235,
+            "longitude": -5.1371,
+            "url": "/info/see-do/arran-in-focus-p836551",
+            "image": "http://www.visitscotland.com/wsimgs/Shags%20with%20Ailsa%20Craig%20in%20background_210332711.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "petswelcom",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arraninfocus.co.uk/",
+            "bookingUrl": null,
+            "offers": 1,
+            "externalReviewsID": null,
+            "addressLine1": "Mill Cottage, Lamlash.KA27 8NJ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "01770 601391",
+            "email": "info@arraninfocus.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

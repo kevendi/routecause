@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1716171",
+            "name": "Grahamfield",
+            "description": "Grahamfield is a beautifully renovated family home set back from the shore in Whiting Bay with wonderful sea views.\n\nPlease note: Grahamfield is not suitable for Stag, Hen or Golf Parties.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48412,
+            "longitude": -5.09438,
+            "url": "/info/accommodation/grahamfield-p1716171",
+            "image": "http://www.visitscotland.com/wsimgs/C7DF2D4CE8DF37C8D18E94CAD18DD55007109425.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "840",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/grahamfield-1969/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".KA27 8QL",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "00441738 451 610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1740341",
+            "name": "Glenburn",
+            "description": "Luxury accommodation for up to four people set on the hill above Whiting Bay with wonderful panoramic views.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/accommodation/glenburn-p1740341",
+            "image": "http://www.visitscotland.com/wsimgs/82FEAFA84DBF1D3FC366AFAD88B0C157E5A38EB3.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "750",
+            "facilities": "",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/glenburn-2000/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Whiting Bay.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "00441738 451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

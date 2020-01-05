@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2278211",
+            "name": "Sanda View Cottage",
+            "description": "Sanda View Cottage enjoys a peaceful setting and has glorious views over the surrounding countryside. The cottage also allows up to 3 dogs with no extra charge.",
+            "category": "Self Catering",
+            "locationName": "Sliddery",
+            "latitude": 55.46327,
+            "longitude": -5.25007,
+            "url": "/info/accommodation/sanda-view-cottage-p2278211",
+            "image": "http://www.visitscotland.com/wsimgs/sanda-view-sliddery-isle-of-arran-exterior-01_2145613691.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "415",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/sanda-view-cottage-2097/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".KA27 8NY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2021-12-31",
+            "telephoneNumber": "+44 1738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

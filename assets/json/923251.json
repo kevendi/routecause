@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923251",
+            "name": "Craigbank",
+            "description": "Craigbank is situated in a small cul-de-sac near the village of Lamlash on the island of Arran, it is an ideal holiday home for families and couples.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.52802,
+            "longitude": -5.13363,
+            "url": "/info/accommodation/craigbank-p923251",
+            "image": "http://www.visitscotland.com/wsimgs/9878A8CB8F278A100E43DC0FA6B5C2E292ACAF33.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "460",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/craigbank-896/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "94475cd6-03ab-4446-aecd-fc18a20edd6c",
+            "addressLine1": "Craigbank, 5 Glencraig Place.KA27 8PJ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

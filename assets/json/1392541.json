@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1392541",
+            "name": "The Farmhouse Bothy",
+            "description": "The Farmhouse Bothy is the perfect holiday property for a romantic getaway. This property is positioned on a working farm and has recently been refurbished to produce a delightful and fresh holiday home on the beautiful Isle of Arran.",
+            "category": "Self Catering",
+            "locationName": "Kilmory",
+            "latitude": 55.44489,
+            "longitude": -5.24241,
+            "url": "/info/accommodation/the-farmhouse-bothy-p1392541",
+            "image": "http://www.visitscotland.com/wsimgs/E3F85971EB8430859057F024215C0D600A3AE900.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "350",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/the-farmhouse-bothy-1617/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "The Farmhouse Bothy, Clachaig Farm.KA27 8PG",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

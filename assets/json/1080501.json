@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1080501",
+            "name": "Holy Isle - Mindfulness retreat",
+            "description": "Re-Vitalise Tai Chi, Yoga and meditation retreat on the wonderful Holy Isle, Arran, Scotland.",
+            "category": "Spa & Health",
+            "locationName": "Lamlash",
+            "latitude": 55.53286,
+            "longitude": -5.08711,
+            "url": "/info/see-do/holy-isle-mindfulness-retreat-p1080501",
+            "image": "http://www.visitscotland.com/wsimgs/HolyIsle%202_1952907144.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.re-vitalise.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Lamlash Bay.KA27 8GB",
+            "multiplePrices": false,
+            "startDate": "2020-04-01",
+            "endDate": "2020-10-31",
+            "telephoneNumber": "0800 0191 635",
+            "email": "andy.spragg@re-vitalise.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700&display=swap');
+
+$white:    #fff;
+$theme_color:     #1c73be;
+
+$theme-colors: (
+  "primary": $theme_color,
+  "secondary": #333,
+  "danger": #ff4136,
+  "dark": #000,
+  "info": #053864,
+);
+
+$enable-rounded: false;
+
+$font-family-sans-serif: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif: Montserrat, Georgia, "Times New Roman", Times, serif;
+$headings-font-family: $font-family-serif;
+$headings-font-weight: 700;
+$enable-responsive-font-sizes: true;
+
+$nav-tabs-border-color: transparent;
+
+$nav-tabs-link-hover-border-color: transparent;
+

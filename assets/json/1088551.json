@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1088551",
+            "name": "Blackwaterfoot Lodge",
+            "description": "Blackwaterfoot Lodge is situated in the centre of the eponymous village on the west coast of Arran.   The proprietors ensure a very warm welcome and a flexible approach for guests, from late check-ins, to all-day access and early breakfasts.",
+            "category": "B&B",
+            "locationName": "Blackwaterfoot",
+            "latitude": 55.50131,
+            "longitude": -5.33018,
+            "url": "/info/accommodation/blackwaterfoot-lodge-p1088551",
+            "image": "http://www.visitscotland.com/wsimgs/lodge%20New%20Roof_846%20kbyte_409600520.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "parking,petswelcom,accessparkdrop",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.privatehousestays.com/l/Accommodation/Blackwaterfoot-Lodge",
+            "bookingUrl": "https://www.privatehousestays.com/bookings/stage1/3447",
+            "offers": 0,
+            "externalReviewsID": "f4d1514c-b669-4219-b299-74c30fd848a5",
+            "addressLine1": "Blackwaterfoot Lodge.KA27 8EU",
+            "multiplePrices": false,
+            "startDate": "2020-04-01",
+            "endDate": "2020-10-31",
+            "telephoneNumber": "44 01770 860202",
+            "email": "mail@blackwaterfoot-lodge.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

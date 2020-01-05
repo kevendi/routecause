@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923261",
+            "name": "Kilbride Farmhouse",
+            "description": "Kilbride Farmhouse is a traditional farmhouse and is adjacent to a working farm. It is positioned in a rural setting at the south of the Island about 25 minutes drive from Brodick pier.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.44691,
+            "longitude": -5.21607,
+            "url": "/info/accommodation/kilbride-farmhouse-p923261",
+            "image": "http://www.visitscotland.com/wsimgs/B9CD80CE53CAE12402841199CC6B1FC6217693A1.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "640",
+            "facilities": "parking,wifi,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/kilbride-farmhouse-1401/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "630b7776-94b2-4a22-a9f9-94cd66fb56a1",
+            "addressLine1": "Kilbride Farmhouse, Isle of Arran.KA27 8PH",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

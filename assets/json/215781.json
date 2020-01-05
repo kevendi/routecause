@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "215781",
+            "name": "Kilmory Haven",
+            "description": "Group & Family Accommodation.",
+            "category": "Group Accommodation",
+            "locationName": "Kilmory",
+            "latitude": 55.4449,
+            "longitude": -5.22885,
+            "url": "/info/accommodation/kilmory-haven-p215781",
+            "image": "http://www.visitscotland.com/wsimgs/bunkhouse%20001_1974582587.jpg[ToFit600x400]",
+            "minStars": 3,
+            "maxStars": 3,
+            "price": null,
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": null,
+            "website": "https://kilmoryhaven.com/about/#aboutaccommodation",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "0404acdb-049a-4a77-9ce4-5f45af7bd0da",
+            "addressLine1": "Kilmory Public Hall.KA27 8PQ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 870345",
+            "email": "kilmory.hall@btinternet.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

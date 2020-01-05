@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2348451",
+            "name": "Ride Arran MTB Guiding",
+            "description": "Ride Arran Mountain Bike Guiding with coaching input",
+            "category": "Mountain biking",
+            "locationName": "Shiskine",
+            "latitude": 55.51904,
+            "longitude": -5.30632,
+            "url": "/info/see-do/ride-arran-mtb-guiding-p2348451",
+            "image": "http://www.visitscotland.com/wsimgs/79F0812F332BB45D8878DA8BE168B2626A7227C2.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.hamiltoncottages.co.uk/ridearran",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Hamilton House.KA27 8EW",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 7961505817",
+            "email": "ridearran@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

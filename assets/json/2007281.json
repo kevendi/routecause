@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2007281",
+            "name": "Mill Rink Arran Self-catering",
+            "description": "Self-catering cottages, log cabin & static caravan set in a stunning countryside location with panoramic sea views on a working farm at the picturesque south west corner of the Isle of Arran.",
+            "category": "Self Catering",
+            "locationName": "Sliddery",
+            "latitude": 55.45705,
+            "longitude": -5.27106,
+            "url": "/info/accommodation/mill-rink-arran-selfcatering-p2007281",
+            "image": "http://www.visitscotland.com/wsimgs/Mill_Rink_Arran_view_542937676.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.millrinkarran.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Heathcote Farm, Sliddery.KA27 8PF",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 1770 870256",
+            "email": "info@millrinkarran.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

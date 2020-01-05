@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "219761",
+            "name": "Whin Cottage",
+            "description": "Whin Cottage is a delightfully upgraded detached farmhouse, set in open countryside above the small hamlet of Sliddery on the south west coast of Arran. It is south facing with views to the hills, sea, and Ailsa Craig.",
+            "category": "Self Catering",
+            "locationName": "Sliddery",
+            "latitude": 55.46181,
+            "longitude": -5.26989,
+            "url": "/info/accommodation/whin-cottage-p219761",
+            "image": "http://www.visitscotland.com/wsimgs/DSCF0034(1).JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "380",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.arrancottage.net",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "9cb81f97-11ff-4817-a5e7-53d333dddb73",
+            "addressLine1": "Sliddery.KA27 8PF",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "07837 445767",
+            "email": "sue@arrancottage.net",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

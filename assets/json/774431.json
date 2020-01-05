@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "774431",
+            "name": "Arran Apartments",
+            "description": "Enjoy your holiday in a 4 Star quality assured,wheelchair accessible,house with 100%, 5/5  reviews. Ideal accommodation for your active holiday for walkers, cyclists , golfers - or for a relaxing, romantic holiday or honeymoon.  Enjoy panoramic sea views from the extensive decking while watching the antics of the red squirrels in the garden.\n                                                          Sleeps 2 adults + 1 child in a cot or bed",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.54244,
+            "longitude": -5.11772,
+            "url": "/info/accommodation/arran-apartments-p774431",
+            "image": "http://www.visitscotland.com/wsimgs/april%20house%201%20rs_494151789.jpg[ToFit600x400]",
+            "minStars": 4,
+            "maxStars": 4,
+            "price": "385",
+            "facilities": "parking,dsblaccess,petswelcom,wifi,accessparkdrop",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.arranapartments.co.uk/",
+            "bookingUrl": "http://www.arranapartments.co.uk/book-online.html",
+            "offers": 0,
+            "externalReviewsID": "6dd7ebc1-d4c0-4376-b787-9c5fbc3f4ffc",
+            "addressLine1": "Lamlash.KA27 8LE",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "01770 600 682",
+            "email": "macs.parker@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

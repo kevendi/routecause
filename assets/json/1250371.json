@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1250371",
+            "name": "Carraig Mhor Bed and Breakfast",
+            "description": "Carraig Mhor Bed and Breakfast is in the centre of Lamlash.",
+            "category": "B&B",
+            "locationName": "Lamlash",
+            "latitude": 55.53439,
+            "longitude": -5.12639,
+            "url": "/info/accommodation/carraig-mhor-bed-and-breakfast-p1250371",
+            "image": "http://www.visitscotland.com/wsimgs/IMG_0337_440747133.JPG[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "40",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.carraigmhor.co.uk",
+            "bookingUrl": "https://portal.freetobook.com/reservations?w_id=11931&w_tkn=xW6Z8wjg3Ac7u9DDyRF3AwT1479588bax4EJJVp0BGvA6KBPj7338QPtcH0EK",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Carraig Mhor.KA27 8LS",
+            "multiplePrices": false,
+            "startDate": "2020-01-03",
+            "endDate": "2020-12-20",
+            "telephoneNumber": "44 01770 600081",
+            "email": "carraigmhorhouse@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

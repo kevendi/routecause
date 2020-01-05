@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2212961",
+            "name": "Arran Studio",
+            "description": "Arran Studio artist Heather Macleod works are inspired by the local Arran landscape, a small Scottish island. Due to its mixture of forrest, mountains and machair, it is sometimes known as \"Scotland in miniature\".",
+            "category": "Arts & Crafts",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48767,
+            "longitude": -5.09624,
+            "url": "/info/see-do/arran-studio-p2212961",
+            "image": "http://www.visitscotland.com/wsimgs/3F0AF02FA00E575CA835805ABF9D07CCDD71967A.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.arranstudioshop.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "6 Heatherhill, Whiting Bay.KA27 8QH",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 17707 00599",
+            "email": "arranstudioshop@btinternet.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

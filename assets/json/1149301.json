@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1149301",
+            "name": "Green Brae Barn",
+            "description": "An ideal exploration base for the stunning Isle of Arran (pure relaxation or active outdoors, fine food and whisky) near a sandy beach, Green Brae is a beautiful barn conversion welcoming, dogs, families, and nature lovers. Sleeps 6, Wifi.",
+            "category": "Self Catering",
+            "locationName": "Blackwaterfoot",
+            "latitude": 55.51093,
+            "longitude": -5.32978,
+            "url": "/info/accommodation/green-brae-barn-p1149301",
+            "image": "http://www.visitscotland.com/wsimgs/Arran%20Green%20Brae%20self%20catering%20holiday%20cottage%20exterior_1985336715.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "420",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottageonarran.com",
+            "bookingUrl": "http://www.thearranteam.co.uk/cottages/green-brae-barn-uka398?adult=2&nights=7&range=3",
+            "offers": 0,
+            "externalReviewsID": "6ce6e866-ae70-42da-ab4f-5b05adf95c83",
+            "addressLine1": "Torbeg Farm Road, Isle of Arran.KA27 8HE",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": null,
+            "email": "greenbrae@cottageonarran.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

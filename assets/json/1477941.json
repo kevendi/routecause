@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1477941",
+            "name": "The School House",
+            "description": "The School House is a large and welcoming detached villa on the outskirts of the village of Shiskine, ideal for large families or groups.",
+            "category": "Self Catering",
+            "locationName": "Shiskine",
+            "latitude": 55.51153,
+            "longitude": -5.31564,
+            "url": "/info/accommodation/the-school-house-p1477941",
+            "image": "http://www.visitscotland.com/wsimgs/the-school-house-shiskine-isle-of-arran-sitting-room-04_1021197762.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "650",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/the-school-house-1936/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Shiskine.KA27 8EP",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441738 451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

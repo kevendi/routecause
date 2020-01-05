@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2348441",
+            "name": "Hamilton Cottages - Ashdale cottage",
+            "description": "Hamilton Cottages - Ashdale cottage with mature gardens, woodland and family games room.",
+            "category": "Cottage",
+            "locationName": "Shiskine",
+            "latitude": 55.51904,
+            "longitude": -5.30632,
+            "url": "/info/accommodation/hamilton-cottages-ashdale-cottage-p2348441",
+            "image": "http://www.visitscotland.com/wsimgs/604D0799A83BA1D7E9C8A111B7101813A23065DF.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.hamiltoncottages.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Hamilton House.KA27 8EW",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 7766 220278",
+            "email": "hamiltoncottages@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

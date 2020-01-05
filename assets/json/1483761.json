@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1483761",
+            "name": "The Arran Lodge",
+            "description": "You can book one of the 13 rooms individually or you can have exclusive use of the Arran Lodge and grounds.  We have a large function hall available for venue hire. We have more cabins available for accommodation. Fantastic Seaviews",
+            "category": "Exclusive Use",
+            "locationName": "Lamlash",
+            "latitude": 55.54299,
+            "longitude": -5.11328,
+            "url": "/info/accommodation/the-arran-lodge-p1483761",
+            "image": "http://www.visitscotland.com/wsimgs/AAL-0153_preview_865523684.jpeg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "1000",
+            "facilities": "",
+            "distance": null,
+            "basis": "pupn",
+            "website": "http://www.thearranlodge.com",
+            "bookingUrl": "https://emea.littlehotelier.com/properties/altachorvie-island-retreat",
+            "offers": 0,
+            "externalReviewsID": "af531438-3bee-4523-a6d2-b1f97d010c71",
+            "addressLine1": "Altachorvie,Lamlash.KA27 8LQ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 1770 600468",
+            "email": "info@thearranlodge.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

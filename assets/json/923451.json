@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923451",
+            "name": "Lunna Voe",
+            "description": "Lunna Voe offers a perfect location for a relaxing holiday or a short break. It has a beautiful coastal location and direct access to a lovely sandy beach.",
+            "category": "Self Catering",
+            "locationName": "Whiting Bay",
+            "latitude": 55.5003,
+            "longitude": -5.09302,
+            "url": "/info/accommodation/lunna-voe-p923451",
+            "image": "http://www.visitscotland.com/wsimgs/900D683F6203203CF2D7CD3D2E977E4209873B31.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "685",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/lunna-voe-1345/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "0ecae3fa-ab92-4d72-bc33-453f92dbbd63",
+            "addressLine1": "Lunna Voe, Shore Road.KA27 8RE",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

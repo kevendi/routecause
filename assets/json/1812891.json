@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1812891",
+            "name": "Davaar Barn",
+            "description": "Davaar Barn is a beautiful converted byre enjoying views across the Firth of Clyde to the Kintyre Peninsula beyond.",
+            "category": "Self Catering",
+            "locationName": "Sliddery",
+            "latitude": 55.46183,
+            "longitude": -5.29094,
+            "url": "/info/accommodation/davaar-barn-p1812891",
+            "image": "http://www.visitscotland.com/wsimgs/42A3A75A707E92D600E6252F32E7BA7870DAC81C.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "710",
+            "facilities": "parking,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/davaar-barn-2013/",
+            "bookingUrl": "https://www.cottages-and-castles.co.uk/self-catering/davaar-barn-2013/",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Corriecravie.KA27 8PD",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "00441738 451 610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

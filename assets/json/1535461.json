@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1535461",
+            "name": "Cruickshanks Boutique Bed and Breakfast",
+            "description": "A luxurious boutique bed and breakfast with sea views in Whiting Bay, Isle of Arran.",
+            "category": "B&B",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48755,
+            "longitude": -5.10099,
+            "url": "/info/accommodation/cruickshanks-boutique-bed-and-breakfast-p1535461",
+            "image": "http://www.visitscotland.com/wsimgs/44E4ABDC28F8987A4BCDE208FEA643F10D8A05A5.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://cruickshanksarran.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Benview, Golf Course Road, Whiting Bay.KA27 8QT",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 1770 700190",
+            "email": "info@cruickshanksarran.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

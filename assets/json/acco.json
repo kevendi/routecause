@@ -1,0 +1,1097 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dyemill Lodges",
+                "id": "1096901"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.14695,
+                    55.52774
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Queensferry Cottage",
+                "id": "2187431"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13573,
+                    55.52623
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Craigmara",
+                "id": "1392571"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13568,
+                    55.52662
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Mulberry",
+                "id": "2172181"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13408,
+                    55.52537
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Thornlea cottage",
+                "id": "1830931"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13422,
+                    55.52717
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Craigbank",
+                "id": "923251"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13363,
+                    55.52802
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Andreville Cottage",
+                "id": "2172161"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1312,
+                    55.52904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Tigh An Eilean B&B",
+                "id": "1421401"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12768,
+                    55.52464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monamore Guest House",
+                "id": "1761691"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12768,
+                    55.52464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Beach Cottage Self Catering",
+                "id": "1125681"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12681,
+                    55.52562
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lamlash Bay Hotel",
+                "id": "2143121"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12946,
+                    55.53263
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Poppa's Cottage",
+                "id": "2078791"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12894,
+                    55.5335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lilybank Guest House - Colin And June Richardson",
+                "id": "212701"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1277,
+                    55.5339
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Carraig Mhor Bed and Breakfast",
+                "id": "1250371"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12639,
+                    55.53439
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Clachog, Lamlash, Isle Of Arran",
+                "id": "184421"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12515,
+                    55.53565
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Sanda View Cottage",
+                "id": "2278211"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.25007,
+                    55.46327
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Stonewater House Vegan B&B",
+                "id": "2070341"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12386,
+                    55.53642
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glenisle Hotel",
+                "id": "225881"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1236,
+                    55.5374
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "An-Caladh",
+                "id": "1392671"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.29371,
+                    55.52747
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bridgend Campsite",
+                "id": "859421"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.29706,
+                    55.52199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Bridgend Holiday Cottage",
+                "id": "859411"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.29706,
+                    55.52199
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Woodside",
+                "id": "1116891"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.12084,
+                    55.54156
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Sheiling",
+                "id": "1722111"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.11707,
+                    55.54157
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hamilton Cottages - Rosa Cottage",
+                "id": "2348421"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.30632,
+                    55.51904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hamilton Cottages - Ashdale cottage",
+                "id": "2348441"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.30632,
+                    55.51904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mill Barn",
+                "id": "1248961"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.30632,
+                    55.51904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hamilton Cottages - Shurig Cottage",
+                "id": "2348431"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.30632,
+                    55.51904
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran Apartments",
+                "id": "774431"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.11772,
+                    55.54244
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Whin Cottage",
+                "id": "219761"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.26989,
+                    55.46181
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Viewbank Guest House",
+                "id": "217051"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1017,
+                    55.4876
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Runach Arainn Glamping Yurts",
+                "id": "1261881"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.22037,
+                    55.44784
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Arran Lodge",
+                "id": "1483761"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.11328,
+                    55.54299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran Sleep Huts",
+                "id": "1483801"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.11328,
+                    55.54299
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cruickshanks Boutique Bed and Breakfast",
+                "id": "1535461"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.10099,
+                    55.48755
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilbride Farmhouse",
+                "id": "923261"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.21607,
+                    55.44691
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Dunollie",
+                "id": "923311"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.0989,
+                    55.48991
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Seabank",
+                "id": "923281"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.11104,
+                    55.54284
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Garret Cottage",
+                "id": "197021"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09473,
+                    55.49705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lunna Voe",
+                "id": "923451"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09302,
+                    55.5003
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Glenburn",
+                "id": "1740341"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09379,
+                    55.49673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Burlington Guest House",
+                "id": "1389041"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09379,
+                    55.49673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The School House",
+                "id": "1477941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.31564,
+                    55.51153
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilbride Cottage - Isle Of Arran",
+                "id": "200311"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.20624,
+                    55.44478
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mill Rink Arran Self-catering",
+                "id": "2007281"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.27106,
+                    55.45705
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran Holiday Retreats",
+                "id": "2098731"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09624,
+                    55.48767
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shannochie Cottages - Isle Of Arran",
+                "id": "197751"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.19787,
+                    55.44371
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Far Horizons Holiday Cottages",
+                "id": "222421"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.28,
+                    55.4602
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Lagg Hotel",
+                "id": "201641"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.22885,
+                    55.4449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilmory Haven",
+                "id": "215781"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.22885,
+                    55.4449
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Torrlinn Beach House",
+                "id": "1001561"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.22891,
+                    55.44468
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Summer Cottage",
+                "id": "923431"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.08758,
+                    55.50715
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mill House",
+                "id": "1392551"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.25933,
+                    55.56613
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Point House Cottage",
+                "id": "923421"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.08735,
+                    55.50698
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grenrof",
+                "id": "923331"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.0939,
+                    55.48507
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Eastwood",
+                "id": "941231"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09438,
+                    55.48412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Little Elim",
+                "id": "941321"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09438,
+                    55.48412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Grahamfield",
+                "id": "1716171"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09438,
+                    55.48412
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Prospect Hill Studio",
+                "id": "1392501"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.10545,
+                    55.54512
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Farmhouse Bothy",
+                "id": "1392541"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.24241,
+                    55.44489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Point House",
+                "id": "923411"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.08415,
+                    55.50908
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Old Farmhouse",
+                "id": "1392581"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.19714,
+                    55.44092
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Craigdhu Farm Cottages",
+                "id": "209511"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.16854,
+                    55.44352
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Davaar Barn",
+                "id": "1812891"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.29094,
+                    55.46183
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Moinadh",
+                "id": "930311"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.32168,
+                    55.49399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Arran Outdoor Centre",
+                "id": "1167941"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.10076,
+                    55.5451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "ParkviewArran",
+                "id": "1514161"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.32649,
+                    55.51458
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Kilmichael Deluxe Cottages",
+                "id": "197011"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15841,
+                    55.57364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ormidale Hotel",
+                "id": "205171"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15848,
+                    55.57368
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ar Fasgadh Torbeg Country Lodges Shiskine Isle of Arran",
+                "id": "1142261"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.328,
+                    55.51306
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Monyquil Mhor",
+                "id": "923271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.2703,
+                    55.56826
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Luangwa Lodge",
+                "id": "1392591"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.32813,
+                    55.51387
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Auchenhew House",
+                "id": "923371"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.14292,
+                    55.4464
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Pladda",
+                "id": "923391"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.14312,
+                    55.44614
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Green Brae Barn",
+                "id": "1149301"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.32978,
+                    55.51093
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Blackwaterfoot Lodge",
+                "id": "1088551"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.33018,
+                    55.50131
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Auchrannie House Hotel",
+                "id": "188901"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15805,
+                    55.576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Auchrannie Luxury Lodges",
+                "id": "208081"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15805,
+                    55.576
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Auchrannie Spa Resort",
+                "id": "190811"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15805,
+                    55.576
+                ]
+            }
+        }
+    ]
+}

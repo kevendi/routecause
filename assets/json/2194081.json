@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2194081",
+            "name": "Lynn's Art on Arran",
+            "description": "Visit an artist's working studio: unique felt art and watercolour paintings inspired by the Isle of Arran.  A studio with a spectacular view across the sea to the Ayrshire coast",
+            "category": "Arts & Crafts",
+            "locationName": "Whiting Bay",
+            "latitude": 55.48767,
+            "longitude": -5.09624,
+            "url": "/info/see-do/lynns-art-on-arran-p2194081",
+            "image": "http://www.visitscotland.com/wsimgs/C9078DD86A136AA5AA93DD03BFD81A2428AA1952.png[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.lynnsartonarran.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Kinmount, Middle Road.KA27 8QH",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 1770 700542",
+            "email": "lynnsartonarran@mail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

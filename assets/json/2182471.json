@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2182471",
+            "name": "Bay Kitchen & Stores",
+            "description": "Village Stores  & coffee shop.  Groceries, whole foods and speciality fine foods.  Fresh butcher meat and fish.  Wines, beers and spirits.  Artisanal bread and local fruit and veg and eggs.",
+            "category": "Food & Drink",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/shopping/bay-kitchen-stores-p2182471",
+            "image": "http://www.visitscotland.com/wsimgs/6EC380BE026271210C7EF9AA0F49640324667329.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": null,
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Shore Road, Whiting Bay.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 1770 700229",
+            "email": "baykitchenstores@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

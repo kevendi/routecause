@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1621801",
+            "name": "Arran Tattoo Studio",
+            "description": "A small Tattoo Studio on the Island of Arran.\nOffering a full range of tattoo styles - nothing is too big or small.\nSpecialising in bespoke tattoos, water-colour style, cover-ups or re-working of damaged and faded tattoos.",
+            "category": "Other Shops",
+            "locationName": "Brodick",
+            "latitude": 55.57513,
+            "longitude": -5.15709,
+            "url": "/info/shopping/arran-tattoo-studio-p1621801",
+            "image": "http://www.visitscotland.com/wsimgs/12169D32673BFB6360E79F23857E35C4B42E4C8D.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.facebook.com/fizzytattoosstudio",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "1 Auchrannie Road, Brodick.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 7760 690972",
+            "email": "arrantattoo@yahoo.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1541741",
+            "name": "Brambles Seafood & Grill",
+            "description": "Fresh, locally sourced, seafood and tasty grilled meats are  combined with an exciting range of daily specials, all served in a relaxed atmosphere.",
+            "category": "Restaurants",
+            "locationName": "Brodick",
+            "latitude": 55.57513,
+            "longitude": -5.15709,
+            "url": "/info/food-drink/brambles-seafood-grill-p1541741",
+            "image": "http://www.visitscotland.com/wsimgs/0B6CA66F139244959F59D1BA3FAE5579CD984DDE.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.bramblesseafoodandgrill.co.uk/?COLLCC=1072093108&",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Auchrannie Road.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441770302234",
+            "email": "hotel@auchrannie.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

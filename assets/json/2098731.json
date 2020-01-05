@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2098731",
+            "name": "Arran Holiday Retreats",
+            "description": "Arran Holiday Retreats has a selection of 4 quality holiday properties in and around Lamlash and Whiting Bay, the most sheltered and the sunniest part of the island.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.48767,
+            "longitude": -5.09624,
+            "url": "/info/accommodation/arran-holiday-retreats-p2098731",
+            "image": "http://www.visitscotland.com/wsimgs/aac_1_2059409834.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arranholidayretreats.co.uk",
+            "bookingUrl": "http://www.arranholidayretreats.co.uk",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Whiting Bay.KA27 8QH",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "07733294171",
+            "email": "stay@arranholidayretreats.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

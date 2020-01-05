@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1125681",
+            "name": "Beach Cottage Self Catering",
+            "description": "Beach Cotttage is located only a few steps from the beach in a quiet coastal location down a private road with stunning views towards the Holy Isle and across Lamlash Bay",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.52562,
+            "longitude": -5.12681,
+            "url": "/info/accommodation/beach-cottage-self-catering-p1125681",
+            "image": "http://www.visitscotland.com/wsimgs/44ae330a84e544b4869931d9444cfb2ecce8e250_645_430_2070503487.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "490",
+            "facilities": "petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.beachcottage.scot",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "a83f55c3-5587-4eeb-9760-973a4b4d30ac",
+            "addressLine1": "Beach cottage, Cordon.KA27 8NQ",
+            "multiplePrices": false,
+            "startDate": "2018-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 1770 600844",
+            "email": "lisbethkirsop@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

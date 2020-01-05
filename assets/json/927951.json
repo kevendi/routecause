@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "927951",
+            "name": "Golf on Arran",
+            "description": "If you love golf, you’re going to love Scotland’s twenty-six Golf Islands.",
+            "category": "Golf",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/see-do/golf-on-arran-p927951",
+            "image": "http://www.visitscotland.com/wsimgs/SGI_738524831.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "parking,petswelcom,dsblaccess",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.golfonarran.com",
+            "bookingUrl": "http://www.golfonarran.com",
+            "offers": 1,
+            "externalReviewsID": null,
+            "addressLine1": "Brodick Golf Club, Shore Road.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": null,
+            "email": "office@golfonarran.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

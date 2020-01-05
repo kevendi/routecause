@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "212701",
+            "name": "Lilybank Guest House - Colin And June Richardson",
+            "description": "On the shores of Lamlash Bay overlooking Holy Isle, an ideal base from which to explore the enchanting Isle of Arran.  \r\n\r\nSea Front Location    4 Star    En-suite rooms    Delicious Breakfasts    Guests' Lounge    Free WiFi    Car Parking",
+            "category": "Guesthouse",
+            "locationName": "Lamlash",
+            "latitude": 55.5339,
+            "longitude": -5.1277,
+            "url": "/info/accommodation/lilybank-guest-house-colin-and-june-richardson-p212701",
+            "image": "http://www.visitscotland.com/wsimgs/Image_1861617142.jpeg[ToFit600x400]",
+            "minStars": 4,
+            "maxStars": 4,
+            "price": "35",
+            "facilities": "parking,accessparkdrop,wifi",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.lilybank-arran.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "49a9c77c-d99f-4055-ba2e-73e84587a484",
+            "addressLine1": "The Lilybank.KA27 8LS",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 600230",
+            "email": "colin369.richardson@virgin.net",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

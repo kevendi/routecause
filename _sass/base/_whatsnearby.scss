@@ -1,0 +1,33 @@
+.search-input {
+  min-width: 300px;
+}
+
+.nav-tabs {
+  @include media-breakpoint-down(sm) {
+    flex-direction: column;
+  }
+}
+
+.nav-tabs .nav-link.active {
+  background-color: $dark;
+  color: $white;
+  border: none;
+}
+
+.card {
+  border: none;
+}
+
+.nav-link {
+  transition: all 500ms ease;
+  box-shadow: inset 0 0 0 $light;
+  color: $dark;
+
+  @include media-breakpoint-up(sm) {
+    padding: 1rem;
+  }
+  &:hover:not(.active) {
+    box-shadow: inset 0 -4px 0 $dark;
+    color: $dark;
+  }
+}

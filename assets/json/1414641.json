@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1414641",
+            "name": "Chameleon Arran",
+            "description": "Ladies boutique, opened in August 2016 providing contemporary ladies wear in Lamlash on the Isle of Arran.",
+            "category": "Clothes",
+            "locationName": "Lamlash",
+            "latitude": 55.53379,
+            "longitude": -5.1288,
+            "url": "/info/shopping/chameleon-arran-p1414641",
+            "image": "http://www.visitscotland.com/wsimgs/Visit_Scotand_1016_1775925244.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://chameleonarran.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "28 Hamilton Terrace.KA27 8LR",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "44 1770 600201",
+            "email": "lynn@chameleonarran.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

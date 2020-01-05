@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2348421",
+            "name": "Hamilton Cottages - Rosa Cottage",
+            "description": "Hamilton Cottages - Rosa Cottage with mature gardens, woodland and  family games room.",
+            "category": "Cottage",
+            "locationName": "Shiskine",
+            "latitude": 55.51904,
+            "longitude": -5.30632,
+            "url": "/info/accommodation/hamilton-cottages-rosa-cottage-p2348421",
+            "image": "http://www.visitscotland.com/wsimgs/ADF93920989117168A41BC3EC0547E67722BC379.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.hamiltoncottages.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Hamilton House.KA27 8EW",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 77 66220278",
+            "email": "hamiltoncottages@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

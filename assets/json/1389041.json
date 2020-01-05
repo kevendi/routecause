@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1389041",
+            "name": "Burlington Guest House",
+            "description": "Edwardian sea side family run guest house on the shores of Whiting Bay with a beautiful view looking out over the sea towards the Ayrshire Coast.  Only 10 minutes from the main port of Brodick.",
+            "category": "Guesthouse",
+            "locationName": "Whiting Bay",
+            "latitude": 55.49673,
+            "longitude": -5.09379,
+            "url": "/info/accommodation/burlington-guest-house-p1389041",
+            "image": "http://www.visitscotland.com/wsimgs/Burlington-133_62364092.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "45",
+            "facilities": "",
+            "distance": null,
+            "basis": "pppn",
+            "website": "http://www.theburlingtonarran.co.uk",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "801cf6dd-78f7-414b-aa81-4d98de3bbb9c",
+            "addressLine1": "Shore Road.KA27 8PZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "044 1770 700255",
+            "email": "burlingtonarran@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

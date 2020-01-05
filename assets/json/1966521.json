@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1966521",
+            "name": "The Arran Gift Box",
+            "description": "The Arran Gift Box is a range of wonderful Scottish Food and Gift Hampers containing fresh produce from the Isle of Arran.",
+            "category": "Food & Drink",
+            "locationName": "Lamlash",
+            "latitude": 55.54565,
+            "longitude": -5.12641,
+            "url": "/info/shopping/the-arran-gift-box-p1966521",
+            "image": "http://www.visitscotland.com/wsimgs/76932BD3EA3467806790C9AC542DDB12D3350F56.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.thearrangiftbox.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Ardshonas, Lamlash.KA27 8JY",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "44 01770 600331",
+            "email": "info@thearrangiftbox.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

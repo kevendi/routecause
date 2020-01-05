@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "317221",
+            "name": "Isle of Arran - part 3",
+            "description": "Real mountains, lovely scenery, mostly quiet roads.",
+            "category": "Cycling",
+            "locationName": "Blackwaterfoot",
+            "latitude": 55.50411,
+            "longitude": -5.3268,
+            "url": "/info/see-do/isle-of-arran-part-3-p317221",
+            "image": "http://www.visitscotland.com/wsimgs/cycle%202(41).jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": null,
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": ".null",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": null,
+            "email": null,
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

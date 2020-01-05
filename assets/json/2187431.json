@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2187431",
+            "name": "Queensferry Cottage",
+            "description": "A beautiful boutique cottage finished to an exceptional standard with stunning island views. Located on the edge of the picturesque village of Lamlash.",
+            "category": "Cottage",
+            "locationName": "Lamlash",
+            "latitude": 55.52623,
+            "longitude": -5.13573,
+            "url": "/info/accommodation/queensferry-cottage-p2187431",
+            "image": "http://www.visitscotland.com/wsimgs/CFDEE04D46CFE5E82F387263FE3436798029F214.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "",
+            "distance": null,
+            "basis": null,
+            "website": "https://www.airbnb.co.uk/rooms/22494690",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "8 Murray Place.KA27 8NH",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+44 7855775328",
+            "email": "queensferrycottage@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

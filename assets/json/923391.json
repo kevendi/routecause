@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "923391",
+            "name": "Pladda",
+            "description": "Pladda is a delightful little holiday house positioned on the isle of Arran with beautiful views of the sea.",
+            "category": "Self Catering",
+            "locationName": "Kildonan",
+            "latitude": 55.44614,
+            "longitude": -5.14312,
+            "url": "/info/accommodation/pladda-p923391",
+            "image": "http://www.visitscotland.com/wsimgs/1A32B52D3E9A5B104FE45B9D03C0C1563264724F.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "340",
+            "facilities": "parking,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "http://www.cottages-and-castles.co.uk/self-catering/pladda-967/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": "d9b88877-da3e-488b-871f-57e4768f7534",
+            "addressLine1": "Pladda Cottage, Kildonan.KA27 8SG",
+            "multiplePrices": false,
+            "startDate": null,
+            "endDate": null,
+            "telephoneNumber": "+441738451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

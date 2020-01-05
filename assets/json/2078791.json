@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "2078791",
+            "name": "Poppa's Cottage",
+            "description": "Poppa’s Cottage is set in the delightful seaside village of Lamlash.",
+            "category": "Self Catering",
+            "locationName": "Lamlash",
+            "latitude": 55.5335,
+            "longitude": -5.12894,
+            "url": "/info/accommodation/poppas-cottage-p2078791",
+            "image": "http://www.visitscotland.com/wsimgs/Poppas_Cottage_1078552072.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "495",
+            "facilities": "parking,wifi,petswelcom",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.cottages-and-castles.co.uk/self-catering/poppas-cottage-2035/",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Hamilton Terrace, Lamlash.KA27 8LR",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "00441738 451610",
+            "email": "holidays@cottages-and-castles.co.uk",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

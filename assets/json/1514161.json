@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "1514161",
+            "name": "ParkviewArran",
+            "description": "Self catering holiday accommodation on the Isle of Arran  opened since 2017. Visit our website www.ParkviewArran.co.uk for full details and make sure you like and follow us on Facebook to get kept informed of any special offers - www.facebook.com/ParkviewArran",
+            "category": "Self Catering",
+            "locationName": "Shiskine",
+            "latitude": 55.51458,
+            "longitude": -5.32649,
+            "url": "/info/accommodation/parkviewarran-p1514161",
+            "image": "http://www.visitscotland.com/wsimgs/A851362621C598C86EC2A0B3506F134D8F5C89B2.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": "600",
+            "facilities": "parking,petswelcom,wifi",
+            "distance": null,
+            "basis": "pupw",
+            "website": "https://www.parkviewarran.co.uk/",
+            "bookingUrl": "https://www.parkviewarran.co.uk/book",
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Torbeg.KA27 8HE",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "0044 7870 820345",
+            "email": "parkviewarran@gmail.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}
