@@ -69,7 +69,11 @@
   height: 100vh;
   overflow: hidden;
   position: relative;
-  background-attachment: fixed;
+  background-position: center;
+
+  @include media-breakpoint-up(sm) {
+    background-attachment: fixed;
+  }
 
   &::after {
     position: absolute;

@@ -19,7 +19,7 @@ categories: north-ayrshire
 </section>
 <section class="bg-primary d-print-none">
     <div class="container">
-        <div class="btn-toolbar justify-content-md-between" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-toolbar justify-content-md-between mx-n3" role="toolbar" aria-label="Toolbar with button groups">
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.gpx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download GPX</a>
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.kml' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download KML</a>
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.tcx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download TCX</a>

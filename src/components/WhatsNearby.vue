@@ -20,6 +20,8 @@
         <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
           <a
             class="nav-item nav-link h5 active"
+            :class="{disabled: !accoFeatures.length}"
+            :disabled="!accoFeatures.length"
             id="nav-acco-tab"
             data-toggle="tab"
             href="#nav-acco"
@@ -29,6 +31,8 @@
           >Accommodation</a>
           <a
             class="nav-item nav-link h5"
+            :class="{disabled: !actiFeatures.length}"
+            :disabled="!actiFeatures.length"
             id="nav-acti-tab"
             data-toggle="tab"
             href="#nav-acti"
@@ -38,6 +42,8 @@
           >Activities</a>
           <a
             class="nav-item nav-link h5"
+            :class="{disabled: !attrFeatures.length}"
+            :disabled="!attrFeatures.length"
             id="nav-attr-tab"
             data-toggle="tab"
             href="#nav-attr"
@@ -47,6 +53,8 @@
           >Attractions</a>
           <a
             class="nav-item nav-link h5"
+            :class="{disabled: !evenFeatures.length}"
+            :disabled="!evenFeatures.length"
             id="nav-even-tab"
             data-toggle="tab"
             href="#nav-even"
@@ -56,6 +64,8 @@
           >Events</a>
           <a
             class="nav-item nav-link h5"
+            :class="{disabled: !cateFeatures.length}"
+            :disabled="!cateFeatures.length"
             id="nav-cate-tab"
             data-toggle="tab"
             href="#nav-cate"
@@ -65,6 +75,8 @@
           >Food and Drink</a>
           <a
             class="nav-item nav-link h5"
+            :class="{disabled: !retaFeatures.length}"
+            :disabled="!retaFeatures.length"
             id="nav-reta-tab"
             data-toggle="tab"
             href="#nav-reta"
@@ -76,7 +88,7 @@
       </nav>
     <div class="tab-content" id="nav-tabContent" v-if="!isLoading">
       <div class="tab-pane active fade show" role="tabpanel" id="nav-acco" aria-labelledby="nav-acco-tab">
-        <div class="card-columns">
+        <div class="card-columns"  v-if="accoFeatures.length">
           <whats-nearby-card 
             v-for="(accoFeature, accoIndex) in accoFeatures" 
             :key="accoIndex" 
@@ -84,8 +96,8 @@
           </whats-nearby-card>
         </div>
       </div>
-      <div class="tab-pane active fade show" role="tabpanel" id="nav-acti" aria-labelledby="nav-acti-tab">
-        <div class="card-columns">
+      <div class="tab-pane fade show" role="tabpanel" id="nav-acti" aria-labelledby="nav-acti-tab">
+        <div class="card-columns" v-if="actiFeatures.length">
           <whats-nearby-card 
             v-for="(actiFeature, actiIndex) in actiFeatures" 
             :key="actiIndex" 
@@ -93,7 +105,7 @@
           </whats-nearby-card>
         </div>
       </div>
-      <div class="tab-pane active fade show" role="tabpanel" id="nav-attr" aria-labelledby="nav-attr-tab">
+      <div class="tab-pane fade show" role="tabpanel" id="nav-attr" aria-labelledby="nav-attr-tab">
         <div class="card-columns">
           <whats-nearby-card 
             v-for="(attrFeature, attrIndex) in attrFeatures" 
@@ -102,7 +114,7 @@
           </whats-nearby-card>
         </div>
       </div>
-      <div class="tab-pane active fade show" role="tabpanel" id="nav-even" aria-labelledby="nav-even-tab">
+      <div class="tab-pane fade show" role="tabpanel" id="nav-even" aria-labelledby="nav-even-tab">
         <div class="card-columns">
           <whats-nearby-card 
             v-for="(evenFeature, evenIndex) in evenFeatures" 
@@ -111,22 +123,26 @@
           </whats-nearby-card>
         </div>
       </div>
-      <div class="tab-pane active fade show" role="tabpanel" id="nav-cate" aria-labelledby="nav-cate-tab">
+      <div class="tab-pane fade show" role="tabpanel" id="nav-cate" aria-labelledby="nav-cate-tab">
         <div class="card-columns">
           <whats-nearby-card 
             v-for="(cateFeature, cateIndex) in cateFeatures" 
             :key="cateIndex" 
             :feature="cateFeature">
           </whats-nearby-card>
+          <h3 class="danger">Oops!</h3>
+            <p>There are no food and drink results</p>
         </div>
       </div>
-      <div class="tab-pane active fade show" role="tabpanel" id="nav-reta" aria-labelledby="nav-reta-tab">
+      <div class="tab-pane fade show" role="tabpanel" id="nav-reta" aria-labelledby="nav-reta-tab">
         <div class="card-columns">
           <whats-nearby-card 
             v-for="(retaFeature, retaIndex) in retaFeatures" 
             :key="retaIndex" 
             :feature="retaFeature">
           </whats-nearby-card>
+          <h3 class="danger">Oops!</h3>
+            <p>There are no shopping results</p>
         </div>
       </div>
     </div>
