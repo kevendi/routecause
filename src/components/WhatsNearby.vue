@@ -413,7 +413,7 @@ export default {
     getProducts() {
       var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
       axios.all(prodTypes.map(type => {
-        let url = "http://127.0.0.1:4000/assets/json/" + type + ".json";
+        let url = "http://www.routecause.org/assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -435,7 +435,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("http://127.0.0.1:4000/assets/json/" + productID+ ".json")
+          return axios.get("http://www.routecause.org/assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
