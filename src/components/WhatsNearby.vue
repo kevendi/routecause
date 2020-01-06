@@ -130,8 +130,6 @@
             :key="cateIndex" 
             :feature="cateFeature">
           </whats-nearby-card>
-          <h3 class="danger">Oops!</h3>
-            <p>There are no food and drink results</p>
         </div>
       </div>
       <div class="tab-pane fade show" role="tabpanel" id="nav-reta" aria-labelledby="nav-reta-tab">
@@ -141,8 +139,6 @@
             :key="retaIndex" 
             :feature="retaFeature">
           </whats-nearby-card>
-          <h3 class="danger">Oops!</h3>
-            <p>There are no shopping results</p>
         </div>
       </div>
     </div>
