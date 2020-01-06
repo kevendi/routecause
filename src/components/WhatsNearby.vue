@@ -316,7 +316,7 @@ export default {
     getFeatureFormattedImage(feature) {
       let featureFormattedImage = null;
       if (feature.properties.image) {
-        changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
         featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
       }
       return featureFormattedImage;
