@@ -95,11 +95,11 @@ categories: north-ayrshire
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Ardrossan Harbour with Caledonian MacBrayne Ferry" />
+                <img class="img-fluid" src="{{'/assets/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Brodick Harbour with Caledonian MacBrayne Ferry" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage1Caption">
-                    <h6>Ardrossan Harbour with Caledonian MacBrayne Ferry</h6>
+                    <h6>Brodick Harbour with Caledonian MacBrayne Ferry</h6>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -191,7 +191,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
             </a>
             <figcaption>
-                <h6>More Seals</h6>
+                <h6>Seals</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -200,7 +200,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}">
             </a>
             <figcaption>
-                <h6>Unsustainable tourism</h6>
+                <h6>Kildonan</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
