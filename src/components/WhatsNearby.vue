@@ -1,20 +1,20 @@
 <template>
   <div class="container">
-      <div class="d-lg-flex align-items-center justify-content-between">
-        <h2 class="mb-3">What's Nearby</h2>
-        <div>
-          <div class="input-group">
-            <form class="form-inline">
-              <label class="mr-3" for="search">Search</label>
-              <input id="search" v-model="searchTerms" type="search" class="search-input form-control form-control-lg ml-md-3" />
-            </form>
-            <div class="input-group-append" v-if="searchTerms.length">
-              <button class="btn btn-primary" @click.prevent="clearSearchTerms()">
-                Clear Search
-              </button>
-            </div>
+    <div class="d-lg-flex align-items-center justify-content-between">
+      <h2 class="mb-3">What's Nearby</h2>
+      <div>
+        <div class="input-group">
+          <form class="form-inline">
+            <label class="mr-3" for="search">Search</label>
+            <input id="search" v-model="searchTerms" type="search" class="search-input form-control form-control-lg ml-md-3" />
+          </form>
+          <div class="input-group-append" v-if="searchTerms.length">
+            <button class="btn btn-primary" @click.prevent="clearSearchTerms()">
+              Clear Search
+            </button>
           </div>
-      </div>
+        </div>
+    </div>
     </div>
       <nav>
         <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
@@ -410,7 +410,7 @@ export default {
     getProducts() {
       var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
       axios.all(prodTypes.map(type => {
-        let url = "http://www.routecause.org/assets/json/" + type + ".json";
+        let url = "https://www.routecause.org/assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -432,7 +432,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("http://www.routecause.org/assets/json/" + productID+ ".json")
+          return axios.get("https://www.routecause.org/assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
