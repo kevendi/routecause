@@ -14,7 +14,7 @@ categories: north-ayrshire
             </div>
         </div>
     </div>
-    <div class="hero-wrapper d-none d-md-block" style="background-image: url({{'/assets/images/P1140576.JPG' | prepend: site.baseurl}}); background-size: cover;">
+    <div class="hero-wrapper d-none d-md-block" style="background-image: url({{'/assets/images/P1000343.jpg' | prepend: site.baseurl}});">
     </div>
 </section>
 <section class="bg-primary d-print-none">
@@ -84,71 +84,101 @@ categories: north-ayrshire
     </iframe>
 </section>
 
-<section class="bg-dark">
-<h2 class="container py-5 text-light">Route Description</h2>
-<ul class="list-unstyled route-description__list mb-0">
-    <li class="position-relative route-description__list-item" style="background-image: url({{'/assets/images/P1110064.JPG' | prepend: site.baseurl}}); background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-6 col-lg-4">
-                    <dl>
-                        <dt class="h5"><span>Stage 1</span></dt>
-                        <dd class="shadow-lg">When departing from the Brodick Ferry Terminal, head south on the A841.</dd>
-                    </dl>
+<section class="bg-dark text-light">
+<h2 class="container py-5">Route Description</h2>
+<ul class="list-unstyled container mb-0">
+    <li class="row mb-5">
+        <div class="col col-sm-8">
+            <dl>
+                <dt class="h5"><span>Stage 1</span></dt>
+                <dd>When departing from the Brodick Ferry Terminal, head south on the A841.</dd>
+            </dl>
+            <figure class="d-print-none">
+                <div class="d-block mb-4 position-relative">
+                <img class="img-fluid" src="{{'/assets/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Ardrossan Harbour with Caledonian MacBrayne Ferry" />
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
-            </div>
+                <figcaption class="collapse" id="stage1Caption">
+                    <h6>Ardrossan Harbour with Caledonian MacBrayne Ferry</h6>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
     </li>
-    <li class="position-relative route-description__list-item" style="background-image: url({{'/assets/images/P1160704.jpg' | prepend: site.baseurl}}); background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-6 col-lg-4 offset-6 offset-lg-8">
-                    <dl>
-                        <dt class="h5"><span>Stage 2</span></dt>
-                        <dd class="shadow-lg">Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road.</dd>
-                    </dl>
+    <li class="row mb-5">
+        <div class="col col-sm-8">
+            <dl>
+                <dt class="h5"><span>Stage 2</span></dt>
+                <dd>Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road.</dd>
+            </dl>
+            <figure class="d-print-none">
+                <div class="d-block mb-4 position-relative">
+                <img class="img-fluid" src="{{'/assets/images/P1160704.jpg' | prepend: site.baseurl}}" alt="The String Road" />
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
-            </div>
+                <figcaption class="collapse" id="stage1Caption">
+                    <h6>The String Road</h6>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
     </li>
-    <li class="position-relative route-description__list-item" style="background-image: url({{'/assets/images/P1100878.jpg' | prepend: site.baseurl}}); background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-6 col-lg-4">
-                    <dl>
-                        <dt class="h5"><span>Stage 3</span></dt>
-                        <dd class="shadow-lg">Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash</dd>
-                    </dl>
+    <li class="row mb-5">
+        <div class="col col-sm-8">
+            <dl>
+                <dt class="h5"><span>Stage 3</span></dt>
+                <dd>Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash</dd>
+            </dl>
+            <figure class="d-print-none">
+                <div class="d-block mb-4 position-relative">
+                <img class="img-fluid" src="{{'/assets/images/P1100878.jpg' | prepend: site.baseurl}}" alt="Overlooking Pladda" />
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
-            </div>
+                <figcaption class="collapse" id="stage1Caption">
+                    <h6>Overlooking Pladda</h6>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
     </li>
-    <li class="position-relative route-description__list-item" style="background-image: url({{'/assets/images/P1110031.jpg' | prepend: site.baseurl}}); background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-6 col-lg-4 offset-6 offset-lg-8">
-                    <dl>
-                        <dt class="h5"><span>Stage 4</span></dt>
-                        <dd class="shadow-lg">Continue along the undulating road around the south of the island, taking in spectacular views of the sea.</dd>
-                    </dl>
+    <li class="row mb-5">
+        <div class="col col-sm-8">
+            <dl>
+                <dt class="h5"><span>Stage 4</span></dt>
+                <dd>Continue along the undulating road around the south of the island, taking in spectacular views of the sea.</dd>
+            </dl>
+            <figure class="d-print-none">
+                <div class="d-block mb-4 position-relative">
+                <img class="img-fluid" src="{{'/assets/images/P1110031.jpg' | prepend: site.baseurl}}" alt="View back to Kildonan" />
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
-            </div>
+                <figcaption class="collapse" id="stage1Caption">
+                    <h6>View back to Kildonan</h6>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
     </li>
-    <li class="position-relative route-description__list-item" style="background-image: url({{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}); background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-6 col-lg-4">
-                    <dl>
-                        <dt class="h5"><span>Stage 5</span></dt>
-                        <dd class="shadow-lg">Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick.</dd>
-                    </dl>
+    <li class="row">
+        <div class="col col-sm-8">
+            <dl>
+                <dt class="h5"><span>Stage 5</span></dt>
+                <dd>Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick.</dd>
+            </dl>
+            <figure class="d-print-none">
+                <div class="d-block mb-4 position-relative">
+                <img class="img-fluid" src="{{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}" alt="Toward Lamlash with view of the Holy Isle" />
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
-            </div>
+                <figcaption class="collapse" id="stage1Caption">
+                    <h6>Toward Lamlash with view of the Holy Isle</h6>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
     </li>
 </ul>
-     <img class="d-none d-print-block" src="{{'/assets/routes/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="80%" />
+     <img class="d-none d-print-block" src="{{'/assets/routes/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
 </section>
 
 <section class="bg-dark text-white py-5 d-print-none">
@@ -156,22 +186,13 @@ categories: north-ayrshire
     <h2 class="mb-5">Gallery</h2>
 <div class="row mb-4">
     <div class="col-6 col-lg-4">
-        <figure>
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}">
-            </a>
-            <figcaption>
-                <h6>Toward Lamlash and the Holy Isle</h6>
-                <a href="#">Photo by Somebody</a>
-            </figcaption>
-        </figure>
        <figure>
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
                 <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
             </a>
             <figcaption>
                 <h6>More Seals</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
         <figure>
@@ -180,7 +201,7 @@ categories: north-ayrshire
             </a>
             <figcaption>
                 <h6>Unsustainable tourism</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
     </div>
@@ -191,7 +212,7 @@ categories: north-ayrshire
             </a>
             <figcaption>
                 <h6>Rock pool</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
         <figure>
@@ -200,7 +221,7 @@ categories: north-ayrshire
             </a>
             <figcaption>
                 <h6>Arran residents</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
         <figure>
@@ -209,7 +230,7 @@ categories: north-ayrshire
             </a>
             <figcaption>
                 <h6>Chillin'</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
     </div>
@@ -220,16 +241,16 @@ categories: north-ayrshire
             </a>
             <figcaption>
                 <h6>Mother Goose</h6>
-                <a href="#">Photo by Somebody</a>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
         <figure>
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
             </a>
             <figcaption>
-                <h6>More Seals</h6>
-                <a href="#">Photo by Somebody</a>
+                <h6>Pladda from Kildonan</h6>
+                <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
     </div>

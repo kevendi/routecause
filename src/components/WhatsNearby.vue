@@ -410,7 +410,7 @@ export default {
     getProducts() {
       var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
       axios.all(prodTypes.map(type => {
-        let url = "https://www.routecause.org/assets/json/" + type + ".json";
+        let url = "http://www.routecause.org/assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -432,7 +432,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("https://www.routecause.org/assets/json/" + productID+ ".json")
+          return axios.get("http://www.routecause.org/assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
@@ -474,34 +474,7 @@ export default {
     column-count: 3;
   }
   @media (min-width: 1200px) {
-    column-count: 4;
-  }
-}
-
-.card {
-  border: none;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  animation: card-fade-in 250ms forwards ease-in-out,
-  card-bounce-in 375ms cubic-bezier(0,0.615,0.29,1.285);
-}
-
-@keyframes card-fade-in {
-  from {
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes card-bounce-in {
-  from {
-    transform: translateY(20px) scale3d(0.6, 0.8, 0.8);
-  }
-
-  to {
-    transform: translateY(0) scale3d(1,1,1);
+    column-count: 3;
   }
 }
 
