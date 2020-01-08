@@ -5,7 +5,7 @@ date:   2020-01-03 13:08:52 +0000
 categories: north-ayrshire
 ---
 
-<section class="bg-dark text-light position-relative">
+<section class="text-light position-relative">
     <div class="container py-5" style="z-index: 2">
         <div class="row">
             <div class="col col-md-5">
@@ -69,7 +69,7 @@ categories: north-ayrshire
 </section>
 
 
-<section class="map-wrapper bg-dark">
+<section class="map-wrapper">
         <!--<iframe height="700" width="590" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/activities/2983316204/embed/9a75155f10c4fd3797cf3ab1a48a582abd1fd465"></iframe>-->
         <!-- <iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/2847883417?width=600&height=700&elevation=true&line_color=E6d9690d&rgbhex=0d69d9&distance_markers=1&unit_type=imperial&map_mode=TERRAIN&last_updated=2020-01-05T03:24:03-06:00&show_marker_every=3" height="100%" width="100%" frameborder="0"></iframe>
         <div style="text-align: right; padding-right: 20px;">
@@ -84,13 +84,13 @@ categories: north-ayrshire
     </iframe>
 </section>
 
-<section class="bg-dark text-light">
+<section class="text-light">
 <h2 class="container py-5">Route Description</h2>
 <ul class="list-unstyled container mb-0">
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h5"><span>Stage 1</span></dt>
+                <dt class="h3"><span>Stage 1</span></dt>
                 <dd>When departing from the Brodick Ferry Terminal, head south on the A841.</dd>
             </dl>
             <figure class="d-print-none">
@@ -108,7 +108,7 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h5"><span>Stage 2</span></dt>
+                <dt class="h3"><span>Stage 2</span></dt>
                 <dd>Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road.</dd>
             </dl>
             <figure class="d-print-none">
@@ -126,7 +126,7 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h5"><span>Stage 3</span></dt>
+                <dt class="h3"><span>Stage 3</span></dt>
                 <dd>Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash</dd>
             </dl>
             <figure class="d-print-none">
@@ -144,7 +144,7 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h5"><span>Stage 4</span></dt>
+                <dt class="h3"><span>Stage 4</span></dt>
                 <dd>Continue along the undulating road around the south of the island, taking in spectacular views of the sea.</dd>
             </dl>
             <figure class="d-print-none">
@@ -162,7 +162,7 @@ categories: north-ayrshire
     <li class="row">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h5"><span>Stage 5</span></dt>
+                <dt class="h3"><span>Stage 5</span></dt>
                 <dd>Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick.</dd>
             </dl>
             <figure class="d-print-none">
@@ -180,62 +180,56 @@ categories: north-ayrshire
 </ul>
      <img class="d-none d-print-block" src="{{'/assets/routes/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
 </section>
-
-<section class="bg-dark text-white py-5 d-print-none">
+<section class="text-white py-5 d-print-none">
 <div class="container">
     <h2 class="mb-5">Gallery</h2>
-<div class="row mb-4">
-    <div class="col-6 col-lg-4">
-       <figure>
+    <div class="card-columns card-columns--gallery">
+       <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <h6>Seals</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <h6>Kildonan</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-    </div>
-    <div class="col-6 col-lg-4">
-        <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <h6>Rock pool</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <h6>Arran residents</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <h6>Chillin'</h6>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-    </div>
-    <div class="col-6 col-lg-4 d-none d-lg-block">
-      <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1260770.JPG' | prepend: site.baseurl}}">
                 <img class="img-fluid" src="{{'/assets/images/P1260770.JPG' | prepend: site.baseurl}}">
             </a>
@@ -244,7 +238,7 @@ categories: north-ayrshire
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
-        <figure>
+        <figure class="card bg-dark">
             <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
                 <img class="img-fluid" src="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
             </a>
@@ -255,31 +249,30 @@ categories: north-ayrshire
         </figure>
     </div>
 </div>
-</div>
 </section>
 
 <section class="user-reviews__wrapper text-light d-print-none">
 <div class="container py-5">
 <h2 class="mb-5">Route Reviews</h2>
 <ul class="list-unstyled user-reviews__list row row-cols-1 row-cols-md-2 row-cols-lg-3">
-    <li class="media col">
+    <li class="media col p-3">
         <img class="mr-3" src="https://avatars.dicebear.com/v2/male/john.svg?options[mood][]=happy" alt="Generic placeholder image">
         <div class="media-body">
-            <h5 class="mt-0"><span class="rating">*****</span>Mitchell Campbell</h5>
+            <h5><span class="rating">*****</span>Mitchell Campbell</h5>
             I've done this route a few times already. Another alternate is to do the String Road and return via the Ross Road, if you want to do two big climbs in one day.
         </div>
     </li>
-    <li class="media col">
+    <li class="media col p-3">
         <img class="mr-3" src="https://avatars.dicebear.com/v2/female/john.svg?options[mood][]=happy" alt="Generic placeholder image">
         <div class="media-body">
-            <h5 class="mt-0"><span class="rating">**</span>Jeanette Bloomenthal</h5>
+            <h5><span class="rating">**</span>Jeanette Bloomenthal</h5>
             This route is okay but I much prefer doing the north loop of Arran, as it's a bit more relaxing apart from one big climb.
         </div>
     </li>
-    <li class="media col">
+    <li class="media col p-3">
         <img class="mr-3" src="https://avatars.dicebear.com/v2/female/test.svg?options[mood][]=happy" alt="Generic placeholder image">
         <div class="media-body">
-            <h5 class="mt-0"><span class="rating">*****</span>Audrey Winter</h5>
+            <h5><span class="rating">*****</span>Audrey Winter</h5>
             I'm coming to Scotland next year with my husband and this route looks spectacular! Definitely on my todo list!
         </div>
     </li>
