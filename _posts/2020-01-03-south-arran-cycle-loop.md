@@ -5,21 +5,22 @@ date:   2020-01-03 13:08:52 +0000
 categories: north-ayrshire
 ---
 
-<section class="text-light position-relative">
+<section class="text-light position-relative d-md-flex">
     <div class="container py-5" style="z-index: 2">
         <div class="row">
             <div class="col col-md-5">
-                <h1 class="display-4 mb-5" itemprop="name headline">{{ page.title }}</h1>
+                <h1 itemprop="name headline">{{ page.title }}</h1>
                 <p class="lead">The Isle of Arran has been described as Scotland in miniature. To the north are jagged mountains and to the south are rolling green lowland hills. Beautiful coastline surrounds the entire island. This trip takes in the undulating south of the island and is possible to complete in one day, although it's worth taking your time and spending at least a couple of days soaking up the scenery.</p>
             </div>
         </div>
     </div>
-    <div class="hero-wrapper d-none d-md-block" style="background-image: url({{'/assets/images/P1000343.jpg' | prepend: site.baseurl}});">
+    <div class="hero">
+        <img src="{{'/assets/images/P1000343.jpg' | prepend: site.baseurl}}" alt="View of Goatfell from Brodick Harbour"/>
     </div>
 </section>
 <section class="bg-primary d-print-none">
     <div class="container">
-        <div class="btn-toolbar justify-content-md-between mx-n3" role="toolbar" aria-label="Toolbar with button groups">
+        <div class="btn-toolbar justify-content-md-between mx-n3">
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.gpx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download GPX</a>
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.kml' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download KML</a>
             <a href="{{'/assets/routes/South_Arran_Cycle_Loop.tcx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download TCX</a>
