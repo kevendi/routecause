@@ -21,11 +21,20 @@
             <a class="nav-link" href="#">About</a>
           </li>
         </ul>
+        {% include search-lunr.html %}
         <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search">
-          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+          <label for="lunrsearch" class="sr-only">Search</label>
+          <input class="form-control form-control-lg mr-sm-2" type="search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search this site" />
+          <button class="btn btn-outline-light btn-lg my-2 my-sm-0" type="button">Search</button>
         </form>
       </div>
     </div>
     </nav>
 </header>
+<div class="bg-light">
+  <div class="container">
+  <div id="lunrsearchresults">
+    <ul></ul>
+  </div>
+</div>
+</div>

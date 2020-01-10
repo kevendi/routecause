@@ -70,13 +70,6 @@ categories: north-ayrshire
 
 
 <section class="map-wrapper">
-        <!--<iframe height="700" width="590" frameborder="0" allowtransparency="true" scrolling="no" src="https://www.strava.com/activities/2983316204/embed/9a75155f10c4fd3797cf3ab1a48a582abd1fd465"></iframe>-->
-        <!-- <iframe id="mapmyfitness_route" src="//snippets.mapmycdn.com/routes/view/embedded/2847883417?width=600&height=700&elevation=true&line_color=E6d9690d&rgbhex=0d69d9&distance_markers=1&unit_type=imperial&map_mode=TERRAIN&last_updated=2020-01-05T03:24:03-06:00&show_marker_every=3" height="100%" width="100%" frameborder="0"></iframe>
-        <div style="text-align: right; padding-right: 20px;">
-        <a target="_blank" rel="noopener noreferrer" href="http://www.mapmyride.com/routes/create/">Create Routes</a>
-        or <a href="http://www.mapmyride.com/routes/">Search for a route</a>
-        from millions at <a href="http://www.mapmyride.com">MapMyRide</a>
-        </div>-->
     <iframe 
         class="d-print-none"
         name="plotaroute_map_996002"
@@ -90,7 +83,7 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h3"><span>Stage 1</span></dt>
+                <dt class="h5"><span>Stage 1</span></dt>
                 <dd>When departing from the Brodick Ferry Terminal, head south on the A841.</dd>
             </dl>
             <figure class="d-print-none">
@@ -108,15 +101,15 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h3"><span>Stage 2</span></dt>
+                <dt class="h5"><span>Stage 2</span></dt>
                 <dd>Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road.</dd>
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
                 <img class="img-fluid" src="{{'/assets/images/P1160704.jpg' | prepend: site.baseurl}}" alt="The String Road" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage2Caption" data-target="#stage2Caption" type="button">Toggle Caption</button>
                 </div>
-                <figcaption class="collapse" id="stage1Caption">
+                <figcaption class="collapse" id="stage2Caption">
                     <h6>The String Road</h6>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
@@ -126,15 +119,15 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h3"><span>Stage 3</span></dt>
+                <dt class="h5"><span>Stage 3</span></dt>
                 <dd>Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash</dd>
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
                 <img class="img-fluid" src="{{'/assets/images/P1100878.jpg' | prepend: site.baseurl}}" alt="Overlooking Pladda" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage3Caption" data-target="#stage3Caption" type="button">Toggle Caption</button>
                 </div>
-                <figcaption class="collapse" id="stage1Caption">
+                <figcaption class="collapse" id="stage3Caption">
                     <h6>Overlooking Pladda</h6>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
@@ -144,15 +137,15 @@ categories: north-ayrshire
     <li class="row mb-5">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h3"><span>Stage 4</span></dt>
+                <dt class="h5"><span>Stage 4</span></dt>
                 <dd>Continue along the undulating road around the south of the island, taking in spectacular views of the sea.</dd>
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
                 <img class="img-fluid" src="{{'/assets/images/P1110031.jpg' | prepend: site.baseurl}}" alt="View back to Kildonan" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage4Caption" data-target="#stage4Caption" type="button">Toggle Caption</button>
                 </div>
-                <figcaption class="collapse" id="stage1Caption">
+                <figcaption class="collapse" id="stage4Caption">
                     <h6>View back to Kildonan</h6>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
@@ -162,15 +155,15 @@ categories: north-ayrshire
     <li class="row">
         <div class="col col-sm-8">
             <dl>
-                <dt class="h3"><span>Stage 5</span></dt>
+                <dt class="h5"><span>Stage 5</span></dt>
                 <dd>Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick.</dd>
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
                 <img class="img-fluid" src="{{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}" alt="Toward Lamlash with view of the Holy Isle" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
+                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage5Caption" data-target="#stage5Caption" type="button">Toggle Caption</button>
                 </div>
-                <figcaption class="collapse" id="stage1Caption">
+                <figcaption class="collapse" id="stage5Caption">
                     <h6>Toward Lamlash with view of the Holy Isle</h6>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
