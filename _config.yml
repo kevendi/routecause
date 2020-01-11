@@ -28,6 +28,16 @@ markdown: kramdown
 plugins:
   - jekyll-feed
 
+collections:
+  routes:
+    output: true
+    permalink: /:collection/:name
+  posts:
+    output: true
+    permalink: /:collection/:path/
+
+permalink: /:collections/:path/:title/
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

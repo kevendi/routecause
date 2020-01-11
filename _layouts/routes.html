@@ -1,0 +1,77 @@
+---
+layout: default
+page-type: routes
+---
+
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="post-content" itemprop="articleBody">  
+    <section class="text-light position-relative d-md-flex">
+      <div class="container py-5" style="z-index: 2">
+          <div class="row">
+              <div class="col col-md-5">
+                  <h1 itemprop="name headline">{{ page.title }}</h1>
+                  <p class="lead">{{ page.lead }}</p>
+              </div>
+          </div>
+      </div>
+      <figure class="hero d-print-none">
+          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
+          <figcaption class="sr-only">
+              <span>{{page.heroImageAlt}}</span>
+              <span>{{page.heroImageCredit}}</span>
+          </figcaption>
+      </figure>
+  </section>
+  <section class="bg-primary d-print-none">
+    <div class="container">
+        <div class="btn-toolbar justify-content-md-between mx-n3">
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.gpx'}}" class="btn btn-lg btn-primary">Download GPX</a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.kml'}}" class="btn btn-lg btn-primary">Download KML</a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.tcx'}}" class="btn btn-lg btn-primary">Download TCX</a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.pdf'}}" class="btn btn-lg btn-primary">Download PDF Map</a>
+            <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-primary">Print Route</button>
+        </div>
+    </div>
+</section>
+<section class="route-summary__wrapper bg-info text-light py-5">
+  <div class="container">
+      <h2 class="mb-5">Route Summary</h2>
+      <ul class="mb-0 row row-cols-2 row-cols-md-4 list-unstyled">
+          <li class="col py-3">
+              <h3 class="h5">Distance</h3>
+              <p>{{page.distance}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">Time</h3>
+              <p>{{page.time}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">Ascent</h3>
+              <p>{{page.ascent}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">Difficulty Level</h3>
+              <p>{{page.difficultyLevel}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">Terrain</h3>
+              <p>{{page.terrain}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">Start Point</h3>
+              <p>{{page.startPoint}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">End Point</h3>
+              <p>{{page.endPoint}}</p>
+          </li>
+          <li class="col py-3">
+              <h3 class="h5">How to Get There</h3>
+              {{page.howToGetThere}}
+          </li>
+      </ul>
+  </div>
+</section>
+    {{ content }}
+  </div>
+</article>

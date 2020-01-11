@@ -1,81 +1,22 @@
 ---
-layout: post
+layout: routes
 title:  "South Arran Cycle Loop"
-date:   2020-01-03 13:08:52 +0000
-categories: north-ayrshire
-imagePath: "/assets/images/P1000343.jpg"
-imageAlt: "View of Goatfell from Brodick Harbour"
-summary: "This route around the south half of Arran includes a challenging climb up the string road and plenty of opportunities for spotting wildlife"
+location: "Isle of Arran | North Ayrshire"
+routeAssetsPathBase: "/assets/routes/South_Arran_Cycle_Loop"
+heroImagePath: "/assets/images/P1000343.jpg"
+heroImageAlt: "View of Goatfell from Brodick Harbour"
+heroImageCredit: "Kelly Marshall"
+summary: "This route around the south half of Arran includes a challenging climb up the string road and provides plenty of opportunities for spotting wildlife"
+lead: "The Isle of Arran has been described as Scotland in miniature. To the north are jagged mountains and to the south are rolling green lowland hills. Beautiful coastline surrounds the entire island. This trip takes in the undulating south of the island and is possible to complete in one day, although it's worth taking your time and spending at least a couple of days soaking up the scenery."
+distance: "34 mi / 56 km"
+time: "5 hours"
+ascent: "3,156 ft"
+difficultyLevel: "Strenuous"
+terrain: "Tarmac"
+startPoint: "Brodick Ferry Terminal"
+endPoint: "Brodick Ferry Terminal"
+howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick\" target=\"_blank\">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class=\"text-warning\" href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads\" target=\"_blank\">Ardrossan Harbour railway station.</a></p>"
 ---
-
-<section class="text-light position-relative d-md-flex">
-    <div class="container py-5" style="z-index: 2">
-        <div class="row">
-            <div class="col col-md-5">
-                <h1 itemprop="name headline">{{ page.title }}</h1>
-                <p class="lead">The Isle of Arran has been described as Scotland in miniature. To the north are jagged mountains and to the south are rolling green lowland hills. Beautiful coastline surrounds the entire island. This trip takes in the undulating south of the island and is possible to complete in one day, although it's worth taking your time and spending at least a couple of days soaking up the scenery.</p>
-            </div>
-        </div>
-    </div>
-    <figure class="hero d-print-none">
-        <img src="{{page.imagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
-        <figcaption class="sr-only">
-            <span>View of Goatfell from Brodick Harbour</span>
-            <span>Photo by Kelly Marshall</span>
-        </figcaption>
-    </figure>
-</section>
-<section class="bg-primary d-print-none">
-    <div class="container">
-        <div class="btn-toolbar justify-content-md-between mx-n3">
-            <a href="{{'/assets/routes/South_Arran_Cycle_Loop.gpx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download GPX</a>
-            <a href="{{'/assets/routes/South_Arran_Cycle_Loop.kml' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download KML</a>
-            <a href="{{'/assets/routes/South_Arran_Cycle_Loop.tcx' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download TCX</a>
-            <a href="{{'/assets/routes/South_Arran_Cycle_Loop.pdf' | prepend: site.baseurl}}" class="btn btn-lg btn-primary">Download PDF Map</a>
-            <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-primary">Print Route</button>
-        </div>
-    </div>
-</section>
-<section class="route-summary__wrapper bg-info text-light py-5">
-    <div class="container">
-        <h2 class="mb-5">Route Summary</h2>
-        <ul class="mb-0 row row-cols-2 row-cols-md-4 list-unstyled">
-            <li class="col py-3">
-                <h3 class="h5">Distance</h3>
-                <p>34 mi / 56 km</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">Time</h3>
-                <p>5 hours</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">Ascent</h3>
-                <p>3,156 ft</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">Difficulty Level</h3>
-                <p>Strenuous</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">Terrain</h3>
-                <p>Tarmac</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">Start Point</h3>
-                <p>Brodick Ferry Terminal</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">End Point</h3>
-                <p>Brodick Ferry Terminal</p>
-            </li>
-            <li class="col py-3">
-                <h3 class="h5">How to Get There</h3>
-                <p>The Isle of Arran is easily <a class="text-warning" href="https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick" target="_blank">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class="text-warning" href="https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads" target="_blank">Ardrossan Harbour railway station.</a></p>
-            </li>
-        </ul>
-    </div>
-</section>
-
 
 <section class="map-wrapper">
     <iframe 
