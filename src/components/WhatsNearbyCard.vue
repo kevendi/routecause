@@ -1,6 +1,6 @@
 <template>
-    <div class="card bg-secondary">
-        <img :src="feature.properties.formattedImage" class="card-img-top bg-primary p-5" :alt="feature.properties.name">
+    <div class="card bg-dark border border-secondary">
+        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary p-5" :alt="feature.properties.name">
         <div class="card-body">
             <h3 class="card-title h5" v-html="feature.properties.name"></h3>
             <strong class="card-text">
