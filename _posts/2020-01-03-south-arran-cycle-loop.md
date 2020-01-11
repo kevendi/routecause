@@ -14,9 +14,13 @@ categories: north-ayrshire
             </div>
         </div>
     </div>
-    <div class="hero">
+    <figure class="hero d-print-none">
         <img src="{{'/assets/images/P1000343.jpg' | prepend: site.baseurl}}" alt="View of Goatfell from Brodick Harbour"/>
-    </div>
+        <figcaption class="sr-only">
+            <span>View of Goatfell from Brodick Harbour</span>
+            <span>Photo by Kelly Marshall</span>
+        </figcaption>
+    </figure>
 </section>
 <section class="bg-primary d-print-none">
     <div class="container">
@@ -93,7 +97,7 @@ categories: north-ayrshire
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage1Caption">
-                    <h6>Brodick Harbour with Caledonian MacBrayne Ferry</h6>
+                    <p class="h6">Brodick Harbour with Caledonian MacBrayne Ferry</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -111,7 +115,7 @@ categories: north-ayrshire
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage2Caption" data-target="#stage2Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage2Caption">
-                    <h6>The String Road</h6>
+                    <p class="h6">The String Road</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -129,7 +133,7 @@ categories: north-ayrshire
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage3Caption" data-target="#stage3Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage3Caption">
-                    <h6>Overlooking Pladda</h6>
+                    <p class="h6">Overlooking Pladda</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -147,7 +151,7 @@ categories: north-ayrshire
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage4Caption" data-target="#stage4Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage4Caption">
-                    <h6>View back to Kildonan</h6>
+                    <p class="h6">View back to Kildonan</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -165,7 +169,7 @@ categories: north-ayrshire
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage5Caption" data-target="#stage5Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage5Caption">
-                    <h6>Toward Lamlash with view of the Holy Isle</h6>
+                    <p class="h6">Toward Lamlash with view of the Holy Isle</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
@@ -183,7 +187,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
-                <h6>Seals</h6>
+                <p class="h6">Seals</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -192,7 +196,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
-                <h6>Kildonan</h6>
+                <p class="h6">Kildonan</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -201,7 +205,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
-                <h6>Rock pool</h6>
+                <p class="h6">Rock pool</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -210,7 +214,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
-                <h6>Arran residents</h6>
+                <p class="h6">Arran residents</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -219,7 +223,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
-                <h6>Chillin'</h6>
+                <p class="h6">Chillin'</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -228,7 +232,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1260770.JPG' | prepend: site.baseurl}}">
             </a>
             <figcaption>
-                <h6>Mother Goose</h6>
+                <p class="h6">Mother Goose</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>
@@ -237,7 +241,7 @@ categories: north-ayrshire
                 <img class="img-fluid" src="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
             </a>
             <figcaption>
-                <h6>Pladda from Kildonan</h6>
+                <p class="h6">Pladda from Kildonan</p>
                 <a href="#">Photo by Kelly Marshall</a>
             </figcaption>
         </figure>

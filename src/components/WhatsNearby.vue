@@ -14,24 +14,24 @@
             </button>
           </div>
         </div>
+      </div>
     </div>
-    </div>
-      <nav>
-        <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
-          <a
-            v-for="(label, key) in labels.product.types" :key="key"
-            class="nav-link h5 nav-`${key}`"
-            :class="key=='acco' ? 'active' : ''"
-            :id="'nav-'+key+'-tab'"
-            data-toggle="tab"
-            :href="'#nav-'+key"
-            role="tab"
-            :aria-controls="'nav-'+key"
-            :aria-selected="key=='acco'"
-          >{{label}}</a>
-        </div>
-      </nav>
-  <div class="tab-content" id="nav-tabContent" v-if="!isLoading">
+    <nav class="sticky-top">
+      <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
+        <a
+          v-for="(label, key) in labels.product.types" :key="key"
+          class="nav-link h5 nav-`${key}`"
+          :class="key=='acco' ? 'active' : ''"
+          :id="'nav-'+key+'-tab'"
+          data-toggle="tab"
+          :href="'#nav-'+key"
+          role="tab"
+          :aria-controls="'nav-'+key"
+          :aria-selected="key=='acco'"
+        >{{label}}</a>
+      </div>
+    </nav>
+    <div class="tab-content" id="nav-tabContent" v-if="!isLoading">
       <div class="tab-pane active fade show" role="tabpanel" id="nav-acco" aria-labelledby="nav-acco-tab">
         <div class="card-columns"  v-if="accoFeatures.length">
           <whats-nearby-card 
@@ -87,7 +87,7 @@
         </div>
       </div>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
@@ -356,7 +356,7 @@ export default {
     getProducts() {
       var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
       axios.all(prodTypes.map(type => {
-        let url = "http://127.0.0.1:4000/assets/json/" + type + ".json";
+        let url = "https://www.routecause.org/assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -378,7 +378,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("http://127.0.0.1:4000/assets/json/" + productID+ ".json")
+          return axios.get("https://www.routecause.org/assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
@@ -406,22 +406,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tab-content {
-  position: relative;
-  height: 80vh;
-  overflow-y: scroll;
-}
-
-.card-columns {
-  @media (min-width: 576px) {
-    column-count: 2;
+  .tab-content {
+    position: relative;
+    height: 80vh;
+    overflow-y: scroll;
   }
-  @media (min-width: 920px) {
-    column-count: 3;
+  .card-columns {
+    @media (min-width: 576px) {
+      column-count: 2;
+    }
+    @media (min-width: 920px) {
+      column-count: 3;
+    }
+    @media (min-width: 1200px) {
+      column-count: 3;
+    }
   }
-  @media (min-width: 1200px) {
-    column-count: 3;
-  }
-}
-
 </style>
