@@ -273,6 +273,6 @@ categories: north-ayrshire
 </ul>
 </div>
 </section>
-<section class="bg-light py-5 d-print-none" id="app">
+<section class="py-5 text-light d-print-none" id="app">
     <whats-nearby></whats-nearby>
 </section>

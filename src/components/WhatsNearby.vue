@@ -19,74 +19,19 @@
       <nav>
         <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
           <a
-            class="nav-item nav-link h5 active"
-            :class="{disabled: !accoFeatures.length}"
-            :disabled="!accoFeatures.length"
-            id="nav-acco-tab"
+            v-for="(label, key) in labels.product.types" :key="key"
+            class="nav-link h5 nav-`${key}`"
+            :class="key=='acco' ? 'active' : ''"
+            :id="'nav-'+key+'-tab'"
             data-toggle="tab"
-            href="#nav-acco"
+            :href="'#nav-'+key"
             role="tab"
-            aria-controls="nav-acco"
-            aria-selected="true"
-          >Accommodation</a>
-          <a
-            class="nav-item nav-link h5"
-            :class="{disabled: !actiFeatures.length}"
-            :disabled="!actiFeatures.length"
-            id="nav-acti-tab"
-            data-toggle="tab"
-            href="#nav-acti"
-            role="tab"
-            aria-controls="nav-acti"
-            aria-selected="false"
-          >Activities</a>
-          <a
-            class="nav-item nav-link h5"
-            :class="{disabled: !attrFeatures.length}"
-            :disabled="!attrFeatures.length"
-            id="nav-attr-tab"
-            data-toggle="tab"
-            href="#nav-attr"
-            role="tab"
-            aria-controls="nav-attr"
-            aria-selected="false"
-          >Attractions</a>
-          <a
-            class="nav-item nav-link h5"
-            :class="{disabled: !evenFeatures.length}"
-            :disabled="!evenFeatures.length"
-            id="nav-even-tab"
-            data-toggle="tab"
-            href="#nav-even"
-            role="tab"
-            aria-controls="nav-even"
-            aria-selected="false"
-          >Events</a>
-          <a
-            class="nav-item nav-link h5"
-            :class="{disabled: !cateFeatures.length}"
-            :disabled="!cateFeatures.length"
-            id="nav-cate-tab"
-            data-toggle="tab"
-            href="#nav-cate"
-            role="tab"
-            aria-controls="nav-cate"
-            aria-selected="false"
-          >Food and Drink</a>
-          <a
-            class="nav-item nav-link h5"
-            :class="{disabled: !retaFeatures.length}"
-            :disabled="!retaFeatures.length"
-            id="nav-reta-tab"
-            data-toggle="tab"
-            href="#nav-reta"
-            role="tab"
-            aria-controls="nav-reta"
-            aria-selected="false"
-          >Shopping</a>
+            :aria-controls="'nav-'+key"
+            :aria-selected="key=='acco'"
+          >{{label}}</a>
         </div>
       </nav>
-    <div class="tab-content" id="nav-tabContent" v-if="!isLoading">
+  <div class="tab-content" id="nav-tabContent" v-if="!isLoading">
       <div class="tab-pane active fade show" role="tabpanel" id="nav-acco" aria-labelledby="nav-acco-tab">
         <div class="card-columns"  v-if="accoFeatures.length">
           <whats-nearby-card 
@@ -320,7 +265,7 @@ export default {
       //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
       // }
       // return featureFormattedImage;
-      return '/assets/images/placeholder.jpg';
+      return '/assets/images/routecause.svg';
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -411,7 +356,7 @@ export default {
     getProducts() {
       var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
       axios.all(prodTypes.map(type => {
-        let url = "https://www.routecause.org/assets/json/" + type + ".json";
+        let url = "http://127.0.0.1:4000/assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -433,7 +378,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("https://www.routecause.org/assets/json/" + productID+ ".json")
+          return axios.get("http://127.0.0.1:4000/assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
