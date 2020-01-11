@@ -3,6 +3,9 @@ layout: post
 title:  "South Arran Cycle Loop"
 date:   2020-01-03 13:08:52 +0000
 categories: north-ayrshire
+imagePath: "/assets/images/P1000343.jpg"
+imageAlt: "View of Goatfell from Brodick Harbour"
+summary: "This route around the south half of Arran includes a challenging climb up the string road and plenty of opportunities for spotting wildlife"
 ---
 
 <section class="text-light position-relative d-md-flex">
@@ -15,7 +18,7 @@ categories: north-ayrshire
         </div>
     </div>
     <figure class="hero d-print-none">
-        <img src="{{'/assets/images/P1000343.jpg' | prepend: site.baseurl}}" alt="View of Goatfell from Brodick Harbour"/>
+        <img src="{{page.imagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
         <figcaption class="sr-only">
             <span>View of Goatfell from Brodick Harbour</span>
             <span>Photo by Kelly Marshall</span>

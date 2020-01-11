@@ -1,18 +1,20 @@
 <header class="bg-primary top-header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container py-md-2 ">
-        <a class="navbar-brand mr-5" href="/">
-          <img src="{{'/assets/images/routecause.svg' | prepend: site.baseurl}}" class="logo d-inline-block align-top" alt="Route Cause Logo">
-          <span class="sr-only">Route Cause</span>
-        </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container py-md-2 ">
+      <a class="navbar-brand mr-5" href="/">
+        <img src="{{'/assets/images/routecause.svg' | prepend: site.baseurl}}" class="logo d-inline-block align-top"
+          alt="Route Cause Logo">
+        <span class="sr-only">Route Cause</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler"
+        aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-    
+
       <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Routes</a>
@@ -24,17 +26,18 @@
         {% include search-lunr.html %}
         <form class="form-inline my-2 my-lg-0">
           <label for="lunrsearch" class="sr-only">Search</label>
-          <input class="form-control form-control-lg mr-sm-2" type="search" id="lunrsearch" name="q" maxlength="255" value="" placeholder="Search this site" />
-          <button class="btn btn-outline-light btn-lg my-2 my-sm-0" type="button">Search</button>
+          <input class="form-control mr-sm-2" type="search" id="lunrsearch" name="q" maxlength="255" value=""
+            placeholder="Search this site" />
+          <button class="btn btn-outline-light my-2 my-sm-0" type="button">Search</button>
         </form>
       </div>
     </div>
-    </nav>
+  </nav>
 </header>
 <div class="bg-light">
   <div class="container">
-  <div id="lunrsearchresults">
-    <ul></ul>
+    <div id="lunrsearchresults">
+      <ul></ul>
+    </div>
   </div>
-</div>
 </div>
