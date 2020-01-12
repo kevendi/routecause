@@ -2,8 +2,8 @@
 layout: routes
 title:  "South Arran Cycle Loop"
 location: "Isle of Arran | North Ayrshire"
-routeAssetsPathBase: "/assets/routes/South_Arran_Cycle_Loop"
-heroImagePath: "/assets/images/P1000343.jpg"
+routeAssetsPathBase: "/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop"
+heroImagePath: "/assets/routes/south-arran-cycle-loop/images/P1000343.jpg"
 heroImageAlt: "View of Goatfell from Brodick Harbour"
 heroImageCredit: "Kelly Marshall"
 summary: "This route around the south half of Arran includes a challenging climb up the string road and provides plenty of opportunities for spotting wildlife"
@@ -38,7 +38,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Brodick Harbour with Caledonian MacBrayne Ferry" />
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Brodick Harbour with Caledonian MacBrayne Ferry" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage1Caption">
@@ -56,7 +56,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1160704.jpg' | prepend: site.baseurl}}" alt="The String Road" />
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1160704.jpg' | prepend: site.baseurl}}" alt="The String Road" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage2Caption" data-target="#stage2Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage2Caption">
@@ -74,7 +74,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1100878.jpg' | prepend: site.baseurl}}" alt="Overlooking Pladda" />
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1100878.jpg' | prepend: site.baseurl}}" alt="Overlooking Pladda" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage3Caption" data-target="#stage3Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage3Caption">
@@ -92,7 +92,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1110031.jpg' | prepend: site.baseurl}}" alt="View back to Kildonan" />
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1110031.jpg' | prepend: site.baseurl}}" alt="View back to Kildonan" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage4Caption" data-target="#stage4Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage4Caption">
@@ -110,7 +110,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </dl>
             <figure class="d-print-none">
                 <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/images/P1000611.jpg' | prepend: site.baseurl}}" alt="Toward Lamlash with view of the Holy Isle" />
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1000611.jpg' | prepend: site.baseurl}}" alt="Toward Lamlash with view of the Holy Isle" />
                 <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage5Caption" data-target="#stage5Caption" type="button">Toggle Caption</button>
                 </div>
                 <figcaption class="collapse" id="stage5Caption">
@@ -128,8 +128,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
     <h2 class="mb-5">Gallery</h2>
     <div class="card-columns card-columns--gallery">
        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1340327.JPG' | prepend: site.baseurl}}" />
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1340327.JPG' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1340327.JPG' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <p class="h6">Seals</p>
@@ -137,8 +137,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030015.jpg' | prepend: site.baseurl}}" />
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030015.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030015.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <p class="h6">Kildonan</p>
@@ -146,8 +146,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030142.jpg' | prepend: site.baseurl}}" />
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030142.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030142.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <p class="h6">Rock pool</p>
@@ -155,8 +155,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1030373.jpg' | prepend: site.baseurl}}" />
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030373.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030373.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <p class="h6">Arran residents</p>
@@ -164,8 +164,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1170446.jpg' | prepend: site.baseurl}}" />
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1170446.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1170446.jpg' | prepend: site.baseurl}}" />
             </a>
             <figcaption>
                 <p class="h6">Chillin'</p>
@@ -173,8 +173,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1260770.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1260770.JPG' | prepend: site.baseurl}}">
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1260770.JPG' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1260770.JPG' | prepend: site.baseurl}}">
             </a>
             <figcaption>
                 <p class="h6">Mother Goose</p>
@@ -182,8 +182,8 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
             </figcaption>
         </figure>
         <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/images/P1420059.jpg' | prepend: site.baseurl}}">
+            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1420059.jpg' | prepend: site.baseurl}}">
+                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1420059.jpg' | prepend: site.baseurl}}">
             </a>
             <figcaption>
                 <p class="h6">Pladda from Kildonan</p>
