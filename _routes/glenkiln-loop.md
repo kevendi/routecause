@@ -165,7 +165,7 @@ howToGetThere: "<p>The Glenkiln Loop is fully accessible via public transport fr
             </a>
             <figcaption>
                 <p class="h6">Glenkiln Reservoir</p>
-                <a href="#">Photo by Kelly Marshall</a>
+                <a href="#">Photo by Mairi McCann</a>
             </figcaption>
         </figure>
         <figure class="card bg-dark">
@@ -221,7 +221,7 @@ howToGetThere: "<p>The Glenkiln Loop is fully accessible via public transport fr
         <img class="mr-3" src="https://avatars.dicebear.com/v2/male/test.svg?options[mood][]=happy" alt="Generic placeholder image">
         <div class="media-body">
             <h5><span class="rating">*****</span>James Cooper</h5>
-            I live in Dumfries and do this route at least once a month. So many fantastic bike rides around here!
+            I live in Dumfries and do this route at least once a month. There are so many fantastic bike rides around here!
         </div>
     </li>
 </ul>
