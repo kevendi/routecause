@@ -121,7 +121,7 @@ howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"
         </div>
     </li>
 </ul>
-     <img class="d-none d-print-block" src="{{'/assets/routes/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
+     <img class="d-none d-print-block" src="{{'/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
 </section>
 <section class="text-white py-5 d-print-none">
 <div class="container">
