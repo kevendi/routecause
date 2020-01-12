@@ -23,21 +23,29 @@
             <a class="nav-link" href="#">About</a>
           </li>
         </ul>
-        {% include search-lunr.html %}
-        <form class="form-inline my-2 my-lg-0">
-          <label for="lunrsearch" class="sr-only">Search</label>
-          <input class="form-control mr-sm-2" type="search" id="lunrsearch" name="q" maxlength="255" value=""
+        <form class="form-inline">
+          <label for="search-input" class="sr-only">Search</label>
+          <input class="form-control" type="search" id="search-input" name="search"
             placeholder="Search this site" />
-          <button class="btn btn-outline-light my-2 my-sm-0" type="button">Search</button>
         </form>
       </div>
     </div>
   </nav>
 </header>
-<div class="bg-light">
-  <div class="container">
-    <div id="lunrsearchresults">
-      <ul></ul>
-    </div>
-  </div>
+<div class="container position-relative">
+  <ul class="text-light search-list list-unstyled position-static" id="results-container"></ul>
 </div>
+
+<!-- Script pointing to search-script.js -->
+<script src="{{'/assets/vendor/simple-jekyll-search.js' | prepend: site.baseurl}}" type="text/javascript"></script>
+
+<!-- Configuration -->
+<script>
+SimpleJekyllSearch({
+  searchInput: document.getElementById('search-input'),
+  resultsContainer: document.getElementById('results-container'),
+  searchResultTemplate: '<li class="py-5"><a href="{url}"><p class="h5">{title}</p></a><p>{summary}</p><a href="{url}">{url}</a></li>',
+  noResultsText: ("Sorry, no result found!"),
+  json: '/search.json'
+})
+</script>

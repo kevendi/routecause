@@ -7,10 +7,13 @@
   background-image: url("../images/tyremarks.svg");
   background-repeat: no-repeat;
   background-position: right center;
+}
 
-  .form-inline {
-    flex-flow: row nowrap;
-  }
+.search-list {
+  position: static;
+  width: 50vw;
+  width: 100%;
+  padding: 0;
 }
 
 
