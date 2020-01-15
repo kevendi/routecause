@@ -7,6 +7,7 @@
       "title"    : "{{ route.title | strip_html | escape }}",
       "url"      : "{{ route.baseurl }}{{ route.url }}",
       "location" : "{{ route.location }}",
+      "region" : "{{ route.region }}",
       "summary" : "{{route.summary | strip_html | strip_newlines | escape }}",
       "difficultyLevel" : "{{ route.difficultyLevel }}",
       "distanceMiles" : "{{ route.distanceMiles }}",
@@ -14,7 +15,7 @@
       "startPoint" : "{{ route.startPoint }}",
       "terrain" : "{{ route.terrain }}",
       "endPoint" : "{{ route.endPoint }}",
-      "time" : "{{ route.time }}"
+      "durationHours" : "{{ route.durationHours }}"
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}

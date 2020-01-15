@@ -1,7 +1,8 @@
 ---
 layout: routes
 title:  "South Arran Cycle Loop"
-location: "Isle of Arran | North Ayrshire"
+location: "Isle of Arran"
+region: "North Ayrshire"
 routeAssetsPathBase: "/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop"
 heroImagePath: "/assets/routes/south-arran-cycle-loop/images/P1000343.jpg"
 heroImageAlt: "View of Goatfell from Brodick Harbour"
@@ -10,7 +11,7 @@ summary: "This route around the south half of Arran includes a challenging climb
 lead: "The Isle of Arran has been described as Scotland in miniature. To the north are jagged mountains and to the south are rolling green lowland hills. Beautiful coastline surrounds the entire island. This trip takes in the undulating south of the island and is possible to complete in one day, although it's worth taking your time and spending at least a couple of days soaking up the scenery."
 distanceMiles: "34"
 distanceKilometres: "56"
-time: "5 hours"
+durationHours: "5"
 ascent: "3,156 ft"
 difficultyLevel: "Strenuous"
 terrain: "Tarmac"
