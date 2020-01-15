@@ -87,6 +87,34 @@ page-type: routes
         msallowfullscreen>
     </iframe>
 </section>
+
+<section class="text-light">
+    <h2 class="container py-5">Route Description</h2>
+    <ul class="list-unstyled container mb-0">
+        {% for stage in page.stages %}
+        <li class="row mb-5">
+            <div class="col col-sm-8">
+                <dl>
+                    <dt class="h5"><span>Stage {{stage.number}}</span></dt>
+                    <dd>{{stage.description}}</dd>
+                </dl>
+                <figure class="d-print-none">
+                    <div class="d-block mb-4 position-relative">
+                    <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
+                    <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage{{stage.number}}Caption" data-target="#stage{{stage.number}}Caption" type="button">Toggle Caption</button>
+                    </div>
+                    <figcaption class="collapse" id="stage{{stage.number}}Caption">
+                        <p class="h6">{{stage.imageDescription}}</p>
+                        <a href="#">Photo by {{stage.imageCredit}}</a>
+                    </figcaption>
+                </figure>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+         <img class="d-none d-print-block" src="{{'/assets/routes/glenkiln-loop/Glenkiln_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
+    </section>
+
     {{ content }}
   </div>
 </article>

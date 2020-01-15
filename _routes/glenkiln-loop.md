@@ -19,184 +19,113 @@ startPoint: "Dumfries Railway Station"
 endPoint: "Dumfries Railway Station"
 howToGetThere: "<p>The Glenkiln Loop is fully accessible via public transport from <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/dmf\" target=\"_blank\" class=\"text-warning\">Dumfries Railway Station</a></p>"
 plotARouteID: "1003167"
----
+stages:
+  - number: 1
+    description: "Lorem ipsum dolor sit amet."
+    imagePath: "/assets/routes/glenkiln-loop/images/P1150091.jpg"
+    imageDescription: "Lorem ipsum dolor sit amet"
+    imageCredit: "Kelly Marshall"
+  - number: 2
+    description: "Lorem ipsum dolor sit amet."
+    imagePath: "/assets/routes/glenkiln-loop/images/P1130533.JPG"
+    imageDescription: "Lorem ipsum dolor sit amet"
+    imageCredit: "Kelly Marshall"
+  - number: 3
+    description: "Lorem ipsum dolor sit amet."
+    imagePath: "/assets/routes/glenkiln-loop/images/P1130495.JPG"
+    imageDescription: "Lorem ipsum dolor sit amet"
+    imageCredit: "Kelly Marshall"
+  - number: 4
+    description: "Lorem ipsum dolor sit amet."
+    imagePath: "/assets/routes/glenkiln-loop/images/P1130519.JPG"
+    imageDescription: "Lorem ipsum dolor sit amet"
+    imageCredit: "Kelly Marshall"
+  - number: 5
+    description: "Lorem ipsum dolor sit amet."
+    imagePath: "/assets/routes/glenkiln-loop/images/P1150307.jpg"
+    imageDescription: "Lorem ipsum dolor sit amet"
+    imageCredit: "Kelly Marshall"
 
-<section class="text-light">
-<h2 class="container py-5">Route Description</h2>
-<ul class="list-unstyled container mb-0">
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 1</span></dt>
-                <dd>Lorem ipsum dolor sit amet.</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150091.jpg' | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage1Caption">
-                    <p class="h6">Lorem ipsum dolor sit amet</p>
+---
+ <section class="text-white py-5 d-print-none">
+    <div class="container">
+        <h2 class="mb-5">Gallery</h2>
+        <div class="card-columns card-columns--gallery">
+           <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
+                    <p class="h6">Stone Walls</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 2</span></dt>
-                <dd>Lorem ipsum dolor sit amet</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130533.JPG' | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage2Caption" data-target="#stage2Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage2Caption">
-                    <p class="h6">Lorem ipsum dolor sit amet</p>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
+                    <p class="h6">Lambs</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 3</span></dt>
-                <dd>Lorem ipsum dolor sit amet</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130495.JPG' | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage3Caption" data-target="#stage3Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage3Caption">
-                    <p class="h6">Lorem ipsum dolor sit amet</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 4</span></dt>
-                <dd>Lorem ipsum dolor sit amet</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130519.JPG' | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage4Caption" data-target="#stage4Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage4Caption">
-                    <p class="h6">Lorem ipsum dolor sit amet</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 5</span></dt>
-                <dd>Lorem ipsum dolor sit amet</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150307.jpg' | prepend: site.baseurl}}" alt="Lorem ipsum dolor sit amet" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage5Caption" data-target="#stage5Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage5Caption">
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
                     <p class="h6">Irongray Church</p>
                     <a href="#">Photo by Kelly Marshall</a>
                 </figcaption>
             </figure>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
+                    <p class="h6">Curly Wurly</p>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
+                    <p class="h6">Glenkiln Reservoir</p>
+                    <a href="#">Photo by Mairi McCann</a>
+                </figcaption>
+            </figure>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}" />
+                </a>
+                <figcaption>
+                    <p class="h6">Belties</p>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
+                </a>
+                <figcaption>
+                    <p class="h6">Follow the sign!</p>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
+            <figure class="card bg-dark">
+                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
+                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
+                </a>
+                <figcaption>
+                    <p class="h6">Big Bird</p>
+                    <a href="#">Photo by Kelly Marshall</a>
+                </figcaption>
+            </figure>
         </div>
-    </li>
-</ul>
-     <img class="d-none d-print-block" src="{{'/assets/routes/glenkiln-loop/Glenkiln_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
-</section>
-<section class="text-white py-5 d-print-none">
-<div class="container">
-    <h2 class="mb-5">Gallery</h2>
-    <div class="card-columns card-columns--gallery">
-       <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Stone Walls</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Lambs</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Irongray Church</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Curly Wurly</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Glenkiln Reservoir</p>
-                <a href="#">Photo by Mairi McCann</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Belties</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
-            </a>
-            <figcaption>
-                <p class="h6">Follow the sign!</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
-            </a>
-            <figcaption>
-                <p class="h6">Big Bird</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
     </div>
-</div>
-</section>
-
+    </section>
 <section class="user-reviews__wrapper text-light d-print-none">
 <div class="container py-5">
 <h2 class="mb-5">Route Reviews</h2>
