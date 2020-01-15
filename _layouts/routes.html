@@ -72,6 +72,21 @@ page-type: routes
       </ul>
   </div>
 </section>
+<section class="map-wrapper container">
+    <h2 class="py-5 text-light">Route Map</h2>
+    <iframe 
+        class="d-print-none" 
+        name="plotaroute_map_{{page.plotARouteID}}" 
+        src="https://www.plotaroute.com/embedmap/{{page.plotARouteID}}?units=miles&hills=show" 
+        frameborder="0" 
+        scrolling="no" 
+        allowfullscreen 
+        webkitallowfullscreen 
+        mozallowfullscreen 
+        oallowfullscreen 
+        msallowfullscreen>
+    </iframe>
+</section>
     {{ content }}
   </div>
 </article>

@@ -17,15 +17,8 @@ terrain: "Tarmac"
 startPoint: "Brodick Ferry Terminal"
 endPoint: "Brodick Ferry Terminal"
 howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick\" target=\"_blank\">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class=\"text-warning\" href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads\" target=\"_blank\">Ardrossan Harbour railway station.</a></p>"
+plotARouteID: "996002"
 ---
-
-<section class="map-wrapper">
-    <iframe 
-        class="d-print-none"
-        name="plotaroute_map_996002"
-        src="https://www.plotaroute.com/embedmap/996002?units=miles&hills=show"  frameborder="0" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen>
-    </iframe>
-</section>
 
 <section class="text-light">
 <h2 class="container py-5">Route Description</h2>

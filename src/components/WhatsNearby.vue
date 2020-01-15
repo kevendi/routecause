@@ -91,7 +91,6 @@
 </template>
 
 <script>
-import Promise from 'es6-promise';
 import moment from 'moment';
 import axios from 'axios';
 import WhatsNearbyCard from './WhatsNearbyCard'

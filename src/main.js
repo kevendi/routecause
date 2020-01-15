@@ -1,4 +1,3 @@
-require('es6-promise').polyfill()
 import Vue from 'vue'
 import WhatsNearby from './components/WhatsNearby'
 
