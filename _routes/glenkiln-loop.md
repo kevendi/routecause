@@ -78,36 +78,22 @@ gallery:
     imageDescription: "Big Bird"
     imageCredit: "Kelly Marshall"
     creditHref: "#"
+reviews:
+  - rating: "*"
+    imagePath: "https://avatars.dicebear.com/v2/female/jane.svg?options[mood][]=sad"
+    name: "Jane Doe"
+    description: "I thought there were sculptures near the reservoir along this route. Then I read that someone stole one of them and they had to take the rest away and put them in storage. What a shame! People are so stupid!"
+  - rating: "*****"
+    imagePath: "https://avatars.dicebear.com/v2/female/jeanette.svg?options[mood][]=happy"
+    name: "Jeanette Bloomenthal"
+    description: "I love this route. It's really beautiful and unspoiled and almost no traffic."
+  - rating: "*****"
+    imagePath: "https://avatars.dicebear.com/v2/male/james.svg?options[mood][]=happy"
+    name: "James Cooper"
+    description: "I live in Dumfries and do this route at least once a month. There are so many fantastic bike rides around here!"
 
 ---
-<section class="user-reviews__wrapper text-light d-print-none">
-<div class="container py-5">
-<h2 class="mb-5">Route Reviews</h2>
-<ul class="list-unstyled user-reviews__list row row-cols-1 row-cols-md-2 row-cols-lg-3">
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/female/jane.svg?options[mood][]=sad" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">*</span>Jane Doe</h5>
-            I thought there were sculptures near the reservoir along this route. Then I read that someone stole one of them and they had to take the rest away and put them in storage. What a shame! People are so stupid!
-        </div>
-    </li>
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/female/janet.svg?options[mood][]=happy" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">**</span>Jeanette Bloomenthal</h5>
-            I love this route. It's really beautiful and unspoiled and almost no traffic.
-        </div>
-    </li>
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/male/test.svg?options[mood][]=happy" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">*****</span>James Cooper</h5>
-            I live in Dumfries and do this route at least once a month. There are so many fantastic bike rides around here!
-        </div>
-    </li>
-</ul>
-</div>
-</section>
+
 <!-- <section class="py-5 text-light d-print-none" id="app">
     <whats-nearby></whats-nearby>
 </section> -->

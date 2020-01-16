@@ -133,6 +133,22 @@ page-type: routes
             </div>
         </div>
     </section>
+    <section class="user-reviews__wrapper text-light d-print-none">
+        <div class="container py-5">
+        <h2 class="mb-5">Route Reviews</h2>
+        <ul class="list-unstyled user-reviews__list row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            {% for review in page.reviews %}
+            <li class="media col p-3">
+                <img class="mr-3" src="{{review.imagePath}}" alt="{{review.name}}">
+                <div class="media-body">
+                    <h5><span class="rating">{{review.rating}}</span>{{review.name}}</h5>
+                    {{review.description}}
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+        </div>
+    </section>
 
     {{ content }}
   </div>

@@ -74,36 +74,21 @@ gallery:
     imageDescription: "Pladda from Kildonan"
     imageCredit: "Kelly Marshall"
     creditHref: "#"
+reviews:
+  - rating: "*****"
+    imagePath: "https://avatars.dicebear.com/v2/male/john.svg?options[mood][]=happy"
+    name: "Mitchell Campbell"
+    description: "I've done this route a few times already. Another alternate is to do the String Road and return via the Ross Road, if you want to do two big climbs in one day."
+  - rating: "**"
+    imagePath: "https://avatars.dicebear.com/v2/female/john.svg?options[mood][]=happy"
+    name: "Jeanette Bloomenthal"
+    description: "This route is okay but I much prefer doing the north loop of Arran, as it's a bit more relaxing apart from one big climb."
+  - rating: "*****"
+    imagePath: "https://avatars.dicebear.com/v2/female/test.svg?options[mood][]=happy"
+    name: "Audrey Winter"
+    description: "I'm coming to Scotland next year with my husband and this route looks spectacular! Definitely on my todo list!"
 ---
 
-<section class="user-reviews__wrapper text-light d-print-none">
-<div class="container py-5">
-<h2 class="mb-5">Route Reviews</h2>
-<ul class="list-unstyled user-reviews__list row row-cols-1 row-cols-md-2 row-cols-lg-3">
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/male/john.svg?options[mood][]=happy" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">*****</span>Mitchell Campbell</h5>
-            I've done this route a few times already. Another alternate is to do the String Road and return via the Ross Road, if you want to do two big climbs in one day.
-        </div>
-    </li>
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/female/john.svg?options[mood][]=happy" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">**</span>Jeanette Bloomenthal</h5>
-            This route is okay but I much prefer doing the north loop of Arran, as it's a bit more relaxing apart from one big climb.
-        </div>
-    </li>
-    <li class="media col p-3">
-        <img class="mr-3" src="https://avatars.dicebear.com/v2/female/test.svg?options[mood][]=happy" alt="Generic placeholder image">
-        <div class="media-body">
-            <h5><span class="rating">*****</span>Audrey Winter</h5>
-            I'm coming to Scotland next year with my husband and this route looks spectacular! Definitely on my todo list!
-        </div>
-    </li>
-</ul>
-</div>
-</section>
 <section class="py-5 text-light d-print-none" id="app">
     <whats-nearby></whats-nearby>
 </section>
