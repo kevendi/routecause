@@ -41,48 +41,12 @@
           </whats-nearby-card>
         </div>
       </div>
-      <div class="tab-pane fade show" role="tabpanel" id="nav-acti" aria-labelledby="nav-acti-tab">
-        <div class="card-columns" v-if="actiFeatures.length">
-          <whats-nearby-card 
-            v-for="(actiFeature, actiIndex) in actiFeatures" 
-            :key="actiIndex" 
-            :feature="actiFeature">
-          </whats-nearby-card>
-        </div>
-      </div>
-      <div class="tab-pane fade show" role="tabpanel" id="nav-attr" aria-labelledby="nav-attr-tab">
-        <div class="card-columns">
-          <whats-nearby-card 
-            v-for="(attrFeature, attrIndex) in attrFeatures" 
-            :key="attrIndex" 
-            :feature="attrFeature">
-          </whats-nearby-card>
-        </div>
-      </div>
       <div class="tab-pane fade show" role="tabpanel" id="nav-even" aria-labelledby="nav-even-tab">
         <div class="card-columns">
           <whats-nearby-card 
             v-for="(evenFeature, evenIndex) in evenFeatures" 
             :key="evenIndex" 
             :feature="evenFeature">
-          </whats-nearby-card>
-        </div>
-      </div>
-      <div class="tab-pane fade show" role="tabpanel" id="nav-cate" aria-labelledby="nav-cate-tab">
-        <div class="card-columns">
-          <whats-nearby-card 
-            v-for="(cateFeature, cateIndex) in cateFeatures" 
-            :key="cateIndex" 
-            :feature="cateFeature">
-          </whats-nearby-card>
-        </div>
-      </div>
-      <div class="tab-pane fade show" role="tabpanel" id="nav-reta" aria-labelledby="nav-reta-tab">
-        <div class="card-columns">
-          <whats-nearby-card 
-            v-for="(retaFeature, retaIndex) in retaFeatures" 
-            :key="retaIndex" 
-            :feature="retaFeature">
           </whats-nearby-card>
         </div>
       </div>
@@ -105,15 +69,12 @@ export default {
     return {
       isLoading: true,
       products: [],
+      devListAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYzQ3YjExYTgtZGIwMC00OGVmLWFjODctYzg4M2VjYmYwMDQxIiwia2V5X2lkIjoiMzdkNmRlN2EtNDZlMS00MjNmLWEzZWMtYmUxZWVhNDNiNTlhIiwiaWF0IjoxNTc5MjA5ODA1fQ.gCV_HNP3-WatxuFfELkSsutnzp9ySw9A1LwPZrFpbpo",
       labels: {
         product: {
           types: {
             acco: "Accommodation",
-            acti: "Activities",
-            attr: "Attractions",
             even: "Events",
-            cate: "Food and Drink",
-            reta: "Shopping"
           },
           basis: {
             pp: "per pitch per night",
@@ -132,6 +93,7 @@ export default {
           }
         }
       },
+      placeholderImagePath: '/assets/images/imagePlaceholder.png',
       searchTerms: ''
     };
   },
@@ -164,29 +126,9 @@ export default {
         return this.filterByProductType(feature, 'acco');
       })
     },
-    actiFeatures() {
-      return this.sortedFeatures.filter(feature => {
-        return this.filterByProductType(feature, 'acti');
-      })
-    },
-    attrFeatures() {
-      return this.sortedFeatures.filter(feature => {
-        return this.filterByProductType(feature, 'attr');
-      })
-    },
-    cateFeatures() {
-      return this.sortedFeatures.filter(feature => {
-        return this.filterByProductType(feature, 'cate');
-      })
-    },
     evenFeatures() {
       return this.sortedFeatures.filter(feature => {
         return this.filterByProductType(feature, 'even');
-      })
-    },
-    retaFeatures() {
-      return this.sortedFeatures.filter(feature => {
-        return this.filterByProductType(feature, 'reta');
       })
     },
     sortedFeatures() {
@@ -196,6 +138,9 @@ export default {
       return sortedFeatures;
     }
   },
+  props: [
+      'locationName'
+  ],
   methods: {
     clearSearchTerms() {
       this.searchTerms = '';
@@ -239,6 +184,76 @@ export default {
       }
       return formattedDates;
     },
+    formatEventProperties(response) {
+      var events = response.data;
+      events.map(event => {
+          event.schedules[0].performances.map(performance => {
+            var featureObj = {};
+            featureObj.properties = {};
+            featureObj.properties.productType = this.getFeatureFormattedProductType('even');
+            featureObj.properties.icon = 'icon-even';
+              
+            featureObj.properties.name = event.name;
+            featureObj.properties.formattedSortName = this.getFeatureFormattedSortName(event.name);
+            if (event.images) {
+              featureObj.properties.formattedImage = event.images[0].url;
+              featureObj.properties.alt_text = event.images[0].alt_text;
+            } else if (event.schedules.images) {
+              featureObj.properties.formattedImage = event.schedules[0].images[0].url;
+              featureObj.properties.alt_text = event.schedules[0].images[0].alt_text;
+            } else {
+              featureObj.properties.formattedImage = this.placeholderImagePath;
+              featureObj.properties.alt_text = null;
+            }
+            featureObj.properties.locationName = event.schedules[0].place.town;
+            featureObj.properties.latitude = event.schedules[0].place.lat;
+            featureObj.properties.longitude = event.schedules[0].place.lng;
+            featureObj.properties.facilities = null;
+            let place_name = (event.schedules[0].place.name.length  > 0) ? event.schedules[0].place.name + ', '  : '';
+            let address = (event.schedules[0].place.address.length  > 0) ? event.schedules[0].place.address + ', '  : '';
+            let town = (event.schedules[0].place.town.length  > 0) ? event.schedules[0].place.town + ', '  : '';
+            let postal_code = (event.schedules[0].place.postal_code.length  > 0) ? event.schedules[0].place.postal_code  : '';
+            featureObj.properties.formattedAddress = place_name + address + town + postal_code;
+            featureObj.properties.googleMapsLink = 'https://www.google.com/maps/place/' + featureObj.properties.formattedAddress;
+            featureObj.properties.even = true;
+            featureObj.properties.minStars = null;
+            featureObj.properties.maxStars = null;
+            featureObj.properties.website = event.website;
+            featureObj.properties.description = (event.descriptions.length > 0) ? event.descriptions[0].description : null;
+            featureObj.properties.tags = event.tags.map(item => {
+              return item;
+            }).join(', ');
+            let prices = [];
+            if(performance.tickets) {
+              performance.tickets.map(ticket => {
+                if(ticket.description) {
+                  return prices.push(ticket.description);
+                }
+                return;
+              });
+            }
+            featureObj.properties.price = prices.length ? prices.sort()[0] : null;
+            featureObj.properties.formattedPrices = featureObj.properties.price
+            featureObj.properties.multiplePrices = (prices.length > 0) ? true : false;
+            featureObj.properties.id = event.event_id;
+            featureObj.properties.startDate = performance.ts;
+            featureObj.properties.endDate = performance.ts;
+            featureObj.properties.formattedDates = this.getFeatureFormattedDates(featureObj)
+            featureObj.properties.bookingUrl = (performance.links.length > 0) ? performance.links[0].url : null;
+            this.products.push(featureObj);
+          })
+        })
+    },
+    getEvents() {
+      var minDate = moment().format("YYYY-MM-DD");
+      var maxDate = moment().add(1, 'years').format("YYYY-MM-DD");
+      var AuthStr = 'Bearer ' + this.devListAccessToken;
+      var url = 'https://api.list.co.uk/v1/events?location='+this.locationName+'&min_date='+minDate+'&max_date='+maxDate+'&order=ts';
+        axios.get(url, { headers: { Authorization: AuthStr }})
+        .then(response => {
+          return this.formatEventProperties(response);
+        })
+    },
     getFeatureFormattedFacilities(feature) {
       let formattedFacilities = null;
       if (feature.properties.facilities !== null) {
@@ -265,7 +280,7 @@ export default {
       //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
       // }
       // return featureFormattedImage;
-      return '/assets/images/routecause.svg';
+      return this.placeholderImagePath;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -354,9 +369,9 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
-      var prodTypes = ["acco", "acti", "attr", "even", "cate", "reta"];
+      var prodTypes = ["acco"];
       axios.all(prodTypes.map(type => {
-        let url = "https://www.routecause.org/assets/json/" + type + ".json";
+        let url = "../assets/json/" + type + ".json";
         return axios.get(url)
           .then(response => {
             response.data.features.map(feature => {
@@ -378,7 +393,7 @@ export default {
     getProductData(productID) {
       axios.all(this.products.map((feature, index) => {
         if ((feature.properties.id === productID) && (feature.properties.category === undefined)) {
-          return axios.get("https://www.routecause.org/assets/json/" + productID+ ".json")
+          return axios.get("../assets/json/" + productID+ ".json")
           .then(response => {
             let obj = Object.assign({}, feature.properties, response.data.data[0]);
             feature.properties = obj;
@@ -401,6 +416,7 @@ export default {
   },
   mounted() {
     this.getProducts();
+    this.getEvents();
   }
 };
 </script>

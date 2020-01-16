@@ -1,6 +1,6 @@
 <template>
     <div class="card bg-dark border border-secondary">
-        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary p-5" :alt="feature.properties.name">
+        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary" :alt="feature.properties.name">
         <div class="card-body">
             <h3 class="card-title h5" v-html="feature.properties.name"></h3>
             <strong class="card-text">
@@ -10,7 +10,7 @@
                 <template v-if="feature.properties.featureHasStarGrading">
                 <span class="text-primary" v-for="(item,starIndex) in feature.properties.maxStars" :key="starIndex">*</span> | 
                 </template>
-                {{feature.properties.locationName}} | {{feature.properties.category}}
+                {{feature.properties.locationName}} <template v-if="feature.properties.category">| {{feature.properties.category}}</template>
             </strong>
             <p class="card-text" v-html="feature.properties.description"></p>
             <dl>
@@ -26,7 +26,7 @@
                     <dt>Facilities</dt>
                     <dd class="d-inline" v-for="(facility, facIndex) in feature.properties.formattedFacilities" :key="facIndex">{{facility.value}}<template v-if="facIndex != feature.properties.formattedFacilities.length - 1">, </template></dd>
                 </template>
-                <template v-if="feature.properties.addressLine1 && feature.properties.addressLine1 !== '.null'">
+                <template v-if="feature.properties.formattedAddress">
                     <dt>Address</dt>
                     <dd>
                     <a :href="feature.properties.googleMapsLink" target="_blank" title="Get Directions">{{feature.properties.formattedAddress}}</a>
