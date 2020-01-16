@@ -1,17 +1,20 @@
 ---
 layout: default
 ---
-
-<div class="container">
-  <ul class="list-unstyled card-columns vh-100 mt-5">
-    {% for route in site.routes %}
-      <li class="card bg-dark text-light border border-secondary">
-        <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}">
-        <div class="card-body">
-        <h3 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h3>
-        <p>{{ route.summary }}</p>
-        </div>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+  <section class="text-light position-relative d-md-flex">
+      <div class="container py-5">
+          <div class="row">
+              <div class="col col-md-5">
+                  <h1 itemprop="name headline">Home</h1>
+                  <p class="lead"></p>
+              </div>
+          </div>
+      </div>
+      <figure class="hero d-print-none">
+          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
+          <figcaption class="sr-only">
+              <span>{{page.heroImageAlt}}</span>
+              <span>{{page.heroImageCredit}}</span>
+          </figcaption>
+      </figure>
+  </section>
