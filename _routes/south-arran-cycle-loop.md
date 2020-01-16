@@ -19,104 +19,33 @@ startPoint: "Brodick Ferry Terminal"
 endPoint: "Brodick Ferry Terminal"
 howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick\" target=\"_blank\">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class=\"text-warning\" href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads\" target=\"_blank\">Ardrossan Harbour railway station.</a></p>"
 plotARouteID: "996002"
+stages:
+  - number: 1
+    description: "When departing from the Brodick Ferry Terminal, head south on the A841."
+    imagePath: "/assets/routes/south-arran-cycle-loop/images/P1110064.JPG"
+    imageDescription: "Brodick Harbour with Caledonian MacBrayne Ferry"
+    imageCredit: "Kelly Marshall"
+  - number: 2
+    description: "Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road."
+    imagePath: "/assets/routes/south-arran-cycle-loop/images/P1160704.jpg"
+    imageDescription: "The String Road"
+    imageCredit: "Kelly Marshall"
+  - number: 3
+    description: "Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash"
+    imagePath: "/assets/routes/south-arran-cycle-loop/images/P1100878.jpg"
+    imageDescription: "Overlooking Pladda"
+    imageCredit: "Kelly Marshall"
+  - number: 4
+    description: "Continue along the undulating road around the south of the island, taking in spectacular views of the sea."
+    imagePath: "/assets/routes/south-arran-cycle-loop/images/P1110031.jpg"
+    imageDescription: "View back to Kildonan"
+    imageCredit: "Kelly Marshall"
+  - number: 5
+    description: "Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick."
+    imagePath: "/assets/routes/south-arran-cycle-loop/images/P1000611.jpg"
+    imageDescription: "Toward Lamlash with view of the Holy Isle"
+    imageCredit: "Kelly Marshall"
 ---
-
-<section class="text-light">
-<h2 class="container py-5">Route Description</h2>
-<ul class="list-unstyled container mb-0">
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 1</span></dt>
-                <dd>When departing from the Brodick Ferry Terminal, head south on the A841.</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1110064.JPG' | prepend: site.baseurl}}" alt="Brodick Harbour with Caledonian MacBrayne Ferry" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage1Caption" data-target="#stage1Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage1Caption">
-                    <p class="h6">Brodick Harbour with Caledonian MacBrayne Ferry</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 2</span></dt>
-                <dd>Turn right at the sign for West B880, Blackwaterfoot where you will face a challenging ascent up the famous String Road.</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1160704.jpg' | prepend: site.baseurl}}" alt="The String Road" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage2Caption" data-target="#stage2Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage2Caption">
-                    <p class="h6">The String Road</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 3</span></dt>
-                <dd>Turn left on the A841 at the sign toward Lagg, Whiting Bay and Lamlash</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1100878.jpg' | prepend: site.baseurl}}" alt="Overlooking Pladda" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage3Caption" data-target="#stage3Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage3Caption">
-                    <p class="h6">Overlooking Pladda</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row mb-5">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 4</span></dt>
-                <dd>Continue along the undulating road around the south of the island, taking in spectacular views of the sea.</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1110031.jpg' | prepend: site.baseurl}}" alt="View back to Kildonan" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage4Caption" data-target="#stage4Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage4Caption">
-                    <p class="h6">View back to Kildonan</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-    <li class="row">
-        <div class="col col-sm-8">
-            <dl>
-                <dt class="h5"><span>Stage 5</span></dt>
-                <dd>Pass through Whiting Bay and Lamlash and climb one last hill up the A841 before descending back to the start point in Brodick.</dd>
-            </dl>
-            <figure class="d-print-none">
-                <div class="d-block mb-4 position-relative">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1000611.jpg' | prepend: site.baseurl}}" alt="Toward Lamlash with view of the Holy Isle" />
-                <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage5Caption" data-target="#stage5Caption" type="button">Toggle Caption</button>
-                </div>
-                <figcaption class="collapse" id="stage5Caption">
-                    <p class="h6">Toward Lamlash with view of the Holy Isle</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </li>
-</ul>
-     <img class="d-none d-print-block" src="{{'/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
-</section>
 <section class="text-white py-5 d-print-none">
 <div class="container">
     <h2 class="mb-5">Gallery</h2>

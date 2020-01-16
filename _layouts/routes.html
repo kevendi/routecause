@@ -112,7 +112,7 @@ page-type: routes
         </li>
         {% endfor %}
     </ul>
-         <img class="d-none d-print-block" src="{{'/assets/routes/glenkiln-loop/Glenkiln_Loop.jpg' | prepend: site.baseurl}}" width="90%" />
+         <img class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg'}}" width="90%" />
     </section>
 
     {{ content }}
