@@ -45,77 +45,36 @@ stages:
     imagePath: "/assets/routes/south-arran-cycle-loop/images/P1000611.jpg"
     imageDescription: "Toward Lamlash with view of the Holy Isle"
     imageCredit: "Kelly Marshall"
+gallery:
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1340327.JPG"
+    imageDescription: "Seals"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1030015.jpg"
+    imageDescription: "Kildonan"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1030142.jpg"
+    imageDescription: "Rock pool"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1030373.jpg"
+    imageDescription: "Arran residents"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1170446.jpg"
+    imageDescription: "Chillin'"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1260770.JPG"
+    imageDescription: "Mother Goose"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/south-arran-cycle-loop/images/P1420059.jpg"
+    imageDescription: "Pladda from Kildonan"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
 ---
-<section class="text-white py-5 d-print-none">
-<div class="container">
-    <h2 class="mb-5">Gallery</h2>
-    <div class="card-columns card-columns--gallery">
-       <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1340327.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1340327.JPG' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Seals</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030015.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030015.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Kildonan</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030142.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030142.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Rock pool</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1030373.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1030373.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Arran residents</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1170446.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1170446.jpg' | prepend: site.baseurl}}" />
-            </a>
-            <figcaption>
-                <p class="h6">Chillin'</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1260770.JPG' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1260770.JPG' | prepend: site.baseurl}}">
-            </a>
-            <figcaption>
-                <p class="h6">Mother Goose</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-        <figure class="card bg-dark">
-            <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/south-arran-cycle-loop/images/P1420059.jpg' | prepend: site.baseurl}}">
-                <img class="img-fluid" src="{{'/assets/routes/south-arran-cycle-loop/images/P1420059.jpg' | prepend: site.baseurl}}">
-            </a>
-            <figcaption>
-                <p class="h6">Pladda from Kildonan</p>
-                <a href="#">Photo by Kelly Marshall</a>
-            </figcaption>
-        </figure>
-    </div>
-</div>
-</section>
 
 <section class="user-reviews__wrapper text-light d-print-none">
 <div class="container py-5">

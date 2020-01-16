@@ -45,87 +45,41 @@ stages:
     imagePath: "/assets/routes/glenkiln-loop/images/P1150307.jpg"
     imageDescription: "Lorem ipsum dolor sit amet"
     imageCredit: "Kelly Marshall"
+gallery:
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1050297.jpg"
+    imageDescription: "Stone Walls"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1050531.jpg"
+    imageDescription: "Lambs"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1050557.jpg"
+    imageDescription: "Irongray Church"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1130492.JPG"
+    imageDescription: "Curly Wurly"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1150133.jpg"
+    imageDescription: "Glenkiln Reservoir"
+    imageCredit: "Mairi McCann"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1050484.jpg"
+    imageDescription: "Belties"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1150116.jpg"
+    imageDescription: "Follow the sign!"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
+  - imagePath: "/assets/routes/glenkiln-loop/images/P1150130.jpg"
+    imageDescription: "Big Bird"
+    imageCredit: "Kelly Marshall"
+    creditHref: "#"
 
 ---
- <section class="text-white py-5 d-print-none">
-    <div class="container">
-        <h2 class="mb-5">Gallery</h2>
-        <div class="card-columns card-columns--gallery">
-           <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050297.jpg' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Stone Walls</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050531.jpg' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Lambs</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050557.jpg' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Irongray Church</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1130492.JPG' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Curly Wurly</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150133.jpg' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Glenkiln Reservoir</p>
-                    <a href="#">Photo by Mairi McCann</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1050484.jpg' | prepend: site.baseurl}}" />
-                </a>
-                <figcaption>
-                    <p class="h6">Belties</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150116.jpg' | prepend: site.baseurl}}">
-                </a>
-                <figcaption>
-                    <p class="h6">Follow the sign!</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-            <figure class="card bg-dark">
-                <a class="d-block mb-4" data-fancybox="images" href="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
-                    <img class="img-fluid" src="{{'/assets/routes/glenkiln-loop/images/P1150130.jpg' | prepend: site.baseurl}}">
-                </a>
-                <figcaption>
-                    <p class="h6">Big Bird</p>
-                    <a href="#">Photo by Kelly Marshall</a>
-                </figcaption>
-            </figure>
-        </div>
-    </div>
-    </section>
 <section class="user-reviews__wrapper text-light d-print-none">
 <div class="container py-5">
 <h2 class="mb-5">Route Reviews</h2>

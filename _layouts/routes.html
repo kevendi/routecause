@@ -115,6 +115,25 @@ page-type: routes
          <img class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg'}}" width="90%" />
     </section>
 
+    <section class="text-white py-5 d-print-none">
+        <div class="container">
+            <h2 class="mb-5">Gallery</h2>
+            <div class="card-columns card-columns--gallery">
+                {% for galleryItem in page.gallery %}
+                <figure class="card bg-dark">
+                    <a class="d-block mb-4" data-fancybox="images" href="{{galleryItem.imagePath | prepend: site.baseurl}}">
+                        <img class="img-fluid" src="{{galleryItem.imagePath | prepend: site.baseurl}}" alt="{{galleryItem.imageDescription}}">
+                    </a>
+                    <figcaption>
+                        <p class="h6">{{galleryItem.imageDescription}}</p>
+                        <a href="#">Photo by {{galleryItem.imageCredit}}</a>
+                    </figcaption>
+                </figure>
+                {% endfor %}
+            </div>
+        </div>
+    </section>
+
     {{ content }}
   </div>
 </article>
