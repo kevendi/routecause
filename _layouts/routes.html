@@ -165,12 +165,18 @@ page-type: routes
             <li class="media col p-3">
                 <img class="mr-3" src="{{review.imagePath}}" alt="{{review.name}}">
                 <div class="media-body">
-                    <strong class="h5"><span class="rating">{{review.rating}}</span>{{review.name}}</strong>
+                    <strong class="h5 d-block"><span class="rating">{{review.rating}}</span>{{review.name}}</strong>
                     {{review.description}}
                 </div>
             </li>
             {% endfor %}
         </ul>
+        
+        </div>
+        <div class="bg-dark">
+            <div class="container py-3">
+                <small><strong>Disclaimer:</strong> The above reviews are not real and are only just for show. If you would like to submit a real review of this {{page.title}} cycle route, please <a href="mailto: routecause@yahoo.com">email us</a></small>
+            </div>
         </div>
     </section>
 

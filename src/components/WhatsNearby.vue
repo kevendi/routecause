@@ -192,9 +192,8 @@ export default {
             featureObj.properties = {};
             featureObj.properties.productType = this.getFeatureFormattedProductType('even');
             featureObj.properties.icon = 'icon-even';
-              
+            
             featureObj.properties.name = event.name;
-            featureObj.properties.formattedSortName = this.getFeatureFormattedSortName(event.name);
             if (event.images) {
               featureObj.properties.formattedImage = event.images[0].url;
               featureObj.properties.alt_text = event.images[0].alt_text;
@@ -220,7 +219,7 @@ export default {
             featureObj.properties.maxStars = null;
             featureObj.properties.website = event.website;
             featureObj.properties.description = (event.descriptions.length > 0) ? event.descriptions[0].description : null;
-            featureObj.properties.tags = event.tags.map(item => {
+            featureObj.properties.category = event.tags.map(item => {
               return item;
             }).join(', ');
             let prices = [];
@@ -253,6 +252,7 @@ export default {
         .then(response => {
           return this.formatEventProperties(response);
         })
+        .then(this.isLoading = false)
     },
     getFeatureFormattedFacilities(feature) {
       let formattedFacilities = null;
@@ -415,7 +415,9 @@ export default {
     }
   },
   mounted() {
-    this.getProducts();
+    // We only have sample accommodation data for Arran just now
+    
+    (this.locationName === "Arran") ? this.getProducts() : ''
     this.getEvents();
   }
 };

@@ -99,6 +99,6 @@ reviews:
 
 ---
 
-<!-- <section class="py-5 text-light d-print-none" id="app">
-    <whats-nearby></whats-nearby>
-</section> -->
+<section class="py-5 text-light d-print-none" id="app">
+    <whats-nearby location-name="Dumfries"></whats-nearby>
+</section>

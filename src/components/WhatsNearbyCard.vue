@@ -1,6 +1,8 @@
 <template>
     <div class="card bg-dark border border-secondary">
-        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary" :alt="feature.properties.name + ' accommodation'">
+        <div class="card-image-wrapper bg-secondary">
+        <img :src="feature.properties.formattedImage" class="card-image" :alt="feature.properties.name + feature.properties.productType.value">
+        </div>
         <div class="card-body">
             <h3 class="card-title h5" v-html="feature.properties.name"></h3>
             <strong class="card-text">
@@ -10,7 +12,7 @@
                 <template v-if="feature.properties.featureHasStarGrading">
                 <span v-for="(item,starIndex) in feature.properties.maxStars" :key="starIndex">*</span> <span class="font-weight-light">|</span> 
                 </template>
-                {{feature.properties.locationName}} <template v-if="feature.properties.category"><span class="font-weight-light">|</span>  {{feature.properties.category}}</template>
+                {{feature.properties.locationName}} <template v-if="feature.properties.category && feature.properties.productType.key !== 'even'"><span class="font-weight-light">|</span>  {{feature.properties.category}}</template>
             </strong>
             <p class="card-text" v-html="feature.properties.description"></p>
             <dl>
@@ -73,6 +75,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.card-image-wrapper {
+  height: 200px;
+}
+.card-image {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  object-position: center;
+  object-fit: contain;
+}
 .card {
   border: none;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
