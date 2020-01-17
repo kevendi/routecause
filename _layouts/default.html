@@ -6,9 +6,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="{{'/assets/css/main.css' | prepend: site.baseurl}}">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
-  </head>
+  <link rel="stylesheet" href="{{'/assets/css/main.css' | prepend: site.baseurl}}">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <meta name="theme-color" content="#1c73be">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156421431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-156421431-1');
+</script>
+
+
+  <meta property="og:site_name" content="Route Cause">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en-GB">
+  <meta property="og:copyright" content="© RouteCause 2020">
+  <meta property="og:url" content="{{ site.baseurl }}{{ page.url }}">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="{{ page.summary }}">
+  <meta property="og:image" content="{{ page.heroImagePath }}">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{{ page.summary }}">
+  <meta name="twitter:image" content="{{ page.heroImagePath }}">
+  <meta name="twitter:card" content="summary_large_image">
+<!--
+  <link rel="icon" type="image/png" href="/images/favicons/16x16.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="/images/favicons/32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/57x57.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/114x114.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/72x72.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/144x144.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/60x60.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/120x120.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/76x76.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="/images/favicons/192x192.png">
+  -->
+</head>
 
 <body class="bg-dark">
   {% include header.html %}
