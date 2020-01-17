@@ -422,6 +422,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  .nav-link {
+    color: white;
+  }
+
   .tab-content {
     position: relative;
     height: 80vh;

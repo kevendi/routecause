@@ -1,16 +1,16 @@
 <template>
     <div class="card bg-dark border border-secondary">
-        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary" :alt="feature.properties.name">
+        <img :src="feature.properties.formattedImage" class="card-img-top bg-secondary" :alt="feature.properties.name + ' accommodation'">
         <div class="card-body">
             <h3 class="card-title h5" v-html="feature.properties.name"></h3>
             <strong class="card-text">
                 <template v-if="feature.properties.featureHasStarGradingRange">
-                *<span>{{feature.properties.minStars}}-{{feature.properties.maxStars}}</span> | 
+                *<span>{{feature.properties.minStars}}-{{feature.properties.maxStars}}</span> <span class="font-weight-light">|</span>  
                 </template>
                 <template v-if="feature.properties.featureHasStarGrading">
-                <span class="text-primary" v-for="(item,starIndex) in feature.properties.maxStars" :key="starIndex">*</span> | 
+                <span v-for="(item,starIndex) in feature.properties.maxStars" :key="starIndex">*</span> <span class="font-weight-light">|</span> 
                 </template>
-                {{feature.properties.locationName}} <template v-if="feature.properties.category">| {{feature.properties.category}}</template>
+                {{feature.properties.locationName}} <template v-if="feature.properties.category"><span class="font-weight-light">|</span>  {{feature.properties.category}}</template>
             </strong>
             <p class="card-text" v-html="feature.properties.description"></p>
             <dl>

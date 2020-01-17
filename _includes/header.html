@@ -21,9 +21,8 @@
           </li>
         </ul>
         <form class="form-inline">
-          <label for="search-input" class="sr-only">Search</label>
-          <input class="form-control" type="search" id="search-input" name="search"
-            placeholder="Search this site" />
+          <label class="text-light mr-3 mt-2 mt-lg-0" for="search-input">Search</label>
+          <input class="form-control" type="search" id="search-input" name="search" />
         </form>
       </div>
     </div>
@@ -41,7 +40,7 @@
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<li class="py-5"><a href="{url}"><p class="h5">{title}</p></a><p>{summary}</p><a href="{url}">{url}</a></li>',
+  searchResultTemplate: '<li class="py-5"><h2 class="h5">{title}</h2><p>{summary}</p><a href="{url}" class="stretched-link">{url}</a></li>',
   noResultsText: ("Sorry, no result found!"),
   json: '/search.json'
 })

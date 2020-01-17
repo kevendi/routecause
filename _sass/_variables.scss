@@ -11,6 +11,9 @@ $theme-colors: (
   "info": #053864,
 );
 
+$link-color: lighten(#1c73be, 10%);
+$link-hover-color: lighten(#1c73be, 10%);
+
 $enable-rounded: false;
 
 $font-family-serif: Montserrat, Georgia, "Times New Roman", Times, serif;

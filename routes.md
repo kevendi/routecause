@@ -1,5 +1,6 @@
 ---
 layout: default
+title:  "Cycle Routes in Scotland"
 ---
 
 <div class="container py-5">
@@ -9,7 +10,7 @@ layout: default
       <li class="card bg-dark text-light border border-secondary">
         <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}">
         <div class="card-body">
-        <h3 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h3>
+        <h2 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h2>
         <p>{{ route.summary }}</p>
         </div>
         <div class="card-footer">
