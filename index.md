@@ -24,3 +24,22 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
           </figcaption>
       </figure>
   </section>
+  <section class="text-light py-5">
+    <div class="container">
+  <h2>Latest Routes</h2>
+   <ul class="list-unstyled card-columns mt-5">
+    {% for route in site.routes %}
+      <li class="card bg-dark text-light border border-secondary">
+        <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}">
+        <div class="card-body">
+        <h2 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h2>
+        <p>{{ route.summary }}</p>
+        </div>
+        <div class="card-footer">
+          <span class="text-muted">{{ route.region }}</span>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+  </div>
+  </section>
