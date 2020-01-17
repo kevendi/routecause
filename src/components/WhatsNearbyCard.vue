@@ -1,8 +1,6 @@
 <template>
     <div class="card bg-dark border border-secondary">
-        <div class="card-image-wrapper bg-secondary">
-        <img :src="feature.properties.formattedImage" class="card-image" :alt="feature.properties.name + feature.properties.productType.value">
-        </div>
+        <img :src="feature.properties.formattedImage" class="card-img-top" :alt="feature.properties.name + feature.properties.productType.value">
         <div class="card-body">
             <h3 class="card-title h5" v-html="feature.properties.name"></h3>
             <strong class="card-text">
@@ -49,9 +47,14 @@
                 </template>
             </dl>
         </div>
+        <div class="card-footer">
         <template v-if="feature.properties.website">
-            <a class="btn btn-primary btn-lg btn-block m-0" :href="feature.properties.website" target="_blank">Visit Website</a>
+            <a class="btn btn-info btn btn-block" :href="feature.properties.website" target="_blank">Visit Website <i class="fa fa-external-link ml-2"></i></a>
         </template>
+        <template v-if="feature.properties.bookingUrl">
+            <a class="btn btn-primary btn btn-block" :href="feature.properties.bookingUrl" target="_blank">Booking Link <i class="fa fa-external-link ml-2"></i></a>
+        </template>
+        </div>
     </div>
 </template>
 
@@ -75,16 +78,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.card-image-wrapper {
-  height: 200px;
-}
-.card-image {
-  width: 100%;
-  height: 100%;
-  min-width: 100%;
-  object-position: center;
-  object-fit: contain;
-}
+
 .card {
   border: none;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);

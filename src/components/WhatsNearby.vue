@@ -196,7 +196,7 @@ export default {
             featureObj.properties.name = event.name;
             if (event.images) {
               featureObj.properties.formattedImage = event.images[0].url;
-              featureObj.properties.alt_text = event.images[0].alt_text;
+              featureObj.properties.alt_text = (event.images[0].alt_text.length) ? event.images[0].alt_text : event.name + 'event image';
             } else if (event.schedules.images) {
               featureObj.properties.formattedImage = event.schedules[0].images[0].url;
               featureObj.properties.alt_text = event.schedules[0].images[0].alt_text;
@@ -225,21 +225,26 @@ export default {
             let prices = [];
             if(performance.tickets) {
               performance.tickets.map(ticket => {
-                if(ticket.description) {
-                  return prices.push(ticket.description);
+                if(ticket.min_price) {
+                  prices.push(ticket.max_price);
+                  return prices.push(ticket.min_price);
                 }
                 return;
               });
             }
-            featureObj.properties.price = prices.length ? prices.sort()[0].replace(/\D/g,'') : null;
-            featureObj.properties.formattedPrices = this.getFeatureFormattedPrices(featureObj)
+            featureObj.properties.price = prices.length ? prices.sort()[0] : null;
             featureObj.properties.multiplePrices = (prices.length > 0) ? true : false;
+            featureObj.properties.formattedPrices = this.getFeatureFormattedPrices(featureObj)
             featureObj.properties.id = event.event_id;
             featureObj.properties.startDate = performance.ts;
             featureObj.properties.endDate = performance.ts;
             featureObj.properties.formattedDates = this.getFeatureFormattedDates(featureObj)
             featureObj.properties.bookingUrl = (performance.links.length > 0) ? performance.links[0].url : null;
-            this.products.push(featureObj);
+            if ((featureObj.properties.category.length === 1) && (featureObj.properties.category === 'film')) {
+              return 
+            } else {
+              return this.products.push(featureObj);
+            }
           })
         })
     },
@@ -274,13 +279,12 @@ export default {
       return formattedFacilities;
     },
     getFeatureFormattedImage(feature) {
-      // let featureFormattedImage = null;
-      // if (feature.properties.image) {
-      //   let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
-      //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
-      // }
-      // return featureFormattedImage;
-      return this.placeholderImagePath;
+      let featureFormattedImage = null;
+      if (feature.properties.image) {
+        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+        featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
+      }
+      return featureFormattedImage;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -416,7 +420,6 @@ export default {
   },
   mounted() {
     // We only have sample accommodation data for Arran just now
-    
     (this.locationName === "Arran") ? this.getProducts() : ''
     this.getEvents();
   }
