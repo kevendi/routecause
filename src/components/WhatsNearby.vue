@@ -279,12 +279,13 @@ export default {
       return formattedFacilities;
     },
     getFeatureFormattedImage(feature) {
-      let featureFormattedImage = null;
-      if (feature.properties.image) {
-        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
-        featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
-      }
-      return featureFormattedImage;
+      // let featureFormattedImage = null;
+      // if (feature.properties.image) {
+      //   let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+      //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
+      // }
+      // return featureFormattedImage;
+      return this.placeholderImagePath;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
