@@ -1,6 +1,7 @@
 ---
 layout: default
-title:  "Promoting Sustainable Tourism and Cycle Routes in Scotland"
+title:  "Scotland Cycle Routes"
+summary: "Promoting sustainable travel and tourism in Scotland by providing inspiring scenic bicycle route information"
 ---
   <section class="text-light position-relative d-md-flex">
       <div class="container py-5">
