@@ -5,7 +5,7 @@
     {
 
       "title"    : "{{ route.title | strip_html | escape }}",
-      "url"      : "{{ route.baseurl }}{{ route.url }}",
+      "url"      : "{{ site.baseurl }}{{ route.url }}",
       "location" : "{{ route.location }}",
       "region" : "{{ route.region }}",
       "summary" : "{{route.summary | strip_html | strip_newlines | escape }}",

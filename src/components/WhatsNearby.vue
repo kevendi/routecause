@@ -232,8 +232,8 @@ export default {
                 return;
               });
             }
-            featureObj.properties.price = prices.length ? prices.sort()[0] : null;
-            featureObj.properties.formattedPrices = featureObj.properties.price
+            featureObj.properties.price = prices.length ? prices.sort()[0].replace(/\D/g,'') : null;
+            featureObj.properties.formattedPrices = this.getFeatureFormattedPrices(featureObj)
             featureObj.properties.multiplePrices = (prices.length > 0) ? true : false;
             featureObj.properties.id = event.event_id;
             featureObj.properties.startDate = performance.ts;
