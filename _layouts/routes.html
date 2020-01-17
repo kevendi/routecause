@@ -22,7 +22,7 @@ page-type: routes
           </figcaption>
       </figure>
   </section>
-  <section class="position-absolute w-100 mt-n5" style="z-index: 1">
+  <section class="position-absolute w-100 mt-n5 d-print-none" style="z-index: 1">
     <h2 class="sr-only text-light">Share this Route</h2>
     <div class="d-flex justify-content-end">
         <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank">
@@ -46,7 +46,7 @@ page-type: routes
   <section class="bg-primary d-print-none">
     <div class="container">
         <h2 class="sr-only">Route Downloads</h2>
-        <div class="btn-toolbar justify-content-md-between mx-n3">
+        <div class="btn-toolbar mx-n3">
             <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.gpx'}}" class="btn btn-lg btn-primary">Download GPX</a>
             <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.kml'}}" class="btn btn-lg btn-primary">Download KML</a>
             <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.tcx'}}" class="btn btn-lg btn-primary">Download TCX</a>
