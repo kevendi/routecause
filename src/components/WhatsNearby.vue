@@ -441,7 +441,7 @@ export default {
     @media (min-width: 576px) {
       column-count: 2;
     }
-    @media (min-width: 920px) {
+    @media (min-width: 992px) {
       column-count: 3;
     }
     @media (min-width: 1200px) {
