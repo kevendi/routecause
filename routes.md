@@ -11,7 +11,7 @@ lead: "Please be patient and check back soon to see more routes as they are adde
   <ul class="list-unstyled card-columns mt-5">
     {% for route in site.routes %}
       <li class="card bg-dark text-light border border-secondary">
-        <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}">
+        <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}" loading="lazy"/>
         <div class="card-body">
         <h2 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h2>
         <p>{{ route.summary }}</p>

@@ -15,7 +15,7 @@ page-type: routes
           </div>
       </div>
       <figure class="hero d-print-none">
-          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
+          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}" loading="lazy"/>
           <figcaption class="sr-only">
               <span>{{page.heroImageAlt}}</span>
               <span>{{page.heroImageCredit}}</span>
@@ -101,6 +101,7 @@ page-type: routes
     <iframe 
         rel="preconnect" 
         class="d-print-none" 
+        loading="lazy"
         title="{{page.title}} interactive map"
         name="plotaroute_map_{{page.plotARouteID}}" 
         src="https://www.plotaroute.com/embedmap/{{page.plotARouteID}}?units=miles&hills=show" 
@@ -126,7 +127,7 @@ page-type: routes
                 </dl>
                 <figure class="d-print-none">
                     <div class="d-block mb-4 position-relative">
-                    <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="{{stage.imageDescription}}" />
+                    <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="{{stage.imageDescription}}" loading="lazy"/>
                     <button class="caption-button btn btn-secondary position-absolute px-3" data-toggle="collapse" aria-expanded="false" aria-controls="stage{{stage.number}}Caption" data-target="#stage{{stage.number}}Caption" type="button"><span class="sr-only">Toggle Caption</span><i class="fa fa-info"></i></button>
                     </div>
                     <figcaption class="collapse" id="stage{{stage.number}}Caption">
@@ -138,7 +139,7 @@ page-type: routes
         </li>
         {% endfor %}
     </ul>
-         <img alt="{{ page.title }} printable map" class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg'}}" width="90%" />
+         <img alt="{{ page.title }} printable map" class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg'}}" width="90%" loading="lazy"/>
     </section>
 
     <section class="text-white py-5 d-print-none">
@@ -148,7 +149,7 @@ page-type: routes
                 {% for galleryItem in page.gallery %}
                 <figure class="card bg-dark">
                     <a class="d-block mb-4" data-fancybox="images" href="{{galleryItem.imagePath | prepend: site.baseurl}}">
-                        <img class="img-fluid" src="{{galleryItem.imagePath | prepend: site.baseurl}}" alt="{{galleryItem.imageDescription}}">
+                        <img class="img-fluid" src="{{galleryItem.imagePath | prepend: site.baseurl}}" alt="{{galleryItem.imageDescription}}" loading="lazy"/>
                     </a>
                     <figcaption>
                         <p class="h6">{{galleryItem.imageDescription}}</p>
@@ -165,7 +166,7 @@ page-type: routes
         <ul class="list-unstyled user-reviews__list row row-cols-1 row-cols-md-2 row-cols-lg-3">
             {% for review in page.reviews %}
             <li class="media col p-3">
-                <img class="mr-3" src="{{review.imagePath}}" alt="{{review.name}}">
+                <img class="mr-3" src="{{review.imagePath}}" alt="{{review.name}}" loading="lazy"/>
                 <div class="media-body">
                     <strong class="h5 d-block">
                         <span class="rating">

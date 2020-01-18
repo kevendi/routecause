@@ -18,7 +18,7 @@ lead: "We aim to promote sustainable travel and tourism in Scotland by providing
           </div>
       </div>
       <figure class="hero d-print-none">
-          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}"/>
+          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}" loading="lazy"/>
           <figcaption class="sr-only">
               <span>{{page.heroImageAlt}}</span>
               <span>{{page.heroImageCredit}}</span>
