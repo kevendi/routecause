@@ -428,7 +428,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .nav-link {
+  .nav-link,
+  .nav-link:hover:not(.active) {
     color: white;
   }
 
