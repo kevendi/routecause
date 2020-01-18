@@ -29,7 +29,7 @@
                 <template v-if="feature.properties.formattedAddress">
                     <dt>Address</dt>
                     <dd>
-                    <a :href="feature.properties.googleMapsLink" target="_blank" title="Get Directions">{{feature.properties.formattedAddress}}</a>
+                    <a :href="feature.properties.googleMapsLink" target="_blank" title="Get Directions" rel="noreferrer">{{feature.properties.formattedAddress}}</a>
                     </dd>
                 </template>
                 <template v-if="feature.properties.telephoneNumber">
