@@ -47,11 +47,11 @@ page-type: routes
     <div class="container">
         <h2 class="sr-only">Route Downloads</h2>
         <div class="btn-toolbar mx-n3">
-            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.gpx'}}" class="btn btn-lg btn-primary">Download GPX</a>
-            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.kml'}}" class="btn btn-lg btn-primary">Download KML</a>
-            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.tcx'}}" class="btn btn-lg btn-primary">Download TCX</a>
-            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.pdf'}}" class="btn btn-lg btn-primary" title="Opens PDF file in a new window">Download Map (PDF)</a>
-            <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-primary">Print Route</button>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.gpx'}}" class="btn btn-lg btn-primary">Download GPX<i class="ml-2 fa fa-download"></i></a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.kml'}}" class="btn btn-lg btn-primary">Download KML<i class="ml-2 fa fa-download"></i></a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.tcx'}}" class="btn btn-lg btn-primary">Download TCX<i class="ml-2 fa fa-download"></i></a>
+            <a href="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.pdf'}}" class="btn btn-lg btn-primary" title="Opens PDF file in a new window">Download Map (PDF)<i class="ml-2 fa fa-download"></i></a>
+            <button onclick="window.print();return false;" type="button" class="btn btn-lg btn-primary">Print Route<i class="ml-2 fa fa-print"></i></button>
         </div>
     </div>
 </section>
@@ -125,7 +125,7 @@ page-type: routes
                 <figure class="d-print-none">
                     <div class="d-block mb-4 position-relative">
                     <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="{{stage.imageDescription}}" />
-                    <button class="caption-button btn btn-secondary btn-sm position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage{{stage.number}}Caption" data-target="#stage{{stage.number}}Caption" type="button">Toggle Caption</button>
+                    <button class="caption-button btn btn-secondary position-absolute" data-toggle="collapse" aria-expanded="false" aria-controls="stage{{stage.number}}Caption" data-target="#stage{{stage.number}}Caption" type="button"><span class="sr-only">Toggle Caption</span><i class="fa fa-info"></i></button>
                     </div>
                     <figcaption class="collapse" id="stage{{stage.number}}Caption">
                         <p class="h6">{{stage.imageDescription}}</p>
