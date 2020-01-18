@@ -8,7 +8,7 @@ lead: "Please be patient and check back soon to see more routes as they are adde
 <div class="container py-5 text-light">
   <h1>Routes</h1>
   <p class="lead">{{page.lead}}</p>
-  <ul class="list-unstyled card-columns vh-100 mt-5">
+  <ul class="list-unstyled card-columns mt-5">
     {% for route in site.routes %}
       <li class="card bg-dark text-light border border-secondary">
         <img src="{{route.heroImagePath | prepend: site.baseurl}}" class="card-img-top" alt="{{ route.heroImageAlt }}">
