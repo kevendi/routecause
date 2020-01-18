@@ -17,7 +17,7 @@ difficultyLevel: "Strenuous"
 terrain: "Tarmac"
 startPoint: "Brodick Ferry Terminal"
 endPoint: "Brodick Ferry Terminal"
-howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick\" target=\"_blank\">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class=\"text-warning\" href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads\" target=\"_blank\">Ardrossan Harbour railway station.</a></p>"
+howToGetThere: "<p>The Isle of Arran is easily <a class=\"text-warning\" href=\"https://www.calmac.co.uk/article/2906/Arran-Ardrossan---Brodick\" target=\"_blank\">reached via ferry</a> from the town of Ardrossan and the ferry terminal is right beside <a class=\"text-warning\" href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/ads\" target=\"_blank\" rel=\"noreferrer\">Ardrossan Harbour railway station.</a></p>"
 plotARouteID: "996002"
 stages:
   - number: 1

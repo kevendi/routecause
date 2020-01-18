@@ -17,7 +17,7 @@ difficultyLevel: "Strenuous"
 terrain: "Tarmac"
 startPoint: "Stirling Station"
 endPoint: "Glasgow Queen Street Station"
-howToGetThere: "<p>This route is fully accessible via <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/stg\" target=\"_blank\" class=\"text-warning\">Stirling Station</a> and <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/glq\" target=\"_blank\" class=\"text-warning\">Glasgow Queen Street Station</a></p>"
+howToGetThere: "<p>This route is fully accessible via <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/stg\" target=\"_blank\" class=\"text-warning\" rel=\"noreferrer\">Stirling Station</a> and <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/glq\" target=\"_blank\" class=\"text-warning\" rel=\"noreferrer\">Glasgow Queen Street Station</a></p>"
 plotARouteID: "1007502"
 stages:
   - number: 1

@@ -17,7 +17,7 @@ difficultyLevel: "Moderate"
 terrain: "Tarmac"
 startPoint: "Dumfries Railway Station"
 endPoint: "Dumfries Railway Station"
-howToGetThere: "<p>The Glenkiln Loop is fully accessible via public transport from <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/dmf\" target=\"_blank\" class=\"text-warning\">Dumfries Railway Station</a></p>"
+howToGetThere: "<p>The Glenkiln Loop is fully accessible via public transport from <a href=\"https://www.scotrail.co.uk/plan-your-journey/stations-and-facilities/dmf\" target=\"_blank\" class=\"text-warning\" rel=\"noreferrer\">Dumfries Railway Station</a></p>"
 plotARouteID: "1003167"
 stages:
   - number: 1

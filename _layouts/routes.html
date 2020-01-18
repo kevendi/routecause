@@ -25,15 +25,15 @@ page-type: routes
   <section class="position-absolute w-100 mt-n5 d-print-none" style="z-index: 1">
     <h2 class="sr-only text-light">Share this Route</h2>
     <div class="d-flex justify-content-end">
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
             <i class="fab fa-facebook-f"></i>
             <span class="sr-only">Share on Facebook</span>
         </a>
-        <a href="https://twitter.com/intent/tweet?text=https://www.routecause.org{{page.url}}" data-share="twitter" data-share-url="{{page.url | prepend: site.baseurl}}" class="btn btn-lg btn-info" target="_blank">
+        <a href="https://twitter.com/intent/tweet?text=https://www.routecause.org{{page.url}}" data-share="twitter" data-share-url="{{page.url | prepend: site.baseurl}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
             <i class="fab fa-twitter"></i>
             <span class="sr-only">Share on Twitter</span>
         </a>
-        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank">
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
             <i class="fab fa-linkedin-in"></i>
             <span class="sr-only">Share on LinkedIn</span>
         </a>
@@ -101,6 +101,7 @@ page-type: routes
     <iframe 
         rel="preconnect" 
         class="d-print-none" 
+        title="{{page.title}} interactive map"
         name="plotaroute_map_{{page.plotARouteID}}" 
         src="https://www.plotaroute.com/embedmap/{{page.plotARouteID}}?units=miles&hills=show" 
         frameborder="0" 
