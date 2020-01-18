@@ -36,7 +36,12 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
         <p>{{ route.summary }}</p>
         </div>
         <div class="card-footer">
-          <span class="text-muted">{{ route.region }}</span>
+          <dl class="text-muted d-flex justify-content-between mb-0">
+            <dt class="sr-only">Region</dt>
+            <dd class="mb-0">{{ route.region }}</dd>
+            <dt class="sr-only">Distance</dt>
+            <dd class="mb-0">{{ route.distanceMiles }} mi / {{ route.distanceKilometres }} km</dd>
+          </dl>
         </div>
       </li>
     {% endfor %}
