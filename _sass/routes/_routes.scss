@@ -77,9 +77,8 @@ h1 {
   .rating {
     color: $warning;
     display: inline-block;
-    padding-right: 10px;
-    border-right: 1px solid #aaa;
-    margin-right: 10px;
+    margin-right: 2px;
+    font-size: .75rem;
   }
   img {
     width: 80px;

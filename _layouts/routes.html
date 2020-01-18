@@ -165,7 +165,14 @@ page-type: routes
             <li class="media col p-3">
                 <img class="mr-3" src="{{review.imagePath}}" alt="{{review.name}}">
                 <div class="media-body">
-                    <strong class="h5 d-block"><span class="rating">{{review.rating}}</span>{{review.name}}</strong>
+                    <strong class="h5 d-block">
+                        <span class="rating">
+                            {% for i in (1..review.rating) %}
+                            <i class="fa fa-star"></i>
+                            {% endfor %}
+                        </span>
+                        {{review.name}}
+                    </strong>
                     {{review.description}}
                 </div>
             </li>
