@@ -71,6 +71,14 @@ if (!Object.entries)
     return resArray;
 };
 
+if (!Number.isNaN) {
+  Object.defineProperty(Number, 'isNaN', {
+    value: function(value) {     
+      return value !== value;
+    }
+  });
+}
+
 export default {
   name: "WhatsNearby",
   components: {
