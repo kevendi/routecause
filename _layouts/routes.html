@@ -15,7 +15,7 @@ page-type: routes
           </div>
       </div>
       <figure class="hero d-print-none">
-          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}" loading="lazy"/>
+          <img src="{{page.heroImagePath | prepend: site.baseurl}}" alt="{{page.imageAlt}}" loading="lazy" width="auto" />
           <figcaption class="sr-only">
               <span>{{page.heroImageAlt}}</span>
               <span>{{page.heroImageCredit}}</span>
@@ -127,7 +127,7 @@ page-type: routes
                 </dl>
                 <figure class="d-print-none">
                     <div class="d-block mb-4 position-relative">
-                    <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="{{stage.imageDescription}}" loading="lazy"/>
+                    <img class="img-fluid" src="{{stage.imagePath | prepend: site.baseurl}}" alt="{{stage.imageDescription}}" loading="lazy" width="auto"/>
                     <button class="caption-button btn btn-secondary position-absolute px-3" data-toggle="collapse" aria-expanded="false" aria-controls="stage{{stage.number}}Caption" data-target="#stage{{stage.number}}Caption" type="button"><span class="sr-only">Toggle Caption</span><i class="fa fa-info"></i></button>
                     </div>
                     <figcaption class="collapse" id="stage{{stage.number}}Caption">

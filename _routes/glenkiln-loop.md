@@ -4,7 +4,7 @@ title:  "Glenkiln Loop"
 location: "Dumfries"
 region: "Dumfries and Galloway"
 routeAssetsPathBase: "/assets/routes/glenkiln-loop/Glenkiln_Loop"
-heroImagePath: "/assets/routes/glenkiln-loop/images/P1130628.jpg"
+heroImagePath: "/assets/routes/glenkiln-loop/images/P1130628.jpg?nf_resize=smartcrop&w=500"
 heroImageAlt: "Hero Alt"
 heroImageCredit: "Kelly Marshall"
 summary: "This route takes in the beautiful rolling farmland west of Dumfries"
@@ -95,6 +95,6 @@ reviews:
 
 ---
 
-<section class="py-5 text-light d-print-none" id="app">
+<section class="py-5 text-light d-print-none">
     <whats-nearby location-name="Dumfries"></whats-nearby>
 </section>
