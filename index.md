@@ -24,6 +24,27 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
           </figcaption>
       </figure>
   </section>
+  <section class="position-absolute w-100 mt-n5 d-print-none" style="z-index: 1">
+    <h2 class="sr-only text-light">Share this Page</h2>
+    <div class="d-flex justify-content-end">
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
+            <i class="fab fa-facebook-f"></i>
+            <span class="sr-only">Share on Facebook</span>
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=https://www.routecause.org{{page.url}}" data-share="twitter" data-share-url="{{page.url | prepend: site.baseurl}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
+            <i class="fab fa-twitter"></i>
+            <span class="sr-only">Share on Twitter</span>
+        </a>
+        <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank" rel="noreferrer">
+            <i class="fab fa-linkedin-in"></i>
+            <span class="sr-only">Share on LinkedIn</span>
+        </a>
+        <a href="mailto:?subject={{page.title}}&amp;body=https://www.routecause.org{{page.url}}" class="btn btn-lg btn-info" target="_blank">
+            <i class="fas fa-envelope"></i>
+            <span class="sr-only">Share via E-mail</span>
+        </a>
+    </div>
+</section>
   <section class="text-light py-5">
     <div class="container">
   <h2>Latest Routes</h2>
