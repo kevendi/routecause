@@ -47,12 +47,12 @@
                 </template>
             </dl>
         </div>
-        <div class="card-footer">
+        <div class="card-footer d-flex justify-content-around">
         <template v-if="feature.properties.website">
-            <a class="btn btn-info btn btn-block" :href="feature.properties.website" target="_blank" rel="noreferrer">Visit Website <i class="fa fa-external-link ml-2"></i></a>
+            <a class="btn btn-lg btn-info" :href="feature.properties.website" target="_blank" rel="noreferrer">Visit Website</a>
         </template>
         <template v-if="feature.properties.bookingUrl">
-            <a class="btn btn-primary btn btn-block" :href="feature.properties.bookingUrl" target="_blank" rel="noreferrer">Booking Link <i class="fa fa-external-link ml-2"></i></a>
+            <a class="btn btn-lg btn-primary" :href="feature.properties.bookingUrl" target="_blank" rel="noreferrer">Booking Link</a>
         </template>
         </div>
     </div>

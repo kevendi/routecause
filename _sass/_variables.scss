@@ -27,6 +27,10 @@ $nav-tabs-border-color: transparent;
 $nav-tabs-link-hover-border-color: transparent;
 $text-muted: #aaaaaa;
 
+$container-max-widths: (
+  xl: 1340px
+) !default;
+
 h1 {
   font-weight: 300;
   font-size: 4rem;
