@@ -60,6 +60,17 @@ import axios from 'axios';
 import WhatsNearbyCard from './WhatsNearbyCard'
 import _ from 'lodash';
 
+if (!Object.entries)
+  Object.entries = function( obj ){
+    var ownProps = Object.keys( obj ),
+        i = ownProps.length,
+        resArray = new Array(i); // preallocate the Array
+    while (i--)
+      resArray[i] = [ownProps[i], obj[ownProps[i]]];
+
+    return resArray;
+};
+
 export default {
   name: "WhatsNearby",
   components: {
@@ -260,16 +271,6 @@ export default {
         .then(this.isLoading = false)
     },
     getFeatureFormattedFacilities(feature) {
-      if (!Object.entries)
-        Object.entries = function( obj ){
-          var ownProps = Object.keys( obj ),
-              i = ownProps.length,
-              resArray = new Array(i); // preallocate the Array
-          while (i--)
-            resArray[i] = [ownProps[i], obj[ownProps[i]]];
-
-          return resArray;
-      };
       let formattedFacilities = null;
       if (feature.properties.facilities !== null) {
         var lookup = this.labels.product.facilities;
@@ -305,16 +306,6 @@ export default {
       return formattedPhone;
     },
     getFeatureFormattedProductType(type) {
-      if (!Object.entries)
-        Object.entries = function( obj ){
-          var ownProps = Object.keys( obj ),
-              i = ownProps.length,
-              resArray = new Array(i); // preallocate the Array
-          while (i--)
-            resArray[i] = [ownProps[i], obj[ownProps[i]]];
-
-          return resArray;
-      };
       let formattedProductType = {};
       if (type !== null) {
         var lookup = this.labels.product.types;
