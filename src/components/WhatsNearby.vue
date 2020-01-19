@@ -305,6 +305,16 @@ export default {
       return formattedPhone;
     },
     getFeatureFormattedProductType(type) {
+      if (!Object.entries)
+        Object.entries = function( obj ){
+          var ownProps = Object.keys( obj ),
+              i = ownProps.length,
+              resArray = new Array(i); // preallocate the Array
+          while (i--)
+            resArray[i] = [ownProps[i], obj[ownProps[i]]];
+
+          return resArray;
+      };
       let formattedProductType = {};
       if (type !== null) {
         var lookup = this.labels.product.types;
