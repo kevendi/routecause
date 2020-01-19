@@ -17,7 +17,7 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
           </div>
       </div>
       <figure class="hero d-print-none">
-          <img src="{{page.heroImagePath | prepend: site.baseurl | append: ?nf_resize=smartcrop&w=500}}" alt="{{page.imageAlt}}" loading="lazy" width="auto"/>
+          <img src="{{page.heroImagePath | prepend: site.baseurl | append: '?nf_resize=smartcrop&w=500'}}" alt="{{page.imageAlt}}" loading="lazy" width="auto"/>
           <figcaption class="sr-only">
               <span>{{page.heroImageAlt}}</span>
               <span>{{page.heroImageCredit}}</span>
@@ -30,7 +30,7 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
    <ul class="list-unstyled card-columns mt-5">
     {% for route in site.routes %}
       <li class="card bg-dark text-light border border-secondary">
-        <img src="{{route.heroImagePath | prepend: site.baseurl | append: ?nf_resize=smartcrop&w=500}}" class="card-img-top" alt="{{ route.heroImageAlt }}" loading="lazy" width="auto" />
+        <img src="{{route.heroImagePath | prepend: site.baseurl | append: '?nf_resize=smartcrop&w=500'}}" class="card-img-top" alt="{{ route.heroImageAlt }}" loading="lazy" width="auto" />
         <div class="card-body">
         <h2 class="card-title h5"><a class="stretched-link" href="{{ route.url }}">{{ route.title }}</a></h2>
         <p>{{ route.summary }}</p>

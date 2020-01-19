@@ -139,7 +139,7 @@ page-type: routes
         </li>
         {% endfor %}
     </ul>
-         <img alt="{{ page.title }} printable map" class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg'}}" width="90%" loading="lazy"/>
+         <img alt="{{ page.title }} printable map" class="d-none d-print-block" src="{{page.routeAssetsPathBase | prepend: site.baseurl | append: '.jpg?nf_resize=smartcrop&w=500'}}" width="90%" height="auto" loading="lazy" />
     </section>
 
     <section class="text-white py-5 d-print-none">
