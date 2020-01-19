@@ -40,14 +40,75 @@
             :feature="accoFeature">
           </whats-nearby-card>
         </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there's currently no accommodation to show for this location. You'll just have to sleep in a tent.</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
+        </div>
+      </div>
+      <div class="tab-pane fade show" role="tabpanel" id="nav-acti" aria-labelledby="nav-acti-tab">
+        <div class="card-columns" v-if="actiFeatures.length">
+          <whats-nearby-card 
+            v-for="(actiFeature, actiIndex) in actiFeatures" 
+            :key="actiIndex" 
+            :feature="actiFeature">
+          </whats-nearby-card>
+        </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there are currently no activities to show for this location. But isn't cycling enough of an activity?</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
+        </div>
+      </div>
+      <div class="tab-pane fade show" role="tabpanel" id="nav-attr" aria-labelledby="nav-attr-tab">
+        <div class="card-columns" v-if="attrFeatures.length">
+          <whats-nearby-card 
+            v-for="(attrFeature, attrIndex) in attrFeatures" 
+            :key="attrIndex" 
+            :feature="attrFeature">
+          </whats-nearby-card>
+        </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there are currently no attractions to show for this location.</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
+
+        </div>
+      </div>
+      <div class="tab-pane fade show" role="tabpanel" id="nav-cate" aria-labelledby="nav-cate-tab">
+        <div class="card-columns" v-if="cateFeatures.length">
+          <whats-nearby-card 
+            v-for="(cateFeature, cateIndex) in cateFeatures" 
+            :key="cateIndex" 
+            :feature="cateFeature">
+          </whats-nearby-card>
+        </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there is currently no food and drink to show for this location. You'll just have to go to the grocery store.</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
+        </div>
       </div>
       <div class="tab-pane fade show" role="tabpanel" id="nav-even" aria-labelledby="nav-even-tab">
-        <div class="card-columns">
+        <div class="card-columns" v-if="evenFeatures.length">
           <whats-nearby-card 
             v-for="(evenFeature, evenIndex) in evenFeatures" 
             :key="evenIndex" 
             :feature="evenFeature">
           </whats-nearby-card>
+        </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there are currently no events to show for this location.</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
+        </div>
+      </div>
+      <div class="tab-pane fade show" role="tabpanel" id="nav-reta" aria-labelledby="nav-reta-tab">
+        <div class="card-columns" v-if="retaFeatures.length">
+          <whats-nearby-card 
+            v-for="(retaFeature, retaIndex) in retaFeatures" 
+            :key="retaIndex" 
+            :feature="retaFeature">
+          </whats-nearby-card>
+        </div>
+        <div v-else>
+          <p class="h5 text-primary">Sorry, there is currently no shopping to show for this location. You're supposed to be riding your bike anyway and not shopping.</p>
+          <small><strong>Disclaimer:</strong> This feature of the website isn't really for real yet.</small>
         </div>
       </div>
     </div>
@@ -93,7 +154,11 @@ export default {
         product: {
           types: {
             acco: "Accommodation",
+            acti: "Activities",
+            attr: "Attractions",
+            cate: "Food and Drink",
             even: "Events",
+            reta: "Shopping"
           },
           basis: {
             pp: "per pitch per night",
@@ -145,9 +210,29 @@ export default {
         return this.filterByProductType(feature, 'acco');
       })
     },
+    actiFeatures() {
+      return this.sortedFeatures.filter(feature => {
+        return this.filterByProductType(feature, 'acti');
+      })
+    },
+    attrFeatures() {
+      return this.sortedFeatures.filter(feature => {
+        return this.filterByProductType(feature, 'attr');
+      })
+    },
+    cateFeatures() {
+      return this.sortedFeatures.filter(feature => {
+        return this.filterByProductType(feature, 'cate');
+      })
+    },
     evenFeatures() {
       return this.sortedFeatures.filter(feature => {
         return this.filterByProductType(feature, 'even');
+      })
+    },
+    retaFeatures() {
+      return this.sortedFeatures.filter(feature => {
+        return this.filterByProductType(feature, 'reta');
       })
     },
     sortedFeatures() {
@@ -393,7 +478,7 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
-      var prodTypes = ["acco"];
+      var prodTypes = ["acco","acti","attr","cate","reta"];
       axios.all(prodTypes.map(type => {
         let url = "../assets/json/" + type + ".json";
         return axios.get(url)

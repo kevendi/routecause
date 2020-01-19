@@ -1,0 +1,34 @@
+{
+    "data": [
+        {
+            "id": "295881",
+            "name": "Arran Adventure Centre",
+            "description": "Great experiences are priceless and Arran Adventure is here to help create those special moments for family, friends, colleagues and you!",
+            "category": "Multi-activity Centre",
+            "locationName": "Brodick",
+            "latitude": 55.57591,
+            "longitude": -5.16024,
+            "url": "/info/see-do/arran-adventure-centre-p295881",
+            "image": "http://www.visitscotland.com/wsimgs/Archery7small_1298343215.jpg[ToFit600x400]",
+            "minStars": 0,
+            "maxStars": 0,
+            "price": null,
+            "facilities": "parking",
+            "distance": null,
+            "basis": null,
+            "website": "http://www.arranadventure.com",
+            "bookingUrl": null,
+            "offers": 0,
+            "externalReviewsID": null,
+            "addressLine1": "Arran Adventure Company, Auchrannie Resort.KA27 8BZ",
+            "multiplePrices": false,
+            "startDate": "2020-01-01",
+            "endDate": "2020-12-31",
+            "telephoneNumber": "+44 (1770) 303349",
+            "email": "info@arranadventure.com",
+            "tasteOurBestAward": false,
+            "gold": false,
+            "even": false
+        }
+    ]
+}

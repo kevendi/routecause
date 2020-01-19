@@ -1,0 +1,89 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Paterson Arran Kitchen Shop",
+                "id": "308371"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.13926,
+                    55.52448
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "The Isle of Arran Gin Company Limited",
+                "id": "2182451"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.09379,
+                    55.49673
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Ormidale Hotel Restaurant",
+                "id": "307031"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15842,
+                    55.57364
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "eighteen69 Scottish tapas",
+                "id": "1541751"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15709,
+                    55.57513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Cruize Bar Brasserie",
+                "id": "1541731"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15709,
+                    55.57513
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brambles Seafood & Grill",
+                "id": "1541741"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.15709,
+                    55.57513
+                ]
+            }
+        }
+    ]
+}
