@@ -2,7 +2,7 @@
 layout: default
 title:  "Cycle Routes in Scotland"
 summary: "Discover some fantastic cycling routes in Scotland."
-lead: "Please be patient and check back soon to see more routes as they are added."
+lead: "We only have few routes so far. Please check back soon to see more routes as they are added."
 ---
 
 <div class="container py-5 text-light">
