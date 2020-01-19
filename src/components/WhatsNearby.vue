@@ -7,12 +7,12 @@
           <form class="form-inline">
             <label class="mr-3" for="search">Search</label>
             <input id="search" v-model="searchTerms" type="search" class="search-input form-control form-control-lg ml-md-3" />
-          </form>
-          <div class="input-group-append" v-if="searchTerms.length">
-            <button class="btn btn-primary" @click.prevent="clearSearchTerms()">
+            <div class="input-group-append" v-if="searchTerms.length">
+            <button class="btn btn-primary btn-lg" @click.prevent="clearSearchTerms()">
               Clear Search
             </button>
           </div>
+          </form>
         </div>
       </div>
     </div>
@@ -311,7 +311,7 @@ export default {
             featureObj.properties.locationName = event.schedules[0].place.town;
             featureObj.properties.latitude = event.schedules[0].place.lat;
             featureObj.properties.longitude = event.schedules[0].place.lng;
-            featureObj.properties.facilities = null;
+            featureObj.properties.facilities = "";
             let place_name = (event.schedules[0].place.name.length  > 0) ? event.schedules[0].place.name + ', '  : '';
             let address = (event.schedules[0].place.address.length  > 0) ? event.schedules[0].place.address + ', '  : '';
             let town = (event.schedules[0].place.town.length  > 0) ? event.schedules[0].place.town + ', '  : '';
