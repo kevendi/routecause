@@ -2,7 +2,7 @@
 layout: default
 title:  "Cycle Routes in Scotland"
 summary: "Discover some fantastic cycling routes in Scotland."
-lead: "This list and map is under construction and doesn't really do anything yet, but someday it's gonna be awesome."
+lead: "This list and map are under construction and don't really do anything yet, but someday it's gonna be awesome."
 mapPath: "/map/scotland-regions.svg"
 mapAlt: "Scotland Regions Map"
 ---
