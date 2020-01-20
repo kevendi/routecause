@@ -2,6 +2,7 @@
 layout: routes
 title:  "Glenkiln Loop"
 location: "Dumfries"
+weatherLocation: "Dumfries"
 region: "Dumfries and Galloway"
 routeAssetsPathBase: "/assets/routes/glenkiln-loop/Glenkiln_Loop"
 heroImagePath: "/assets/routes/glenkiln-loop/images/P1130628.jpg"

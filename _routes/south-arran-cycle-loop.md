@@ -2,6 +2,7 @@
 layout: routes
 title:  "South Arran Cycle Loop"
 location: "Isle of Arran"
+weatherLocation: "Brodick"
 region: "North Ayrshire"
 routeAssetsPathBase: "/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop"
 heroImagePath: "/assets/routes/south-arran-cycle-loop/images/P1000343.jpg"
