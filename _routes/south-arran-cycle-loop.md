@@ -93,7 +93,3 @@ reviews:
     name: "Audrey Winter"
     description: "I'm coming to Scotland next year with my husband and this route looks spectacular! Definitely on my todo list!"
 ---
-
-<section class="py-5 text-light d-print-none">
-    <whats-nearby location-name="Arran"></whats-nearby>
-</section>

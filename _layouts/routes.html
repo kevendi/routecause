@@ -96,6 +96,12 @@ page-type: routes
       </ul>
   </div>
 </section>
+<section class="py-5 bg-primary text-light d-print-none">
+    <div class="container">
+        <h2 class="text-light mb-5">5 Day Weather Forcast for {{page.location}}</h2>
+        <weather location-name="{{page.location}}"></weather>
+    </div>
+</section>
 <section class="map-wrapper container">
     <h2 class="py-5 text-light">Route Map</h2>
     <iframe 
@@ -189,7 +195,8 @@ page-type: routes
             </div>
         </div>
     </section>
-
-    {{ content }}
+    <section class="py-5 text-light d-print-none">
+        <whats-nearby location-name="{{location-name}}"></whats-nearby>
+    </section>
   </div>
 </article>

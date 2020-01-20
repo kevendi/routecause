@@ -94,7 +94,3 @@ reviews:
     description: "I live in Dumfries and do this route at least once a month. There are so many fantastic bike rides around here!"
 
 ---
-
-<section class="py-5 text-light d-print-none">
-    <whats-nearby location-name="Dumfries"></whats-nearby>
-</section>

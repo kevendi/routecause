@@ -110,7 +110,3 @@ reviews:
     description: "An alternate route is to ride along the Carron Valley Reservoir to Fintry and then over the Crow Road."
 
 ---
-
-<section class="py-5 text-light d-print-none">
-    <whats-nearby location-name="Stirling"></whats-nearby>
-</section>
