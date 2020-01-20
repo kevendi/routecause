@@ -98,7 +98,15 @@ page-type: routes
 </section>
 <section class="py-5 bg-primary text-light d-print-none">
     <div class="container">
-        <h2 class="text-light mb-5">5 Day Weather Forcast for {{page.location}}</h2>
+        <div class="d-flex justify-content-start">
+            <h2 class="text-light">5 Day Weather Forcast for {{page.location}}</h2>
+            <button class="btn btn-info px-3 ml-3" data-toggle="collapse" aria-expanded="false" aria-controls="weather" data-target="#weather" type="button">
+                <span class="sr-only">Toggle Caption</span>
+                <i class="fas fa-chevron-down"></i>
+            </button>
+        </div>
+    </div>
+    <div class="collapse" id="weather">
         <weather location-name="{{page.location}}"></weather>
     </div>
 </section>
