@@ -1,0 +1,47 @@
+<script>
+    document.addEventListener('DOMContentLoaded', init, false);
+    function init(){
+        var mapTriggers = document.querySelectorAll('[data-map-trigger]');
+        var regionsMap = document.getElementById("RegionsMap");
+        var description = document.querySelector('[data-description]');
+        for (const trigger of mapTriggers) {
+            trigger.addEventListener('mouseenter', (e) => {
+                var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
+                var svgBoundingBox = region.getBBox();
+                console.log(svgBoundingBox)
+                description.classList.add('active');
+                description.innerHTML = e.target.getAttribute('data-map-target');
+                description.style.left = ((svgBoundingBox.x/2) + (svgBoundingBox.width/2)) + "px";
+                description.style.top = svgBoundingBox.y/2 + "px";
+                region.classList.add('active')
+            });
+            trigger.addEventListener('mouseleave', (e) => {
+                var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
+                description.classList.remove('active');
+                description.innerHTML = '';
+                region.classList.remove('active')
+            });
+        }
+        var mapRegions = regionsMap.querySelectorAll('[data-name]');
+        for (const region of mapRegions) {
+            region.addEventListener('mouseover', (e) => {
+                var svgBoundingBox = region.getBBox();
+                console.log(svgBoundingBox)
+                var button = document.querySelector(`[data-map-target="${e.target.id}"]`);
+                button.classList.add('active');
+                region.classList.add('active');
+                description.classList.add('active');
+                description.innerHTML = e.target.getAttribute('data-name');
+                description.style.left = ((svgBoundingBox.x/2) + (svgBoundingBox.width/2)) + "px";
+                description.style.top = svgBoundingBox.y/2 + "px";
+            });
+            region.addEventListener('mouseout', (e) => {
+                var button = document.querySelector(`[data-map-target="${e.target.id}"]`);
+                button.classList.remove('active');
+                region.classList.remove('active')
+                description.classList.remove('active');
+                description.innerHTML = "";
+            });
+        }
+    };
+</script>

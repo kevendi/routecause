@@ -27,13 +27,11 @@
     box-shadow: 0 0 0 1px #eee;
     color: #21669e;
     display: none;
-    left: 50%;
     margin: 0 auto;
     padding: 10px 15px;
     pointer-events: none;
     position: absolute;
     text-align: center;
-    top: 50%;
     transform: translateX(-50%);
     &.active {
       display: block;
