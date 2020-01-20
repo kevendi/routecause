@@ -6,8 +6,8 @@
       object-position: center;
       object-fit: contain;
       path {
-        fill: #053864,;
-        transition: all .4s ease;
+        fill: #053864;
+        transition: all 250ms ease;
         &.active {
           fill: #fff;
         }

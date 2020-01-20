@@ -1,0 +1,130 @@
+[
+    {
+        "id": "Aberdeen",
+        "data-name": "Aberdeen"
+    },
+    {
+        "id": "Aberdeenshire",
+        "data-name": "Aberdeenshire"
+    },
+    {
+        "id": "Angus",
+        "data-name": "Angus"
+    },
+    {
+        "id": "Argyll_and_Bute",
+        "data-name": "Argyll and Bute"
+    },
+    {
+        "id": "Edinburgh",
+        "data-name": "Edinburgh"
+    },
+    {
+        "id": "Clackmannanshire",
+        "data-name": "Clackmannanshire"
+    },
+    {
+        "id": "Dumfries_and_Galloway",
+        "data-name": "Dumfries and Galloway"
+    },
+    {
+        "id": "Dundee",
+        "data-name": "Dundee"
+    },
+    {
+        "id": "East_Ayrshire",
+        "data-name": "East Ayrshire"
+    },
+    {
+        "id": "East_Dunbartonshire",
+        "data-name": "East Dunbartonshire"
+    },
+    {
+        "id": "East_Lothian",
+        "data-name": "East Lothian"
+    },
+    {
+        "id": "East_Renfrewshire",
+        "data-name": "East Renfrewshire"
+    },
+    {
+        "id": "Falkirk",
+        "data-name": "Falkirk"
+    },
+    {
+        "id": "Fife",
+        "data-name": "Fife"
+    },
+    {
+        "id": "Glasgow",
+        "data-name": "Glasgow"
+    },
+    {
+        "id": "Highland",
+        "data-name": "Highland"
+    },
+    {
+        "id": "Inverclyde",
+        "data-name": "Inverclyde"
+    },
+    {
+        "id": "Midlothian",
+        "data-name": "Midlothian"
+    },
+    {
+        "id": "Moray",
+        "data-name": "Moray"
+    },
+    {
+        "id": "Outer_Hebrides",
+        "data-name": "Outer Hebrides"
+    },
+    {
+        "id": "North_Ayrshire",
+        "data-name": "North Ayrshire"
+    },
+    {
+        "id": "North_Lanarkshire",
+        "data-name": "North Lanarkshire"
+    },
+    {
+        "id": "Orkney_Islands",
+        "data-name": "Orkney Islands"
+    },
+    {
+        "id": "Perth_and_Kinross",
+        "data-name": "Perth and Kinross"
+    },
+    {
+        "id": "Renfrewshire",
+        "data-name": "Renfrewshire"
+    },
+    {
+        "id": "Scottish_Borders",
+        "data-name": "Scottish Borders"
+    },
+    {
+        "id": "Shetland_Islands",
+        "data-name": "Shetland Islands"
+    },
+    {
+        "id": "South_Ayrshire",
+        "data-name": "South Ayrshire"
+    },
+    {
+        "id": "South_Lanarkshire",
+        "data-name": "South Lanarkshire"
+    },
+    {
+        "id": "Stirling",
+        "data-name": "Stirling"
+    },
+    {
+        "id": "West_Dunbartonshire",
+        "data-name": "West Dunbartonshire"
+    },
+    {
+        "id": "West_Lothian",
+        "data-name": "West Lothian"
+    }
+]
