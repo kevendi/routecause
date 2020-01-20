@@ -19,7 +19,7 @@
             {{entry.weather}}
           </dd>
           <dt class="sr-only">Temperature</dt>
-          <dd class="list-inline-item mb-0">{{entry.temp}}&deg;</dd>  
+          <dd class="list-inline-item mb-0">{{entry.temp}}&deg; celcius</dd>  
           <dt class="sr-only">Wind Direction</dt>
           <dd class="list-inline-item mb-0">
             <div :style="`transform: rotate(${entry.windDirection}deg);`">
