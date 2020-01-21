@@ -15,7 +15,7 @@
           <dd class="list-inline-item mb-0">{{entry.time}}</dd>
           <dt class="sr-only">Weather</dt>
           <dd class="list-inline-item mb-0">
-            <img :src="entry.icon" :alt="entry.weather + ' icon'" />
+            <img :src="entry.icon" :alt="entry.weather + ' icon'" width="50" height="50" />
             {{entry.weather}}
           </dd>
           <dt class="sr-only">Temperature</dt>
@@ -85,11 +85,9 @@ export default {
   ],
   methods: {
     getWeather() {
-      console.log(this.locationName)
       let url = "https://api.openweathermap.org/data/2.5/forecast?q="+this.locationName+",GB&mode=json&units=metric&appid="+this.openWeatherAPIKey;
       return axios.get(url)
         .then(response => {
-          console.log(response.data)
           this.forecast = response.data;
         })
     },
@@ -103,6 +101,7 @@ export default {
 <style lang="scss" scoped>
 .list-inline {
   font-size: 1rem;
+  margin-bottom: 0;
   @media (min-width: 1200px) {
     font-size: 1.4rem;
   }
