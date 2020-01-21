@@ -6,8 +6,8 @@ lead: "This list and map are under construction and don't really do anything yet
 mapPath: "/map/scotland-regions.svg"
 mapAlt: "Scotland Regions Map"
 ---
-  <section class="text-light position-relative d-lg-flex">
-      <div class="container py-5">
+  <section class="text-light py-5 d-print-none">
+      <div class="container">
           <div class="row">
               <div class="col col-lg-5">
                   <h1 itemprop="name headline">Routes</h1>
@@ -21,9 +21,11 @@ mapAlt: "Scotland Regions Map"
                   </ul>
                 </div>
                 <div class="col col-12 col-lg-6 offset-lg-1 position-sticky">
-                  <figure data-route-map class="route-map d-print-none sticky-top">
+                  <figure data-route-map class="route-map sticky-top">
+                    <div class="position-relative">
                     {% include {{ page.mapPath | prepend: site.baseurl }} %}
                     <div data-description class="description"></div>
+                    </div>
                         <figcaption class="sr-only">
                             <span>{{page.heroImageAlt}}</span>
                         </figcaption>
