@@ -15,7 +15,7 @@ mapAlt: "Scotland Regions Map"
                   <ul class="list-unstyled ml-n2 row cols">
                     {% for region in site.data.regions %}
                       <li>
-                        <button data-map-trigger data-map-target="{{region.id}}" class="btn btn-link btn-outline-info m-1">{{region.data-name}}</button>
+                        <button data-map-trigger data-map-target="{{region.id}}" class="btn btn-link btn-outline-primary m-1">{{region.data-name}}</button>
                       </li>
                     {% endfor %} 
                   </ul>

@@ -6,10 +6,13 @@
       object-position: center bottom;
       object-fit: contain;
       path {
-        fill: #053864;
+        fill: #1c73be;
         transition: all 250ms ease;
+        stroke: #1c73be;
+        stroke-width: 5px;
         &.active {
           fill: #fff;
+          stroke: #fff;
         }
         &:hover {
           cursor: pointer;
