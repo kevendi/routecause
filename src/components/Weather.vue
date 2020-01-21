@@ -69,7 +69,7 @@ export default {
         weatherObj.date = moment.unix(entry.dt).format("ddd Do");
         weatherObj.time = moment.unix(entry.dt).format("HH:mm");
         weatherObj.temp = Math.round(entry.main.temp);
-        weatherObj.weather = entry.weather[0].description;
+        weatherObj.weather = this.scottishifyDescription(entry.weather[0].description);
         weatherObj.icon = '/assets/images/open-weather-icons/'+entry.weather[0].icon+'@2x.png';
         weatherObj.windSpeed = Math.round(entry.wind.speed*2.237);
         weatherObj.windDirection = entry.wind.deg;
@@ -91,6 +91,27 @@ export default {
           this.forecast = response.data;
         })
     },
+    scottishifyDescription(description) {
+      switch(description) {
+        case 'heavy rain':
+          return 'pishin it doon'
+          break;
+        case 'clear sky':
+          return 'pure dead blinding'
+          break;
+        case 'overcast clouds':
+          return 'a bit murky'
+          break;
+        case 'light rain':
+          return 'a bit dreich'
+          break;
+        case 'heavy snow':
+          return 'get out yer sledge!'
+          break;
+        default:
+          return description
+      }
+    }
   },
   mounted() {
     this.getWeather();
