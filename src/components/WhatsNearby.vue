@@ -525,7 +525,7 @@ export default {
   },
   mounted() {
     // We only have sample accommodation data for Arran just now
-    (this.locationName === "Arran") ? this.getProducts() : ''
+    (this.locationName === "Isle of Arran") ? this.getProducts() : ''
     this.getEvents();
   }
 };

@@ -9,7 +9,6 @@
             trigger.addEventListener('mouseenter', (e) => {
                 var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
                 var svgBoundingBox = region.getBBox();
-                console.log(svgBoundingBox)
                 description.classList.add('active');
                 description.innerHTML = e.target.getAttribute('data-map-target');
                 description.style.position = "absolute";
@@ -28,7 +27,6 @@
         for (const region of mapRegions) {
             region.addEventListener('mouseover', (e) => {
                 var svgBoundingBox = region.getBBox();
-                console.log(svgBoundingBox)
                 var button = document.querySelector(`[data-map-target="${e.target.id}"]`);
                 button.classList.add('active');
                 region.classList.add('active');
