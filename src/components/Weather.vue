@@ -23,7 +23,7 @@
           <dt class="sr-only">Wind Direction</dt>
           <dd class="list-inline-item mb-0">
             <div :style="`transform: rotate(${entry.windDirection}deg);`">
-              <i class="fa fa-arrow-alt-circle-up"></i>
+              <i class="fa fa-arrow-alt-circle-down"></i>
             </div>
           </dd> 
           <dt class="sr-only">Wind Speed</dt>
@@ -71,7 +71,7 @@ export default {
         weatherObj.temp = Math.round(entry.main.temp);
         weatherObj.weather = entry.weather[0].description;
         weatherObj.icon = '/assets/images/open-weather-icons/'+entry.weather[0].icon+'@2x.png';
-        weatherObj.windSpeed = Math.round(entry.wind.speed);
+        weatherObj.windSpeed = Math.round(entry.wind.speed*2.237);
         weatherObj.windDirection = entry.wind.deg;
         if ((weatherObj.time == '06:00') || (weatherObj.time == '09:00') || (weatherObj.time == '12:00') || (weatherObj.time == '15:00') || (weatherObj.time == '18:00')) {
           formattedWeatherList.push(weatherObj);
