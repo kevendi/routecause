@@ -1,6 +1,6 @@
 <template>
     <div class="container mt-5">
-        <dl class="list-inline mb-5">
+        <dl class="list-inline">
           <dt class="list-inline-item mb-0">Sunrise</dt>
           <dd class="list-inline-item mb-0">{{this.sunriseTime}}</dd>
           <dt class="list-inline-item mb-0">Sunset</dt>
@@ -8,18 +8,18 @@
         </dl>
       <div class="row" v-for="(entry, index) in this.formattedWeatherList" :key="index">
         <template v-if="entry.time === '06:00'">
-          <h3 class="col">{{entry.date}}</h3>
+          <h3 class="col mt-5">{{entry.date}}</h3>
         </template>
         <dl class="col col-12 col-sm-10 offset-sm-2 list-inline">
           <dt class="sr-only">Time</dt>
-          <dd class="list-inline-item mb-0">{{entry.time}}</dd>
+          <dd class="d-block d-sm-inline-block mt-3 mb-0">{{entry.time}}</dd>
           <dt class="sr-only">Weather</dt>
-          <dd class="list-inline-item mb-0">
+          <dd class="list-inline-item mb-0 ml-n2 ml-sm-0">
             <img :src="entry.icon" :alt="entry.weather + ' icon'" width="50" height="50" />
             {{entry.weather}}
           </dd>
           <dt class="sr-only">Temperature</dt>
-          <dd class="list-inline-item mb-0">{{entry.temp}}&deg; celcius</dd>  
+          <dd class="list-inline-item mb-0">{{entry.temp}}&deg;C</dd>  
           <dt class="sr-only">Wind Direction</dt>
           <dd class="list-inline-item mb-0">
             <div :style="`transform: rotate(${entry.windDirection}deg);`">
