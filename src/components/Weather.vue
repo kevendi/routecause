@@ -96,9 +96,6 @@ export default {
         case 'heavy rain':
           return 'pishin it doon'
           break;
-        case 'clear sky':
-          return 'pure dead blinding'
-          break;
         case 'overcast clouds':
           return 'a bit murky'
           break;
