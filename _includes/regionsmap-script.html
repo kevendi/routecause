@@ -11,7 +11,6 @@
                 var svgBoundingBox = region.getBBox();
                 description.classList.add('active');
                 description.innerHTML = e.target.getAttribute('data-map-target');
-                description.style.position = "absolute";
                 description.style.left = ((svgBoundingBox.x/2) + (svgBoundingBox.width/2)) + "px";
                 description.style.top = svgBoundingBox.y/2 + "px";
                 region.classList.add('active')
