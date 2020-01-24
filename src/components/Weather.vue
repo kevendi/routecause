@@ -7,7 +7,7 @@
           <dd class="list-inline-item mb-0">{{this.sunsetTime}}</dd>
         </dl>
       <div class="row" v-for="(entry, index) in this.formattedWeatherList" :key="index">
-        <template v-if="entry.time === '06:00'">
+        <template v-if="entry.time === '06:00' || index === 0">
           <h3 class="col mt-5">{{entry.date}}</h3>
         </template>
         <dl class="col col-12 col-sm-10 offset-sm-2 list-inline">
