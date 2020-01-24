@@ -12,7 +12,11 @@ mapAlt: "Scotland Regions Map"
               <div class="col col-lg-5">
                   <h1 itemprop="name headline">Routes</h1>
                   <p class="lead mb-5">{{page.lead}}</p>
-                  <ul class="list-unstyled ml-n2 row cols">
+                </div>
+          </div>
+          <div class="row position-sticky">
+            <div class="col col-lg-5">
+              <ul class="list-unstyled ml-n2 row cols sticky-top">
                     {% for region in site.data.regions %}
                       <li>
                         <button data-map-trigger data-map-target="{{region.id}}" class="btn btn-link btn-outline-primary m-1">{{region.data-name}}</button>
@@ -20,12 +24,9 @@ mapAlt: "Scotland Regions Map"
                     {% endfor %} 
                   </ul>
                 </div>
-                <div class="col col-12 col-lg-6 offset-lg-1 position-sticky">
-                  <figure data-route-map class="route-map sticky-top">
-                    <div class="position-relative">
+                <div class="col col-12 col-lg-6 offset-lg-1">
+                  <figure data-route-map class="route-map">
                     {% include {{ page.mapPath | prepend: site.baseurl }} %}
-                    <div data-description class="description"></div>
-                    </div>
                         <figcaption class="sr-only">
                             <span>{{page.heroImageAlt}}</span>
                         </figcaption>
@@ -33,6 +34,7 @@ mapAlt: "Scotland Regions Map"
               </div>
           </div>
       </div>
+      <div data-description class="description"></div>
 </section>
 
 <div class="container py-5 text-light">
