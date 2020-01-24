@@ -10,7 +10,7 @@
                 var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
                 var svgBoundingBox = region.getBBox();
                 description.classList.add('active');
-                description.innerHTML = e.target.getAttribute('data-map-target');
+                description.innerHTML = region.getAttribute('data-name');
                 description.style.left = ((svgBoundingBox.x/2) + (svgBoundingBox.width/2)) + "px";
                 description.style.top = svgBoundingBox.y/2 + "px";
                 region.classList.add('active')
