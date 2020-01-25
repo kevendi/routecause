@@ -16,7 +16,7 @@ lead: "Cycling is a fantastic and sustainable way to discover all beauty that Sc
               </div>
           </div>
       </div>
-      <figure class="hero d-print-none">
+      <figure class="hero scrim d-print-none">
           <img src="{{page.heroImagePath | prepend: site.baseurl | append: '?nf_resize=smartcrop&w=500'}}" alt="{{page.imageAlt}}" loading="lazy" width="auto"/>
           <figcaption class="sr-only">
               <span>{{page.heroImageAlt}}</span>
