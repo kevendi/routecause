@@ -149,7 +149,7 @@ export default {
     return {
       isLoading: true,
       products: [],
-      devListAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiYzQ3YjExYTgtZGIwMC00OGVmLWFjODctYzg4M2VjYmYwMDQxIiwia2V5X2lkIjoiMzdkNmRlN2EtNDZlMS00MjNmLWEzZWMtYmUxZWVhNDNiNTlhIiwiaWF0IjoxNTc5MjA5ODA1fQ.gCV_HNP3-WatxuFfELkSsutnzp9ySw9A1LwPZrFpbpo",
+      devListAccessToken: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoiMWU2YTk0MzYtZDhiNy00NzE4LWE2NWEtY2JjM2NkMDg1NTRiIiwia2V5X2lkIjoiNGM2ZjQ2OTYtZWZmMS00ZjkyLTgxMmQtZjczNTEzN2VhMWI2IiwiaWF0IjoxNTc5OTY3NDE5fQ.-MsUj3tx8JN846nM9fDoPqr4INDP3I4TLW94gtkToA8",
       labels: {
         product: {
           types: {
@@ -525,7 +525,9 @@ export default {
   },
   mounted() {
     // We only have sample accommodation data for Arran just now
-    (this.locationName === "Isle of Arran") ? this.getProducts() : ''
+    if (this.locationName === "Isle of Arran") {
+      this.getProducts();
+    }
     this.getEvents();
   }
 };
