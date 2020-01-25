@@ -3,7 +3,7 @@
     <div class="d-lg-flex align-items-center justify-content-between">
       <h2 class="mb-3">What's Nearby</h2>
       <div>
-        <div class="input-group">
+        <div class="input-group" v-if="products.length">
           <form class="form-inline">
             <label class="mr-3" for="search">Search</label>
             <input id="search" v-model="searchTerms" type="search" class="search-input form-control form-control-lg ml-md-3" />
@@ -21,8 +21,8 @@
         <a
           v-for="(label, key) in labels.product.types" :key="key"
           class="nav-link h5 nav-`${key}`"
-          :class="key=='acco' ? 'active' : ''"
           :id="'nav-'+key+'-tab'"
+          @click="key=='even' ? getEvents() : getProducts()"
           data-toggle="tab"
           :href="'#nav-'+key"
           role="tab"
@@ -522,13 +522,6 @@ export default {
       }))
       .then(this.isLoading = false)
     }
-  },
-  mounted() {
-    // We only have sample accommodation data for Arran just now
-    if (this.locationName === "Isle of Arran") {
-      this.getProducts();
-    }
-    this.getEvents();
   }
 };
 </script>
