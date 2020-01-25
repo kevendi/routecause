@@ -478,6 +478,7 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
+      if (locationName === "Isle if Arran") {
       var prodTypes = ["acco","acti","attr","cate","reta"];
       axios.all(prodTypes.map(type => {
         let url = "../assets/json/" + type + ".json";
@@ -491,6 +492,7 @@ export default {
           })
       }))
       .then(this.getProductDataBatch);
+      }
     },
     getProductDataBatch() {
       this.products.map((feature) => {

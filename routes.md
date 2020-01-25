@@ -2,7 +2,7 @@
 layout: default
 title:  "Cycle Routes in Scotland"
 summary: "Discover some fantastic cycling routes in Scotland."
-lead: "This list and map are under construction and don't really do anything yet, but someday it's gonna be awesome."
+lead: "This page is under construction."
 mapPath: "/map/scotland-regions.svg"
 mapAlt: "Scotland Regions Map"
 ---
@@ -57,9 +57,9 @@ mapAlt: "Scotland Regions Map"
               Difficulty
             </button>
             <div class="dropdown-menu" aria-labelledby="difficultyLevel">
-              <button class="dropdown-item">Easy</button>
-              <button class="dropdown-item">Moderate</button>
-              <button class="dropdown-item">Strenuous</button>
+              <button type="button" class="dropdown-item">Easy</button>
+              <button type="button" class="dropdown-item">Moderate</button>
+              <button type="button" class="dropdown-item">Strenuous</button>
             </div>
           </div>
           <div class="dropdown">
@@ -67,9 +67,9 @@ mapAlt: "Scotland Regions Map"
               Terrain
             </button>
             <div class="dropdown-menu" aria-labelledby="terrain">
-              <button class="dropdown-item">Road</button>
-              <button class="dropdown-item">Off-Road</button>
-              <button class="dropdown-item">Mixed</button>
+              <button type="button" class="dropdown-item">Road</button>
+              <button type="button" class="dropdown-item">Off-Road</button>
+              <button type="button" class="dropdown-item">Mixed</button>
             </div>
           </div>
           <div class="d-flex">
@@ -78,12 +78,12 @@ mapAlt: "Scotland Regions Map"
                 mi
               </button>
               <div class="dropdown-menu" aria-labelledby="distanceKM">
-                <button class="dropdown-item" data-min-km="0" data-max-km="19">+ 1 mile</button>
-                <button class="dropdown-item" data-min-mi="20" data-max-mi="39">+ 20 miles</button>
-                <button class="dropdown-item" data-min-mi="40" data-max-mi="59">+ 40 miles</button>
-                <button class="dropdown-item" data-min-mi="60" data-max-mi="79">+ 60 miles</button>
-                <button class="dropdown-item" data-min-mi="80" data-max-mi="99">+ 80 miles</button>
-                <button class="dropdown-item" data-min-mi="100" data-max-mi="1000">+ 100 miles</button>
+                <button type="button" class="dropdown-item" data-min-km="0" data-max-km="19">+ 1 mile</button>
+                <button type="button" class="dropdown-item" data-min-mi="20" data-max-mi="39">+ 20 miles</button>
+                <button type="button" class="dropdown-item" data-min-mi="40" data-max-mi="59">+ 40 miles</button>
+                <button type="button" class="dropdown-item" data-min-mi="60" data-max-mi="79">+ 60 miles</button>
+                <button type="button" class="dropdown-item" data-min-mi="80" data-max-mi="99">+ 80 miles</button>
+                <button type="button" class="dropdown-item" data-min-mi="100" data-max-mi="1000">+ 100 miles</button>
               </div>
             </div>
             <div class="dropdown">
@@ -91,24 +91,24 @@ mapAlt: "Scotland Regions Map"
                 km
               </button>
               <div class="dropdown-menu" aria-labelledby="distanceKM">
-                <button class="dropdown-item" data-min-km="0" data-max-km="19">+ 1km</button>
-                <button class="dropdown-item" data-min-km="20" data-max-km="39">+ 20km</button>
-                <button class="dropdown-item" data-min-km="40" data-max-km="59">+ 40km</button>
-                <button class="dropdown-item" data-min-km="60" data-max-km="79">+ 60km</button>
-                <button class="dropdown-item" data-min-km="80" data-max-km="99">+ 80km</button>
-                <button class="dropdown-item" data-min-km="100" data-max-km="1000">+ 100km</button>
+                <button type="button" class="dropdown-item" data-min-km="0" data-max-km="19">+ 1km</button>
+                <button type="button" class="dropdown-item" data-min-km="20" data-max-km="39">+ 20km</button>
+                <button type="button" class="dropdown-item" data-min-km="40" data-max-km="59">+ 40km</button>
+                <button type="button" class="dropdown-item" data-min-km="60" data-max-km="79">+ 60km</button>
+                <button type="button" class="dropdown-item" data-min-km="80" data-max-km="99">+ 80km</button>
+                <button type="button" class="dropdown-item" data-min-km="100" data-max-km="1000">+ 100km</button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="col col-12 col-md-auto col-lg-6">
+      <div class="col col-12 col-md-auto col-lg-4">
         <div class="input-group">
-          <label class="sr-only" for="search-input">Search</label>
+          <label class="sr-only" for="search-input">Search Routes</label>
             <div class="input-group-prepend">
               <span class="input-group-text bg-primary border border-primary"><i class="fa fa-search text-light"></i></span>
             </div>
-          <input class="form-control" type="search" id="search-input" placeholder="Search" name="search" />
+          <input class="form-control" type="search" id="search-input" placeholder="Search routes" name="search" />
         </div>
       </div>
     </form>
