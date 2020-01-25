@@ -6,7 +6,7 @@ lead: "This list and map are under construction and don't really do anything yet
 mapPath: "/map/scotland-regions.svg"
 mapAlt: "Scotland Regions Map"
 ---
-<section class="text-light py-5 d-print-none">
+<section class="text-light pt-5 d-print-none">
   <div class="container">
     <div class="row">
       <div class="col col-lg-5">
@@ -48,17 +48,70 @@ mapAlt: "Scotland Regions Map"
   <div data-description class="description"></div>
 </section>
 
-<div class="container py-5 text-light">
-  <div class="input-group mb-5">
-    <form class="form-inline">
-      <label class="sr-only" for="search">Search</label>
-      <i class="fa fa-search"></i>
-      <input id="search" type="search" class="search-input form-control form-control-lg ml-md-3" />
-      <div class="input-group-append">
-        <button class="btn btn-primary btn-lg d-none">Clear Search</button>
+<div class="container text-light">
+    <form class="form row py-5">
+      <div class="col mb-3 mb-md-0">
+        <div class="d-flex">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="difficultyLevel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Difficulty
+            </button>
+            <div class="dropdown-menu" aria-labelledby="difficultyLevel">
+              <button class="dropdown-item">Easy</button>
+              <button class="dropdown-item">Moderate</button>
+              <button class="dropdown-item">Strenuous</button>
+            </div>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="terrain" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Terrain
+            </button>
+            <div class="dropdown-menu" aria-labelledby="terrain">
+              <button class="dropdown-item">Road</button>
+              <button class="dropdown-item">Off-Road</button>
+              <button class="dropdown-item">Mixed</button>
+            </div>
+          </div>
+          <div class="d-flex">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="distanceKM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                mi
+              </button>
+              <div class="dropdown-menu" aria-labelledby="distanceKM">
+                <button class="dropdown-item" data-min-km="0" data-max-km="19">+ 1 mile</button>
+                <button class="dropdown-item" data-min-mi="20" data-max-mi="39">+ 20 miles</button>
+                <button class="dropdown-item" data-min-mi="40" data-max-mi="59">+ 40 miles</button>
+                <button class="dropdown-item" data-min-mi="60" data-max-mi="79">+ 60 miles</button>
+                <button class="dropdown-item" data-min-mi="80" data-max-mi="99">+ 80 miles</button>
+                <button class="dropdown-item" data-min-mi="100" data-max-mi="1000">+ 100 miles</button>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="distanceKM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                km
+              </button>
+              <div class="dropdown-menu" aria-labelledby="distanceKM">
+                <button class="dropdown-item" data-min-km="0" data-max-km="19">+ 1km</button>
+                <button class="dropdown-item" data-min-km="20" data-max-km="39">+ 20km</button>
+                <button class="dropdown-item" data-min-km="40" data-max-km="59">+ 40km</button>
+                <button class="dropdown-item" data-min-km="60" data-max-km="79">+ 60km</button>
+                <button class="dropdown-item" data-min-km="80" data-max-km="99">+ 80km</button>
+                <button class="dropdown-item" data-min-km="100" data-max-km="1000">+ 100km</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col col-12 col-md-auto col-lg-6">
+        <div class="input-group">
+          <label class="sr-only" for="search-input">Search</label>
+            <div class="input-group-prepend">
+              <span class="input-group-text bg-primary border border-primary"><i class="fa fa-search text-light"></i></span>
+            </div>
+          <input class="form-control" type="search" id="search-input" placeholder="Search" name="search" />
+        </div>
       </div>
     </form>
-  </div>
   <ul class="list-unstyled row">
     {% for route in site.routes %}
       <li class="col col-md-6 mb-3">
