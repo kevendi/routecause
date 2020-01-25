@@ -6,8 +6,8 @@
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  searchResultTemplate: '<li class="py-5"><h2 class="h5">{title}</h2><p>{summary}</p><a href="{url}" class="stretched-link">{url}</a></li>',
-  noResultsText: ("Sorry, no result found!"),
+  searchResultTemplate: '<li class="p-3 my-3 border border-secondary"><h2 class="h5">{title}</h2><p>{summary}</p><a href="{url}" class="stretched-link">{url}</a></li>',
+  noResultsText: ('<p class="p-3 my-3 border border-secondary">Sorry, no result found!</p>'),
   json: '/search.json'
 })
 </script>

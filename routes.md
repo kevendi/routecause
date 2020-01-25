@@ -19,18 +19,17 @@ mapAlt: "Scotland Regions Map"
         <ul class="list-unstyled ml-n2 row cols sticky-top">
           {% for region in site.data.regions %}
             <li>
-              <button data-map-trigger data-map-target="{{region.id}}" class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center">{{region.data-name}}    {% assign count = 0 %}
-                    {% for route in site.routes %}
-                      {% if route.region contains region.data-name %}
-                        {% assign count = count | plus: 1 %}
-                      {% endif %}
-                    {% endfor %}
-                    
-                    {% if count > 0 %}
-                      <span class="badge badge-primary badge-pill ml-4">{{ count }}</span>
-                    {% else %}
-                      <span class="badge badge-secondary badge-pill text-muted ml-4">{{ count }}</span>
-                    {% endif %}
+              <button data-map-trigger data-map-target="{{region.id}}" class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center">{{region.data-name}}   {% assign count = 0 %}
+                {% for route in site.routes %}
+                  {% if route.region contains region.data-name %}
+                    {% assign count = count | plus: 1 %}
+                  {% endif %}
+                {% endfor %}
+                {% if count > 0 %}
+                  <span class="badge badge-primary badge-pill ml-2">{{ count }}</span>
+                {% else %}
+                  <span class="badge badge-secondary badge-pill text-muted ml-2">{{ count }}</span>
+                {% endif %}
               </button>
             </li>
           {% endfor %} 
@@ -50,6 +49,16 @@ mapAlt: "Scotland Regions Map"
 </section>
 
 <div class="container py-5 text-light">
+  <div class="input-group mb-5">
+    <form class="form-inline">
+      <label class="sr-only" for="search">Search</label>
+      <i class="fa fa-search"></i>
+      <input id="search" type="search" class="search-input form-control form-control-lg ml-md-3" />
+      <div class="input-group-append">
+        <button class="btn btn-primary btn-lg d-none">Clear Search</button>
+      </div>
+    </form>
+  </div>
   <ul class="list-unstyled row">
     {% for route in site.routes %}
       <li class="col col-md-6 mb-3">
