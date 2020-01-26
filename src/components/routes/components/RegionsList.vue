@@ -5,7 +5,7 @@
         @mouseenter="highlightRegion(region)"
         @mouseleave="unhighlightRegion()"
         @click="setSelectedRegion(region)"
-        class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center"
+        class="btn btn-sm btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center"
         :class="region['data-name'] === selectedRegion['data-name'] ? 'active' : ''"
         >
           {{region['data-name']}}

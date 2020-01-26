@@ -1,55 +1,53 @@
 <template>
-<div>
-    <div class="container text-light">
-        <section class="text-light pt-5 d-print-none">
-            <div class="row position-sticky">
-                <div class="col col-lg-5">
-                    <regions-list 
-                        :routes = 'routes' 
-                        :regions = 'regions'
-                        :selectedRegion = 'selectedRegion'
-                        @highlightRegion = 'highlightRegion' 
-                        @unhighlightRegion = 'unhighlightRegion' 
-                        @setSelectedRegion = 'setSelectedRegion' 
-                    />
-                </div>
-                <div class="col col-12 col-lg-6 offset-lg-1">
-                    <regions-map
-                        :selectedRegion = 'selectedRegion'
-                        :highlightedRegion = 'highlightedRegion'
-                        @highlightRegion = 'highlightRegion' 
-                        @unhighlightRegion = 'unhighlightRegion' 
-                        @setSelectedRegion = 'setSelectedRegion'
-                    />
-                </div>
-            </div>
-            
-        </section>
-        <routes-filters 
-            @setSearchTerm='setSearchTerm'
-            @setSelectedTerrain='setSelectedTerrain'
-            @setSelectedDifficulty='setSelectedDifficulty'
-            @setSelectedDistanceMin='setSelectedDistanceMin'
-            @setSelectedDistanceMax='setSelectedDistanceMax'
-            @setSelectedDistanceType='setSelectedDistanceType'
-            @clearFilters='clearFilters'
-            :selectedTerrain='selectedTerrain'
-            :selectedDifficulty='selectedDifficulty'
-            :selectedDistanceMin='selectedDistanceMin'
-            :selectedDistanceMax='selectedDistanceMax'
+<section class="text-light pt-5 d-print-none">
+  <div class="container">
+    <div class="row position-sticky">
+      <div class="col col-lg-5">
+        <h1>Routes</h1>
+        <regions-list 
+            :routes = 'routes' 
+            :regions = 'regions'
+            :selectedRegion = 'selectedRegion'
+            @highlightRegion = 'highlightRegion' 
+            @unhighlightRegion = 'unhighlightRegion' 
+            @setSelectedRegion = 'setSelectedRegion' 
         />
-        <routes-list 
-          :routes = 'filteredRoutes' 
-          @clearFilters='clearFilters'
+      </div>
+      <div class="col col-12 col-lg-6 offset-lg-1">
+        <regions-map
+            :selectedRegion = 'selectedRegion'
+            :highlightedRegion = 'highlightedRegion'
+            @highlightRegion = 'highlightRegion' 
+            @unhighlightRegion = 'unhighlightRegion' 
+            @setSelectedRegion = 'setSelectedRegion'
         />
+      </div>
     </div>
+    <routes-filters 
+        @setSearchTerm='setSearchTerm'
+        @setSelectedTerrain='setSelectedTerrain'
+        @setSelectedDifficulty='setSelectedDifficulty'
+        @setSelectedDistanceMin='setSelectedDistanceMin'
+        @setSelectedDistanceMax='setSelectedDistanceMax'
+        @setSelectedDistanceType='setSelectedDistanceType'
+        @clearFilters='clearFilters'
+        :selectedTerrain='selectedTerrain'
+        :selectedDifficulty='selectedDifficulty'
+        :selectedDistanceMin='selectedDistanceMin'
+        :selectedDistanceMax='selectedDistanceMax'
+    />
+    <routes-list 
+      :routes = 'filteredRoutes' 
+      @clearFilters='clearFilters'
+    />
     <regions-map-popup 
       :region = 'selectedRegion'
     />
     <regions-map-popup 
       :region = 'highlightedRegion'
     />
-</div>
+    </div>
+</section>
 </template>
 
 <script>
