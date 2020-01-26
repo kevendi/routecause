@@ -31,7 +31,7 @@
                 Distance
               </button>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="distanceKM">
-                <button @click.stop.prevent="setSelectedDistanceMin(''), setSelectedDistanceMax('9999')" type="button" class="dropdown-item" :class="selectedDistanceMin == '' && distanceMax == '' ? 'active' : ''">Show All</button>
+                <button @click.stop.prevent="setSelectedDistanceMin('0'), setSelectedDistanceMax('9999')" type="button" class="dropdown-item" :class="selectedDistanceMin == '0' && selectedDistanceMax == '9999' ? 'active' : ''">Show All</button>
                 <div class="dropdown-divider"></div>
                 <div class="form-check form-check-inline ml-3">
                   <input class="form-check-input" type="radio" id="miles" value="miles" name="distance-unit" v-model="selectedDistanceType">
