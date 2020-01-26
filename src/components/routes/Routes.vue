@@ -32,6 +32,7 @@
             @setSelectedDistanceMin='setSelectedDistanceMin'
             @setSelectedDistanceMax='setSelectedDistanceMax'
             @setSelectedDistanceType='setSelectedDistanceType'
+            @clearFilters='clearFilters'
             :selectedTerrain='selectedTerrain'
             :selectedDifficulty='selectedDifficulty'
             :selectedDistanceMin='selectedDistanceMin'

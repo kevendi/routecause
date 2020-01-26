@@ -1,6 +1,6 @@
 <template>
     <form class="form row justify-content-md-between py-5">
-      <div class="col col-6 mb-3 mb-md-0">
+      <div class="col col-6 mb-3 mb-lg-0">
         <div class="d-flex">
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="difficultyLevel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -58,13 +58,14 @@
           </div>
         </div>
       </div>
-      <div class="col col-12 col-md-auto col-lg-4">
+      <div class="col col-12 col-md-auto">
         <div class="input-group">
           <label class="sr-only" for="route-search-input">Search Routes</label>
             <div class="input-group-prepend">
               <span class="input-group-text bg-primary border border-primary"><i class="fa fa-search text-light"></i></span>
             </div>
           <input class="form-control" type="search" id="route-search-input" placeholder="Search routes" name="search" v-model="searchTerm" />
+          <button @click.prevent="clearFilters" class="btn btn-link btn-outline-primary ml-3">Clear all filters</button>
         </div>
       </div>
     </form>
@@ -101,6 +102,9 @@ export default {
     'selectedDistanceMax'
   ],
   methods: {
+    clearFilters() {
+      this.$emit('clearFilters');
+    },
     setSelectedDistanceMin(value) {
       this.$emit('setSelectedDistanceMin', value);
     },
