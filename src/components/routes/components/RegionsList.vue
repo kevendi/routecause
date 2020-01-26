@@ -2,9 +2,12 @@
   <ul class="list-unstyled ml-n2 row cols sticky-top">
     <li v-for="(region, index) in regions" :key="index">
       <button 
-        data-map-trigger 
-        :data-map-target="region.id" 
-        class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center">
+        @mouseenter="highlightRegion(region)"
+        @mouseleave="unhighlightRegion(region)"
+        @click="setSelectedRegion(region)"
+        class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center"
+        :class="region['data-name'] === selectedRegion ? 'active' : ''"
+        >
           {{region['data-name']}}
           <span 
             class="badge badge-pill ml-2"
@@ -23,46 +26,41 @@ export default {
   name: "RegionsList",
   components: {},
   data() {
-    return {
-      regions: [],
-      routes: []
-    };
+    return {};
+  },
+  watch: {
+    selectedRegion() {},
   },
   computed: {
   },
-  props: [],
+  props: [
+    'routes',
+    'regions',
+    'selectedRegion'
+  ],
   methods: {
-    getRegions() {
-      let url = "../regions.json";
-      return axios.get(url)
-        .then(response => {
-          this.regions = response.data;
-        })
+    highlightRegion(region) {
+      this.$emit('highlightRegion', region);
     },
-    getRoutes() {
-      let url = "../routes.json";
-      return axios.get(url)
-        .then(response => {
-          this.routes = response.data;
-        })
+    unhighlightRegion() {
+      this.$emit('unhighlightRegion');
     },
-    regionRouteCount(region) {
+    setSelectedRegion(region) {
+      this.$emit('setSelectedRegion', region);
+    },
+    regionRouteCount(regionName) {
       var regionRouteCount = 0;
       this.routes.map(route => {
-        if (route.region.includes(region)) {
+        if (route.region.includes(regionName)) {
           regionRouteCount += 1;
         }
       })
       return regionRouteCount;
     }
   },
-  mounted() {
-    this.getRegions();
-    this.getRoutes();
-  }
+  mounted() {}
 };
 </script>
 
 <style lang="scss" scoped>
-
 </style>

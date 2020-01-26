@@ -4,16 +4,40 @@
         <section class="text-light pt-5 d-print-none">
             <div class="row position-sticky">
                 <div class="col col-lg-5">
-                    <regions-list></regions-list>
+                    <regions-list 
+                        :routes = 'routes' 
+                        :regions = 'regions'
+                        :selectedRegion = 'selectedRegion'
+                        @highlightRegion = 'highlightRegion' 
+                        @unhighlightRegion = 'unhighlightRegion' 
+                        @setSelectedRegion = 'setSelectedRegion' 
+                    />
                 </div>
                 <div class="col col-12 col-lg-6 offset-lg-1">
-                    <regions-map></regions-map>
+                    <regions-map
+                        :selectedRegion = 'selectedRegion'
+                        :highlightedRegion = 'highlightedRegion'
+                        @highlightRegion = 'highlightRegion' 
+                        @unhighlightRegion = 'unhighlightRegion' 
+                        @setSelectedRegion = 'setSelectedRegion'
+                    />
                 </div>
             </div>
             
         </section>
-        <routes-filters></routes-filters>
-        <routes-list></routes-list>
+        <routes-filters 
+            @setSearchTerm='setSearchTerm'
+            @setSelectedTerrain='setSelectedTerrain'
+            @setSelectedDifficulty='setSelectedDifficulty'
+            @setSelectedDistanceMin='setSelectedDistanceMin'
+            @setSelectedDistanceMax='setSelectedDistanceMax'
+            @setSelectedDistanceType='setSelectedDistanceType'
+            :selectedTerrain='selectedTerrain'
+            :selectedDifficulty='selectedDifficulty'
+            :selectedDistanceMin='selectedDistanceMin'
+            :selectedDistanceMax='selectedDistanceMax'
+        ></routes-filters>
+        <routes-list :routes = 'filteredRoutes'></routes-list>
     </div>
     <div ref="description" class="description"></div>
 </div>
@@ -21,6 +45,7 @@
 
 <script>
 import axios from 'axios';
+import _ from 'lodash';
 import RegionsList from './components/RegionsList'
 import RegionsMap from './components/RegionsMap'
 import RoutesFilters from './components/RoutesFilters'
@@ -28,71 +53,154 @@ import RoutesList from './components/RoutesList'
 export default {
   name: "Routes",
   components: {
-      RegionsList,
-      RegionsMap,
-      RoutesFilters,
-      RoutesList
+      'regions-list': RegionsList,
+      'regions-map': RegionsMap,
+      'routes-filters':RoutesFilters,
+      'routes-list':RoutesList
   },
   data() {
     return {
+        routes: [],
+        regions: [],
+        highlightedRegion: '',
+        selectedRegion: '',
+        selectedDifficulty: '',
+        selectedTerrain: '',
+        selectedDistanceMin: '0',
+        selectedDistanceMax: '9999',
+        selectedDistanceType: 'miles',
+        searchTerm: ''
     };
   },
-  computed: {
+  watch: {
+    selectedRegion() {
+        this.addMapPopup()
+    },
+    highlightedRegion() {
+        this.addMapPopup()
+    },
+    unhighlightRegion() {
+        this.removeMapPopup()
+    }
   },
-  props: [
-  ],
-  methods: {
-      positionDescription(region) {
-        var description = this.$refs.description;
-        var svgBoundingBox = region.getBBox();
-        var svgRect = region.getBoundingClientRect();
-        description.style.left = ((svgRect.x) + (svgRect.width/2)) + "px";
-        description.style.top = (svgRect.y-60) + window.pageYOffset + "px";
-      },
-    initRoutes() {
-        var mapTriggers = document.querySelectorAll('[data-map-trigger]');
-        var regionsMap = document.getElementById("RegionsMap");
-        var description = this.$refs.description;
-
-        if (regionsMap !== null && mapTriggers !== null && description !== null) {
-            for (const trigger of mapTriggers) {
-                trigger.addEventListener('mouseenter', (e) => {
-                    var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
-                    description.classList.add('active');
-                    description.innerHTML = region.getAttribute('data-name');
-                    this.positionDescription(region);
-                    region.classList.add('active')
-                });
-                trigger.addEventListener('mouseleave', (e) => {
-                    var region = regionsMap.getElementById(e.target.getAttribute('data-map-target'));
-                    description.classList.remove('active');
-                    description.innerHTML = '';
-                    region.classList.remove('active')
-                });
+  computed: {
+    searchedRoutes() {
+      return this.routes.filter((route) => {
+        return (
+          (route.title.toLowerCase().match(this.searchTerm.toLowerCase()))
+        )
+      })
+    },
+    filteredRoutes() {
+      return this.searchedRoutes.filter(route => {
+       return (
+          (route.region.includes(this.selectedRegion))
+        )
+      }).filter(route => {
+        if(this.selectedTerrain !== '') {
+            return route.terrain === this.selectedTerrain
+        }
+        return route
+      }).filter(route => {
+        if(this.selectedDistanceMax !== '') {
+            if (this.selectedDistanceType === 'miles') {
+                return parseInt(route.distanceMiles, 10) <= parseInt(this.selectedDistanceMax, 10)
+            } else {
+                return parseInt(route.distanceKilometres, 10) <= parseInt(this.selectedDistanceMax, 10)
             }
-            var mapRegions = regionsMap.querySelectorAll('[data-name]');
-                    for (const region of mapRegions) {
-            region.addEventListener('mouseover', (e) => {
-                var button = document.querySelector(`[data-map-target="${e.target.id}"]`);
-                button.classList.add('active');
-                region.classList.add('active');
-                description.classList.add('active');
-                description.innerHTML = e.target.getAttribute('data-name');
-                this.positionDescription(region);
-            });
-            region.addEventListener('mouseout', (e) => {
-                var button = document.querySelector(`[data-map-target="${e.target.id}"]`);
-                button.classList.remove('active');
-                region.classList.remove('active')
-                description.classList.remove('active');
-                description.innerHTML = "";
-            });
         }
+        return route
+      }).filter(route => {
+        if(this.selectedDistanceMin !== '') {
+            if (this.selectedDistanceType === 'miles') {
+                return parseInt(route.distanceMiles, 10) >= parseInt(this.selectedDistanceMin, 10)
+            } else {
+                return parseInt(route.distanceKilometres, 10) >= parseInt(this.selectedDistanceMin, 10)
+            }
         }
+        return route
+      }).filter(route => {
+        if(this.selectedDifficulty !== '') {
+            return route.difficulty === this.selectedDifficulty
+        }
+        return route
+      })
+    }
+  },
+  props: [],
+  methods: {
+    clearSearchTerms() {
+        this.searchTerms = '';
+    },
+    highlightRegion(region) {
+        this.highlightedRegion = region;
+    },
+    unhighlightRegion() {
+        this.highlightedRegion = '';
+    },
+    addMapPopup() {
+        if (!this.selectedRegion.id && this.highlightedRegion.id) {
+            var description = this.$refs.description;
+            var mapPath = document.getElementById(this.highlightedRegion.id)
+            description.classList.add('active');
+            description.innerHTML = this.highlightedRegion['data-name'];
+            this.positionDescription(mapPath);
+        } else {
+            this.removeMapPopup();
+        }
+    },
+    removeMapPopup() {
+        var description = this.$refs.description;
+        description.innerHTML = "";
+        description.classList.remove('active');
+    },
+    setSelectedRegion(region) {
+        this.selectedRegion = region['data-name'];
+    },
+    setSelectedDifficulty(difficulty) {
+        this.selectedDifficulty = difficulty;
+    },
+    setSelectedTerrain(terrain) {
+        this.selectedTerrain = terrain;
+    },
+    setSelectedDistanceMax(max) {
+        this.selectedDistanceMax = max;
+    },
+    setSelectedDistanceMin(min) {
+        this.selectedDistanceMin = min;
+    },
+    setSelectedDistanceType(type) {
+        this.selectedDistanceType = type;
+    },
+    getRegions() {
+      let url = "../regions.json";
+      return axios.get(url)
+        .then(response => {
+          this.regions = response.data;
+        })
+    },
+    getRoutes() {
+      let url = "../routes.json";
+      return axios.get(url)
+        .then(response => {
+          this.routes = response.data;
+        })
+    },
+    positionDescription(region) {
+        if (region) {
+            var description = this.$refs.description;
+            var svgRect = region.getBoundingClientRect();
+            description.style.left = ((svgRect.x) + (svgRect.width/2)) + "px";
+            description.style.top = (svgRect.y-60) + window.pageYOffset + "px";
+        }
+    },
+    setSearchTerm(term) {
+      this.searchTerm = term;
     }
   },
   mounted() {
-    this.initRoutes()
+    this.getRoutes();
+    this.getRegions();
   }
 };
 </script>

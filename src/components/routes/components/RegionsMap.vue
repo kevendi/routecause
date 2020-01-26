@@ -1,6 +1,6 @@
 <template>
-    <figure data-route-map class="regions-map">
-        <svg version="1.1" id="RegionsMap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <figure class="regions-map">
+        <svg version="1.1" ref="map" id="RegionsMap" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
             width="853.3px" height="1287.6px" viewBox="0 0 853.3 1287.6" xml:space="preserve" >
         <path id="Aberdeenshire" data-name="Aberdeenshire" d="M601.5,652.8c-4.8,9.4,5.4,7.7,0.5,15.9c-5.5,7.4,8.7,9.3,9.4,16.7c-1.9,6.3,5.7-1.6,5.3,2
             c6.2-0.1-3,3.3-2.7,4.1c-0.5,2.3-0.5,0.6-2.2,0.8c-1.8,3.5-3.2,0.6-5.8,0c-1-6.9-3.2,4.1-5.8-1.2c-6.5-12.2-12.6,5.7-18,4.5
@@ -594,7 +594,6 @@
             c-1.5,1.9,4.1,5.1,1.9,5.3c-5.2,2.1,2.8,1.6-0.7,8.2c-3.9,3.4,6.9,1.2,5.5,2.9c1.6,2.1-2.9,2-1.2,3.7c-3.5,1.5,2,2.4-2.2,4.9
             c-0.7,3.3,5.1,6.6,2.2,8.2c-13.4,18.5-13.2,3.6-26.4,3.3c-5.3-2.3-17.4,8.7-14.2,2C489.6,1041.9,481,1035.2,489.4,1030.2z"/>
         </svg>
-
         <figcaption class="sr-only">Regions Map</figcaption>
     </figure>
 </template>
@@ -607,10 +606,70 @@ export default {
   data() {
     return {};
   },
-  computed: {},
-  props: [],
-  methods: {},
-  mounted() {}
+    watch: {
+    selectedRegion(newValue, oldValue) {
+        if (newValue.id) {
+            this.unhighlightAll();
+            var newMapPath = document.getElementById(newValue.id)
+            newMapPath.classList.add('active');
+        } else {
+            this.unhighlightAll();
+        }
+    },
+    highlightedRegion(newValue, oldValue) {
+        if (newValue.id) {
+            this.unhighlightAll();
+            var newMapPath = document.getElementById(newValue.id)
+            newMapPath.classList.add('highlighted');
+        } else  {
+            this.unhighlightAll();
+        }
+    },
+  },
+  computed: {
+  },
+  props: [
+    'highlightedRegion',
+    'selectedRegion'
+  ],
+  methods: {
+    highlightRegion(target) {
+        let region = {"id": target.id, "data-name": target.dataset.name}
+        this.$emit('highlightRegion', region);
+    },
+    unhighlightRegion() {
+        this.$emit('unhighlightRegion');
+    },
+    setSelectedRegion(target) {
+          let region = {"id": target.id, "data-name": target.dataset.name}
+          this.$emit('setSelectedRegion', region);
+    },
+    unhighlightAll() {
+        var regionsMap = this.$refs.map;
+        var mapRegions = regionsMap.querySelectorAll('[data-name]');
+        for (const region of mapRegions) {
+            region.classList = '';
+        }
+    },
+    addEventListeners() {
+        var regionsMap = this.$refs.map;
+        var mapRegions = regionsMap.querySelectorAll('[data-name]');
+        for (const region of mapRegions) {
+            region.addEventListener('mouseover', (e) => {
+                this.highlightRegion(e.target)
+            });
+            region.addEventListener('mouseout', () => {
+                this.unhighlightRegion()
+            });
+            region.addEventListener('click', (e) => {
+                this.setSelectedRegion(e.target)
+            });
+        }
+    }
+  },
+  mounted() {
+      this.addEventListeners();
+  }
 };
 </script>
 
@@ -629,13 +688,12 @@ export default {
           fill: #fff;
           stroke: #fff;
         }
+        &.highlighted {
+            fill: #8abbe5;
+            stroke: #8abbe5;
+        }
         &:hover {
           cursor: pointer;
-          &:after {
-            position: absolute;
-            display: block;
-            content: attr(data-name);
-          }
         }
       }
     }
