@@ -27,16 +27,9 @@
 import axios from 'axios';
 export default {
   name: "RoutesList",
-  components: {},
-  data() {
-    return {};
-  },
-  computed: {},
   props: [
     'routes'
-  ],
-  methods: {},
-  mounted() {}
+  ]
 };
 </script>
 

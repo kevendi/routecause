@@ -3,10 +3,10 @@
     <li v-for="(region, index) in regions" :key="index">
       <button 
         @mouseenter="highlightRegion(region)"
-        @mouseleave="unhighlightRegion(region)"
+        @mouseleave="unhighlightRegion()"
         @click="setSelectedRegion(region)"
         class="btn btn-link btn-outline-primary m-1 d-flex justify-content-between align-items-center"
-        :class="region['data-name'] === selectedRegion ? 'active' : ''"
+        :class="region['data-name'] === selectedRegion['data-name'] ? 'active' : ''"
         >
           {{region['data-name']}}
           <span 
@@ -30,6 +30,7 @@ export default {
   },
   watch: {
     selectedRegion() {},
+    highlightedRegion() {},
   },
   computed: {
   },
@@ -46,7 +47,11 @@ export default {
       this.$emit('unhighlightRegion');
     },
     setSelectedRegion(region) {
-      this.$emit('setSelectedRegion', region);
+      if (region.id == this.selectedRegion.id) {
+        this.$emit('setSelectedRegion', '');
+      } else {
+        this.$emit('setSelectedRegion', region);
+      }
     },
     regionRouteCount(regionName) {
       var regionRouteCount = 0;

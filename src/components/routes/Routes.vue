@@ -93,9 +93,10 @@ export default {
     },
     filteredRoutes() {
       return this.searchedRoutes.filter(route => {
-       return (
-          (route.region.includes(this.selectedRegion))
-        )
+        if(this.selectedRegion !== '') {
+            return route.region.includes(this.selectedRegion['data-name'])
+        }
+        return route
       }).filter(route => {
         if(this.selectedTerrain !== '') {
             return route.terrain === this.selectedTerrain
@@ -121,7 +122,7 @@ export default {
         return route
       }).filter(route => {
         if(this.selectedDifficulty !== '') {
-            return route.difficulty === this.selectedDifficulty
+            return route.difficultyLevel === this.selectedDifficulty
         }
         return route
       })
@@ -139,23 +140,33 @@ export default {
         this.highlightedRegion = '';
     },
     addMapPopup() {
-        if (!this.selectedRegion.id && this.highlightedRegion.id) {
+      var popupText = '';
+        if (this.selectedRegion !== '') {
+            var popupText = this.selectedRegion['data-name']
             var description = this.$refs.description;
-            var mapPath = document.getElementById(this.highlightedRegion.id)
+            var mapPath = document.getElementById(this.selectedRegion.id)
             description.classList.add('active');
-            description.innerHTML = this.highlightedRegion['data-name'];
+            description.innerHTML = popupText;
             this.positionDescription(mapPath);
-        } else {
+        } else if (this.highlightedRegion !== '') {
+          var popupText = this.highlightedRegion['data-name']
+          var description = this.$refs.description;
+          var mapPath = document.getElementById(this.highlightedRegion.id)
+          description.classList.add('active');
+          description.innerHTML = popupText;
+          this.positionDescription(mapPath);
+        }
+        else {
             this.removeMapPopup();
         }
     },
     removeMapPopup() {
-        var description = this.$refs.description;
-        description.innerHTML = "";
-        description.classList.remove('active');
+      var description = this.$refs.description;
+      description.innerHTML = "";
+      description.classList.remove('active');
     },
     setSelectedRegion(region) {
-        this.selectedRegion = region['data-name'];
+        this.selectedRegion = region;
     },
     setSelectedDifficulty(difficulty) {
         this.selectedDifficulty = difficulty;
