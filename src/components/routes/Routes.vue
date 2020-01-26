@@ -39,7 +39,12 @@
         ></routes-filters>
         <routes-list :routes = 'filteredRoutes'></routes-list>
     </div>
-    <div ref="description" class="description"></div>
+    <regions-map-popup 
+      :region = 'selectedRegion'
+    />
+    <regions-map-popup 
+      :region = 'highlightedRegion'
+    />
 </div>
 </template>
 
@@ -50,11 +55,13 @@ import RegionsList from './components/RegionsList'
 import RegionsMap from './components/RegionsMap'
 import RoutesFilters from './components/RoutesFilters'
 import RoutesList from './components/RoutesList'
+import RegionsMapPopup from './components/RegionsMapPopup'
 export default {
   name: "Routes",
   components: {
       'regions-list': RegionsList,
       'regions-map': RegionsMap,
+      'regions-map-popup': RegionsMapPopup,
       'routes-filters':RoutesFilters,
       'routes-list':RoutesList
   },
@@ -71,17 +78,6 @@ export default {
         selectedDistanceType: 'miles',
         searchTerm: ''
     };
-  },
-  watch: {
-    selectedRegion() {
-        this.addMapPopup()
-    },
-    highlightedRegion() {
-        this.addMapPopup()
-    },
-    unhighlightRegion() {
-        this.removeMapPopup()
-    }
   },
   computed: {
     searchedRoutes() {
@@ -139,32 +135,6 @@ export default {
     unhighlightRegion() {
         this.highlightedRegion = '';
     },
-    addMapPopup() {
-      var popupText = '';
-        if (this.selectedRegion !== '') {
-            var popupText = this.selectedRegion['data-name']
-            var description = this.$refs.description;
-            var mapPath = document.getElementById(this.selectedRegion.id)
-            description.classList.add('active');
-            description.innerHTML = popupText;
-            this.positionDescription(mapPath);
-        } else if (this.highlightedRegion !== '') {
-          var popupText = this.highlightedRegion['data-name']
-          var description = this.$refs.description;
-          var mapPath = document.getElementById(this.highlightedRegion.id)
-          description.classList.add('active');
-          description.innerHTML = popupText;
-          this.positionDescription(mapPath);
-        }
-        else {
-            this.removeMapPopup();
-        }
-    },
-    removeMapPopup() {
-      var description = this.$refs.description;
-      description.innerHTML = "";
-      description.classList.remove('active');
-    },
     setSelectedRegion(region) {
         this.selectedRegion = region;
     },
@@ -197,14 +167,6 @@ export default {
           this.routes = response.data;
         })
     },
-    positionDescription(region) {
-        if (region) {
-            var description = this.$refs.description;
-            var svgRect = region.getBoundingClientRect();
-            description.style.left = ((svgRect.x) + (svgRect.width/2)) + "px";
-            description.style.top = (svgRect.y-60) + window.pageYOffset + "px";
-        }
-    },
     setSearchTerm(term) {
       this.searchTerm = term;
     }
@@ -217,33 +179,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.description {
-  background: white;
-  border-radius: 5px;
-  box-shadow: 0 0 0 1px #eee;
-  color: #21669e;
-  display: none;
-  margin: 0 auto;
-  padding: 10px 15px;
-  pointer-events: none;
-  position: absolute;
-  text-align: center;
-  transform: translateX(-50%);
-  z-index: 1;
-  &.active {
-    display: block;
-  }
-  &:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    width: 0;
-    height: 0;
-    margin-left: -10px;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid white
-  }
-}
 </style>

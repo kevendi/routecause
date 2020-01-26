@@ -16,4 +16,4 @@ mapAlt: "Scotland Regions Map"
     </div>
   </div>
 </section>
-<routes></routes>
+<routes />
