@@ -25,4 +25,16 @@
     object-position: center;
     height: 100%;
   }
+
+  &::after {
+    background: linear-gradient(0deg, rgba(25, 25, 25, 1) 0%, rgba(25, 25, 25, 0) 30%);
+    content: "";
+    height: 100%;
+    left: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
 }

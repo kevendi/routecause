@@ -49,8 +49,8 @@ mapAlt: "Scotland Regions Map"
 </section>
 
 <div class="container text-light">
-    <form class="form row py-5">
-      <div class="col mb-3 mb-md-0">
+    <form class="form row justify-content-md-between py-5">
+      <div class="col col-6 mb-3 mb-md-0">
         <div class="d-flex">
           <div class="dropdown">
             <button class="btn btn-secondary dropdown-toggle" type="button" id="difficultyLevel" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -72,8 +72,7 @@ mapAlt: "Scotland Regions Map"
               <button type="button" class="dropdown-item">Mixed</button>
             </div>
           </div>
-          <div class="d-flex">
-            <div class="dropdown">
+            <div class="dropdown d-none">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="distanceKM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 mi
               </button>
@@ -88,17 +87,27 @@ mapAlt: "Scotland Regions Map"
             </div>
             <div class="dropdown">
               <button class="btn btn-secondary dropdown-toggle" type="button" id="distanceKM" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                km
+                Distance
               </button>
-              <div class="dropdown-menu" aria-labelledby="distanceKM">
-                <button type="button" class="dropdown-item" data-min-km="0" data-max-km="19">+ 1km</button>
-                <button type="button" class="dropdown-item" data-min-km="20" data-max-km="39">+ 20km</button>
-                <button type="button" class="dropdown-item" data-min-km="40" data-max-km="59">+ 40km</button>
-                <button type="button" class="dropdown-item" data-min-km="60" data-max-km="79">+ 60km</button>
-                <button type="button" class="dropdown-item" data-min-km="80" data-max-km="99">+ 80km</button>
-                <button type="button" class="dropdown-item" data-min-km="100" data-max-km="1000">+ 100km</button>
+              <div class="dropdown-menu dropdown-menu-right" aria-labelledby="distanceKM">
+                <div class="form-check form-check-inline ml-3">
+                  <label class="form-check-label" for="miles">
+                    <input class="form-check-input" type="radio" id="miles" value="miles" name="distance-unit">
+                  mi</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <label class="form-check-label" for="kilometres">
+                    <input class="form-check-input" type="radio" id="kilometres" value="kilometres" name="distance-unit">
+                  km</label>
+                </div>
+                <div class="dropdown-divider"></div>
+                <button type="button" class="dropdown-item" data-distance-min="0" data-distance-max="19">+ 1</button>
+                <button type="button" class="dropdown-item" data-distance-min="20" data-distance-max="39">+ 20</button>
+                <button type="button" class="dropdown-item" data-distance-min="40" data-distance-max="59">+ 40</button>
+                <button type="button" class="dropdown-item" data-distance-min="60" data-distance-max="79">+ 60</button>
+                <button type="button" class="dropdown-item" data-distance-min="80" data-distance-max="99">+ 80</button>
+                <button type="button" class="dropdown-item" data-distance-min="100" data-distance-max="1000">+ 100</button>
               </div>
-            </div>
           </div>
         </div>
       </div>
@@ -116,7 +125,7 @@ mapAlt: "Scotland Regions Map"
     {% for route in site.routes %}
       <li class="col col-md-6 mb-3">
         <div class="media bg-dark text-light border border-secondary">
-          <div class="media-image-wrapper float-left">
+          <div class="media-image-wrapper scrim float-left">
             <img src="{{route.heroImagePath | prepend: site.baseurl | append: '?nf_resize=smartcrop&w=150'}}" alt="{{ route.heroImageAlt }}" loading="lazy" width="150"/>
           </div>
           <div class="media-body p-3">
