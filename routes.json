@@ -1,0 +1,15 @@
+---
+---
+[{% for route in site.routes %}
+    {
+      "title": "{{ route.title | strip_html | escape }}",
+      "url": "{{ site.baseurl }}{{ route.url }}",
+      "heroImagePath": "{{route.heroImagePath | prepend: site.baseurl}}",
+      "heroImageAlt": "{{route.imageAlt}}",
+      "region": "{{ route.region }}",
+      "difficultyLevel": "{{ route.difficultyLevel }}",
+      "distanceMiles": "{{ route.distanceMiles }}",
+      "distanceKilometres": "{{ route.distanceKilometres }}",
+      "terrain": "{{ route.terrain }}"
+    }{% unless forloop.last %},{% endunless %}{% endfor %}
+]

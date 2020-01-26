@@ -1,28 +1,23 @@
 ---
 ---
-[
-  {% for route in site.routes %}
+[{% for route in site.routes %}
     {
-      "title"    : "{{ route.title | strip_html | escape }}",
-      "url"      : "{{ site.baseurl }}{{ route.url }}",
-      "location" : "{{ route.location }}",
-      "region" : "{{ route.region }}",
-      "summary" : "{{route.summary | strip_html | strip_newlines | escape }}",
-      "difficultyLevel" : "{{ route.difficultyLevel }}",
-      "distanceMiles" : "{{ route.distanceMiles }}",
-      "distanceKilometres" : "{{ route.distanceKilometres }}",
-      "startPoint" : "{{ route.startPoint }}",
-      "terrain" : "{{ route.terrain }}",
-      "endPoint" : "{{ route.endPoint }}",
-      "durationHours" : "{{ route.durationHours }}"
-    } {% unless forloop.last %},{% endunless %}
-  {% endfor %},
-  {% for page in site.pages %}
-  { 
-    "title"    : "{{ page.title | strip_html | escape }}",
-    "url"      : "{{ site.baseurl }}{{ page.url }}",
-    "summary" : "{{page.summary | strip_html | strip_newlines | escape }}"
-  } 
-  {% unless forloop.last %},{% endunless %}
-{% endfor %}
+      "title": "{{ route.title | strip_html | escape }}",
+      "url": "{{ site.baseurl }}{{ route.url }}",
+      "location": "{{ route.location }}",
+      "region": "{{ route.region }}",
+      "summary": "{{route.summary | strip_html | strip_newlines | escape }}",
+      "difficultyLevel": "{{ route.difficultyLevel }}",
+      "distanceMiles": "{{ route.distanceMiles }}",
+      "distanceKilometres": "{{ route.distanceKilometres }}",
+      "startPoint": "{{ route.startPoint }}",
+      "terrain": "{{ route.terrain }}",
+      "endPoint": "{{ route.endPoint }}",
+      "durationHours": "{{ route.durationHours }}"
+    }{% unless forloop.last %},{% endunless %}{% endfor %}{% for page in site.pages %}{% assign title = page.title | strip_newlines %}{% if title != '' %},
+    { 
+      "title": "{{ page.title | strip_html | escape }}",
+      "url": "{{ site.baseurl }}{{ page.url }}",
+      "summary": "{{page.summary | strip_html | strip_newlines | escape }}"
+    }{% endif %}{% endfor %}
 ]
