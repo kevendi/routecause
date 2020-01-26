@@ -36,8 +36,11 @@
             :selectedDifficulty='selectedDifficulty'
             :selectedDistanceMin='selectedDistanceMin'
             :selectedDistanceMax='selectedDistanceMax'
-        ></routes-filters>
-        <routes-list :routes = 'filteredRoutes'></routes-list>
+        />
+        <routes-list 
+          :routes = 'filteredRoutes' 
+          @clearFilters='clearFilters'
+        />
     </div>
     <regions-map-popup 
       :region = 'selectedRegion'
@@ -152,6 +155,16 @@ export default {
     },
     setSelectedDistanceType(type) {
         this.selectedDistanceType = type;
+    },
+    clearFilters() {
+      this.highlightedRegion = '';
+      this.selectedRegion = '';
+      this.selectedDifficulty = '';
+      this.selectedTerrain = '';
+      this.selectedDistanceMin = '0';
+      this.selectedDistanceMax = '9999';
+      this.selectedDistanceType = 'miles';
+      this.searchTerm = '';
     },
     getRegions() {
       let url = "../regions.json";

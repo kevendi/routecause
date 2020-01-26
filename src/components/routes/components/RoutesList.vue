@@ -1,5 +1,13 @@
 <template>
   <ul class="list-unstyled row">
+    <li class="col mb-3" v-if="!routes.length">
+      <div class="media bg-dark text-light border border-secondary">
+        <div class="media-body p-3 d-flex align-items-center">
+          <h2 class="h5">There are no routes available.</h2>
+          <button @click="clearFilters" class="btn btn-link btn-outline-primary ml-3">Clear all filters</button>
+        </div>
+      </div>
+    </li>
     <li class="col col-md-6 mb-3" v-for="(route, index) in routes" :key="index">
       <div class="media bg-dark text-light border border-secondary">
         <div class="media-image-wrapper scrim float-left">
@@ -29,7 +37,12 @@ export default {
   name: "RoutesList",
   props: [
     'routes'
-  ]
+  ],
+  methods: {
+    clearFilters() {
+      this.$emit('clearFilters');
+    }
+  }
 };
 </script>
 
