@@ -22,7 +22,6 @@
           v-for="(label, key) in labels.product.types" :key="key"
           class="nav-link h5 nav-`${key}`"
           :id="'nav-'+key+'-tab'"
-          @click="key=='even' ? getEvents() : getProducts()"
           data-toggle="tab"
           :href="'#nav-'+key"
           role="tab"
@@ -383,12 +382,13 @@ export default {
       return formattedFacilities;
     },
     getFeatureFormattedImage(feature) {
-      let featureFormattedImage = null;
-      if (feature.properties.image) {
-        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
-        featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
-      }
-      return featureFormattedImage;
+      // let featureFormattedImage = null;
+      // if (feature.properties.image) {
+      //   let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+      //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
+      // }
+      // return featureFormattedImage;
+      return this.placeholderImagePath;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -477,7 +477,6 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
-      if (this.locationName == "Isle of Arran") {
       var prodTypes = ["acco","acti","attr","cate","reta"];
       axios.all(prodTypes.map(type => {
         let url = "../assets/json/" + type + ".json";
@@ -491,7 +490,6 @@ export default {
           })
       }))
       .then(this.getProductDataBatch);
-      }
     },
     getProductDataBatch() {
       this.products.map((feature) => {
@@ -523,6 +521,12 @@ export default {
       }))
       .then(this.isLoading = false)
     }
+  },
+  mounted() {
+    if (this.locationName == "Isle of Arran") {
+      this.getProducts();
+    }
+    this.getEvents();
   }
 };
 </script>
