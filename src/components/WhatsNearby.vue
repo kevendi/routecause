@@ -383,13 +383,12 @@ export default {
       return formattedFacilities;
     },
     getFeatureFormattedImage(feature) {
-      // let featureFormattedImage = null;
-      // if (feature.properties.image) {
-      //   let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
-      //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
-      // }
-      // return featureFormattedImage;
-      return this.placeholderImagePath;
+      let featureFormattedImage = null;
+      if (feature.properties.image) {
+        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+        featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
+      }
+      return featureFormattedImage;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -478,7 +477,7 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
-      if (locationName === "Isle if Arran") {
+      if (this.locationName == "Isle of Arran") {
       var prodTypes = ["acco","acti","attr","cate","reta"];
       axios.all(prodTypes.map(type => {
         let url = "../assets/json/" + type + ".json";
