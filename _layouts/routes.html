@@ -204,7 +204,13 @@ page-type: routes
         </div>
     </section>
     <section class="py-5 text-light d-print-none">
-        <whats-nearby location-name="{{page.location}}"></whats-nearby>
+        <open-trip-map 
+            location-name="{{page.location}}"
+            lon-min="{{page.lonMin}}"
+            lon-max="{{page.lonMax}}"
+            lat-min="{{page.latMin}}"
+            lat-max="{{page.latMax}}"
+        ></open-trip-map>
     </section>
   </div>
 </article>

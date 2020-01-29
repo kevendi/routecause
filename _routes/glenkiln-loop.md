@@ -4,6 +4,10 @@ title:  "Glenkiln Loop"
 location: "Dumfries"
 weatherLocation: "Dumfries"
 region: "Dumfries and Galloway"
+lonMin: -3.8392627
+lonMax: -3.5948237
+latMin: 55.059331
+latMax: 55.106324
 routeAssetsPathBase: "/assets/routes/glenkiln-loop/Glenkiln_Loop"
 heroImagePath: "/assets/routes/glenkiln-loop/images/P1130628.jpg"
 heroImageAlt: "Bridge over a burn near the Glenkiln Reservoir"
