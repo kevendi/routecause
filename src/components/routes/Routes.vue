@@ -1,9 +1,10 @@
 <template>
 <section class="text-light pt-5 d-print-none">
   <div class="container">
-    <div class="row position-sticky">
+    <div class="row">
       <div class="col col-lg-5">
         <h1>Routes</h1>
+        <div class="d-none d-sm-block">
         <regions-list 
             :routes = 'routes' 
             :regions = 'regions'
@@ -12,8 +13,9 @@
             @unhighlightRegion = 'unhighlightRegion' 
             @setSelectedRegion = 'setSelectedRegion' 
         />
+        </div>
       </div>
-      <div class="col col-12 col-lg-6 offset-lg-1">
+      <div class="col col-12 col-lg-6 offset-lg-1 d-none d-sm-block mb-5">
         <regions-map
             :selectedRegion = 'selectedRegion'
             :highlightedRegion = 'highlightedRegion'
@@ -30,7 +32,10 @@
         @setSelectedDistanceMin='setSelectedDistanceMin'
         @setSelectedDistanceMax='setSelectedDistanceMax'
         @setSelectedDistanceType='setSelectedDistanceType'
+        @setSelectedRegion='setSelectedRegion'
         @clearFilters='clearFilters'
+        :regions='regions'
+        :selectedRegion='selectedRegion'
         :selectedTerrain='selectedTerrain'
         :selectedDifficulty='selectedDifficulty'
         :selectedDistanceMin='selectedDistanceMin'
@@ -40,10 +45,10 @@
       :routes = 'filteredRoutes' 
       @clearFilters='clearFilters'
     />
-    <regions-map-popup 
+    <regions-map-popup
       :region = 'selectedRegion'
     />
-    <regions-map-popup 
+    <regions-map-popup
       :region = 'highlightedRegion'
     />
     </div>

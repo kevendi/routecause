@@ -1,5 +1,5 @@
 <template>
-  <ul class="list-unstyled ml-n2 row cols sticky-top">
+  <ul class="list-unstyled ml-n2 row cols">
     <li v-for="(region, index) in regions" :key="index">
       <button 
         @mouseenter="highlightRegion(region)"
