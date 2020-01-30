@@ -4,10 +4,6 @@ title:  "South Arran Cycle Loop"
 location: "Isle of Arran"
 weatherLocation: "Brodick"
 region: "North Ayrshire"
-lonMin: -5.3909917
-lonMax: -5.0570437
-latMin: 55.421034
-latMax: 55.585599
 routeAssetsPathBase: "/assets/routes/south-arran-cycle-loop/South_Arran_Cycle_Loop"
 heroImagePath: "/assets/routes/south-arran-cycle-loop/images/P1000343.jpg"
 heroImageAlt: "View of Goatfell from Brodick Harbour"
@@ -98,3 +94,6 @@ reviews:
     name: "Audrey Winter"
     description: "I'm coming to Scotland next year with my husband and this route looks spectacular! Definitely on my todo list!"
 ---
+<section class="py-5 text-light d-print-none">
+  <whats-nearby location-name="{{page.location}}"></whats-nearby>
+</section>

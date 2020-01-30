@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <nav class="sticky-top">
+    <nav>
       <div class="nav nav-tabs py-5" id="nav-tab" role="tablist">
         <a
           v-for="(label, key) in labels.product.types" :key="key"
@@ -382,13 +382,12 @@ export default {
       return formattedFacilities;
     },
     getFeatureFormattedImage(feature) {
-      // let featureFormattedImage = null;
-      // if (feature.properties.image) {
-      //   let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
-      //   featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
-      // }
-      // return featureFormattedImage;
-      return this.placeholderImagePath;
+      let featureFormattedImage = null;
+      if (feature.properties.image) {
+        let changeSize = feature.properties.image.replace(/\[(.+?)\]/g, '[ToFit300x200]');
+        featureFormattedImage = changeSize.replace(/^http:\/\//i, 'https://');
+      }
+      return featureFormattedImage;
     },
     getFeatureFormattedPhone(feature) {
       let formattedPhone = null;
@@ -477,7 +476,7 @@ export default {
       return featureHasStarGradingRange;
     },
     getProducts() {
-      var prodTypes = ["acco","acti","attr","cate","reta"];
+      var prodTypes = ["acco","acti","attr","cate","even","reta"];
       axios.all(prodTypes.map(type => {
         let url = "../assets/json/" + type + ".json";
         return axios.get(url)
@@ -526,7 +525,6 @@ export default {
     if (this.locationName == "Isle of Arran") {
       this.getProducts();
     }
-    this.getEvents();
   }
 };
 </script>

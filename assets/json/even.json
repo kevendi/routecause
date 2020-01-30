@@ -1,0 +1,33 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Arran VegFest",
+                "id": "2301321"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1334,
+                    55.53038
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Brodick Highland Games",
+                "id": "1354351"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -5.1584,
+                    55.57364
+                ]
+            }
+        }
+    ]
+}

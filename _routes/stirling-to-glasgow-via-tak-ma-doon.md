@@ -4,10 +4,6 @@ title:  "Stirling to Glasgow via the Tak Ma Doon"
 location: "Stirling, Glasgow"
 weatherLocation: "Stirling"
 region: "Stirling, Glasgow"
-lonMin: -4.222597
-lonMax: -3.828462
-latMin: 55.817423
-latMax: 56.167666
 routeAssetsPathBase: "/assets/routes/stirling-to-glasgow-via-the-tak-ma-doon/Stirling_To_Glasgow_Via_The_Tak_Ma_Doon"
 heroImagePath: "/assets/routes/stirling-to-glasgow-via-the-tak-ma-doon/images/P1490743.jpg"
 heroImageAlt: "Climb up toward the North Third Reservoir"
