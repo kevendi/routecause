@@ -25,9 +25,12 @@
             <div :style="`transform: rotate(${entry.windDirection}deg);`">
               <i class="fa fa-arrow-alt-circle-down"></i>
             </div>
-          </dd> 
+          </dd>
           <dt class="sr-only">Wind Speed</dt>
-          <dd class="list-inline-item mb-0">{{entry.windSpeed}} mph</dd> 
+          <dd class="list-inline-item mb-0">{{entry.windSpeed}} mph</dd>
+          <dd class="list-inline-item mb-0 ml-n2 ml-sm-0">
+            {{entry.windDescription}}
+          </dd>
         </dl>
       </div>
     </div><!-- container -->
@@ -73,6 +76,8 @@ export default {
         weatherObj.icon = '/assets/images/open-weather-icons/'+entry.weather[0].icon+'@2x.png';
         weatherObj.windSpeed = Math.round(entry.wind.speed*2.237);
         weatherObj.windDirection = entry.wind.deg;
+        weatherObj.windDescription = this.scottishifyWind(weatherObj.windSpeed);
+
         if ((weatherObj.time == '06:00') || (weatherObj.time == '09:00') || (weatherObj.time == '12:00') || (weatherObj.time == '15:00') || (weatherObj.time == '18:00')) {
           formattedWeatherList.push(weatherObj);
         }
@@ -94,19 +99,37 @@ export default {
     scottishifyDescription(description) {
       switch(description) {
         case 'heavy rain':
-          return 'pishin it doon'
+          return 'pishin it doon';
           break;
         case 'overcast clouds':
-          return 'a bit murky'
+          return 'a bit murky';
           break;
         case 'light rain':
-          return 'a bit dreich'
+          return 'a bit dreich';
           break;
         case 'heavy snow':
-          return 'get out yer sledge!'
+          return 'get out yer sledge!';
           break;
         default:
-          return description
+          return description;
+      }
+    },
+    scottishifyWind(speed) {
+      switch(true) {
+        case (speed >= 0 && speed <= 10):
+          return 'a light breeze';
+          break;
+        case(speed >= 10 && speed <= 20):
+          return 'moderately windy';
+          break;
+        case(speed >= 20 && speed <= 40):
+          return 'blowing a hoolie';
+          break;
+        case(speed >= 40):
+          return 'hurricane bawbag territory';
+          break;
+        default:
+          return speed;
       }
     }
   },
